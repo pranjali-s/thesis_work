@@ -1,0 +1,105 @@
+Loaded 52392 embeddings, dim=768
+
+=== ACCOUNT_ACCESS_AUTH (n=4289, min_cluster_size=71) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 2 clusters, 0/4289 noise (0.0%)
+  cluster sizes (largest first): [4170, 119]
+
+=== ACCOUNT_LIFECYCLE (n=1486, min_cluster_size=80) [override: {'min_cluster_size': 80, 'min_samples': 10}] ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 6 clusters, 377/1486 noise (25.4%)
+  cluster sizes (largest first): [449, 146, 144, 141, 124, 105]
+
+=== ADVERTISING_NOTIFICATIONS (n=752, min_cluster_size=80) [override: {'min_cluster_size': 80, 'min_samples': 3, 'cluster_selection_method': 'leaf'}] ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 3 clusters, 232/752 noise (30.9%)
+  cluster sizes (largest first): [214, 199, 107]
+
+=== APP_STABILITY_PERFORMANCE (n=4380, min_cluster_size=73) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 4 clusters, 108/4380 noise (2.5%)
+  cluster sizes (largest first): [2288, 1576, 326, 82]
+
+=== ASSET_COVERAGE (n=1061, min_cluster_size=17) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 4 clusters, 54/1061 noise (5.1%)
+  cluster sizes (largest first): [691, 153, 123, 40]
+
+=== CHARTING_TOOLS (n=1018, min_cluster_size=16) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 2 clusters, 5/1018 noise (0.5%)
+  cluster sizes (largest first): [989, 24]
+
+=== CRYPTO_SPECIFIC (n=2609, min_cluster_size=43) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 5 clusters, 194/2609 noise (7.4%)
+  cluster sizes (largest first): [1134, 633, 276, 241, 131]
+
+=== CUSTOMER_SUPPORT (n=4452, min_cluster_size=74) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 2 clusters, 0/4452 noise (0.0%)
+  cluster sizes (largest first): [4357, 95]
+
+=== FEES_SUBSCRIPTION (n=2879, min_cluster_size=47) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 7 clusters, 572/2879 noise (19.9%)
+  cluster sizes (largest first): [882, 466, 371, 212, 199, 91, 86]
+
+=== FUNDS_TRANSFER (n=4136, min_cluster_size=68) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 3 clusters, 0/4136 noise (0.0%)
+  cluster sizes (largest first): [3235, 798, 103]
+
+=== GENERAL_SENTIMENT (n=17435, min_cluster_size=290) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 7 clusters, 4890/17435 noise (28.0%)
+  cluster sizes (largest first): [7740, 1829, 1282, 604, 437, 358, 295]
+
+=== ONBOARDING_BEGINNER (n=4279, min_cluster_size=71) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 5 clusters, 21/4279 noise (0.5%)
+  cluster sizes (largest first): [1399, 1302, 1049, 368, 140]
+
+=== PREDICTION_MARKETS (n=303, min_cluster_size=30) [override: {'min_cluster_size': 30, 'min_samples': 5}] ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 3 clusters, 55/303 noise (18.2%)
+  cluster sizes (largest first): [128, 76, 44]
+
+=== SECURITY_PRIVACY (n=1532, min_cluster_size=25) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 10 clusters, 299/1532 noise (19.5%)
+  cluster sizes (largest first): [346, 250, 189, 94, 91, 90, 81, 34, 30, 28]
+
+=== TRADE_EXECUTION (n=2170, min_cluster_size=80) [override: {'min_cluster_size': 80, 'min_samples': 3}] ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 2 clusters, 296/2170 noise (13.6%)
+  cluster sizes (largest first): [1372, 502]
+
+=== TRUST_FAIRNESS_REGULATORY (n=2272, min_cluster_size=37) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 4 clusters, 218/2272 noise (9.6%)
+  cluster sizes (largest first): [1282, 513, 194, 65]
+
+=== USABILITY_NAV (n=12247, min_cluster_size=204) ===
+/usr/local/lib/python3.11/dist-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  -> 8 clusters, 1591/12247 noise (13.0%)
+  cluster sizes (largest first): [5239, 1987, 1676, 432, 408, 338, 310, 266]
+
+Wrote 67300 assignment rows and 17 category summaries to /home/claude/Stage2_live/clusters/
