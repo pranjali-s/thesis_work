@@ -1,0 +1,121 @@
+{
+  "batch_size": 300,
+  "total_reviews": 5653,
+  "n_batches": 19,
+  "batches": [
+    {
+      "batch_num": 1,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_001.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 2,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_002.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 3,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_003.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 4,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_004.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 5,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_005.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 6,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_006.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 7,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_007.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 8,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_008.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 9,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_009.csv",
+      "n": 322,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 10,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_010.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 11,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_011.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 12,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_012.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 13,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_013.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 14,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_014.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 15,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_015.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 16,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_016.csv",
+      "n": 322,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 17,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_017.csv",
+      "n": 314,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 18,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_018.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 19,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\ground_truth_classification\\batches\\batch_019.csv",
+      "n": 146,
+      "status": "verified_done"
+    }
+  ]
+}
