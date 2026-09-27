@@ -1,0 +1,1298 @@
+{
+ "clusters": [
+  {
+   "category": "ACCOUNT_ACCESS_AUTH",
+   "cluster_id": "0",
+   "n_reviews": 119,
+   "avg_rating": 1.285714,
+   "sum_thumbsup": 0,
+   "bl1_cluster_score": 92.555556,
+   "app_weighted_baseline_rating": 3.67836,
+   "delta_rating_app": -2.392646,
+   "n_distinct_app_versions": 59,
+   "n_missing_app_version": 0,
+   "apps_present": {
+    "Trading 212": 18,
+    "Coinbase": 101
+   }
+  },
+  {
+   "category": "ACCOUNT_ACCESS_AUTH",
+   "cluster_id": "1",
+   "n_reviews": 4170,
+   "avg_rating": 1.58801,
+   "sum_thumbsup": 12864,
+   "bl1_cluster_score": 3435.999396,
+   "app_weighted_baseline_rating": 3.660289,
+   "delta_rating_app": -2.072279,
+   "n_distinct_app_versions": 418,
+   "n_missing_app_version": 776,
+   "apps_present": {
+    "Coinbase": 2499,
+    "Robinhood": 1312,
+    "Trading 212": 359
+   }
+  },
+  {
+   "category": "ACCOUNT_LIFECYCLE",
+   "cluster_id": "0",
+   "n_reviews": 124,
+   "avg_rating": 4.403226,
+   "sum_thumbsup": 29,
+   "bl1_cluster_score": 28.81978,
+   "app_weighted_baseline_rating": 3.685436,
+   "delta_rating_app": 0.71779,
+   "n_distinct_app_versions": 86,
+   "n_missing_app_version": 14,
+   "apps_present": {
+    "Coinbase": 59,
+    "Trading 212": 23,
+    "Robinhood": 42
+   }
+  },
+  {
+   "category": "ACCOUNT_LIFECYCLE",
+   "cluster_id": "1",
+   "n_reviews": 449,
+   "avg_rating": 1.385301,
+   "sum_thumbsup": 534,
+   "bl1_cluster_score": 362.664952,
+   "app_weighted_baseline_rating": 3.677043,
+   "delta_rating_app": -2.291742,
+   "n_distinct_app_versions": 190,
+   "n_missing_app_version": 125,
+   "apps_present": {
+    "Coinbase": 199,
+    "Trading 212": 69,
+    "Robinhood": 181
+   }
+  },
+  {
+   "category": "ACCOUNT_LIFECYCLE",
+   "cluster_id": "2",
+   "n_reviews": 141,
+   "avg_rating": 1.368794,
+   "sum_thumbsup": 427,
+   "bl1_cluster_score": 134.205699,
+   "app_weighted_baseline_rating": 3.639541,
+   "delta_rating_app": -2.270747,
+   "n_distinct_app_versions": 75,
+   "n_missing_app_version": 25,
+   "apps_present": {
+    "Coinbase": 130,
+    "Robinhood": 11
+   }
+  },
+  {
+   "category": "ACCOUNT_LIFECYCLE",
+   "cluster_id": "3",
+   "n_reviews": 146,
+   "avg_rating": 1.308219,
+   "sum_thumbsup": 658,
+   "bl1_cluster_score": 161.899476,
+   "app_weighted_baseline_rating": 3.644093,
+   "delta_rating_app": -2.335874,
+   "n_distinct_app_versions": 80,
+   "n_missing_app_version": 33,
+   "apps_present": {
+    "Robinhood": 138,
+    "Trading 212": 5,
+    "Coinbase": 3
+   }
+  },
+  {
+   "category": "ACCOUNT_LIFECYCLE",
+   "cluster_id": "4",
+   "n_reviews": 144,
+   "avg_rating": 1.097222,
+   "sum_thumbsup": 202,
+   "bl1_cluster_score": 149.650633,
+   "app_weighted_baseline_rating": 3.651541,
+   "delta_rating_app": -2.554319,
+   "n_distinct_app_versions": 88,
+   "n_missing_app_version": 27,
+   "apps_present": {
+    "Coinbase": 61,
+    "Robinhood": 75,
+    "Trading 212": 8
+   }
+  },
+  {
+   "category": "ACCOUNT_LIFECYCLE",
+   "cluster_id": "5",
+   "n_reviews": 105,
+   "avg_rating": 1.171429,
+   "sum_thumbsup": 68,
+   "bl1_cluster_score": 95.439024,
+   "app_weighted_baseline_rating": 3.641609,
+   "delta_rating_app": -2.47018,
+   "n_distinct_app_versions": 64,
+   "n_missing_app_version": 31,
+   "apps_present": {
+    "Robinhood": 69,
+    "Coinbase": 34,
+    "Trading 212": 2
+   }
+  },
+  {
+   "category": "ADVERTISING_NOTIFICATIONS",
+   "cluster_id": "0",
+   "n_reviews": 199,
+   "avg_rating": 1.773869,
+   "sum_thumbsup": 1421,
+   "bl1_cluster_score": 192.291501,
+   "app_weighted_baseline_rating": 3.657414,
+   "delta_rating_app": -1.883545,
+   "n_distinct_app_versions": 117,
+   "n_missing_app_version": 18,
+   "apps_present": {
+    "Robinhood": 122,
+    "Coinbase": 61,
+    "Trading 212": 16
+   }
+  },
+  {
+   "category": "ADVERTISING_NOTIFICATIONS",
+   "cluster_id": "1",
+   "n_reviews": 214,
+   "avg_rating": 2.579439,
+   "sum_thumbsup": 123,
+   "bl1_cluster_score": 87.732246,
+   "app_weighted_baseline_rating": 3.665689,
+   "delta_rating_app": -1.08625,
+   "n_distinct_app_versions": 114,
+   "n_missing_app_version": 51,
+   "apps_present": {
+    "Robinhood": 122,
+    "Coinbase": 68,
+    "Trading 212": 24
+   }
+  },
+  {
+   "category": "ADVERTISING_NOTIFICATIONS",
+   "cluster_id": "2",
+   "n_reviews": 107,
+   "avg_rating": 2.074766,
+   "sum_thumbsup": 234,
+   "bl1_cluster_score": 62.85045,
+   "app_weighted_baseline_rating": 3.701499,
+   "delta_rating_app": -1.626733,
+   "n_distinct_app_versions": 79,
+   "n_missing_app_version": 18,
+   "apps_present": {
+    "Robinhood": 57,
+    "Trading 212": 27,
+    "Coinbase": 23
+   }
+  },
+  {
+   "category": "APP_STABILITY_PERFORMANCE",
+   "cluster_id": "0",
+   "n_reviews": 82,
+   "avg_rating": 4.743902,
+   "sum_thumbsup": 740,
+   "bl1_cluster_score": 32.884319,
+   "app_weighted_baseline_rating": 3.659334,
+   "delta_rating_app": 1.084568,
+   "n_distinct_app_versions": 61,
+   "n_missing_app_version": 8,
+   "apps_present": {
+    "Coinbase": 36,
+    "Robinhood": 39,
+    "Trading 212": 7
+   }
+  },
+  {
+   "category": "APP_STABILITY_PERFORMANCE",
+   "cluster_id": "1",
+   "n_reviews": 326,
+   "avg_rating": 4.592025,
+   "sum_thumbsup": 1081,
+   "bl1_cluster_score": 94.533467,
+   "app_weighted_baseline_rating": 3.675163,
+   "delta_rating_app": 0.916862,
+   "n_distinct_app_versions": 156,
+   "n_missing_app_version": 27,
+   "apps_present": {
+    "Coinbase": 184,
+    "Trading 212": 47,
+    "Robinhood": 95
+   }
+  },
+  {
+   "category": "APP_STABILITY_PERFORMANCE",
+   "cluster_id": "2",
+   "n_reviews": 1576,
+   "avg_rating": 1.760152,
+   "sum_thumbsup": 15130,
+   "bl1_cluster_score": 1754.961788,
+   "app_weighted_baseline_rating": 3.658168,
+   "delta_rating_app": -1.898016,
+   "n_distinct_app_versions": 289,
+   "n_missing_app_version": 189,
+   "apps_present": {
+    "Coinbase": 1040,
+    "Robinhood": 415,
+    "Trading 212": 121
+   }
+  },
+  {
+   "category": "APP_STABILITY_PERFORMANCE",
+   "cluster_id": "3",
+   "n_reviews": 2288,
+   "avg_rating": 1.80201,
+   "sum_thumbsup": 4749,
+   "bl1_cluster_score": 1533.231919,
+   "app_weighted_baseline_rating": 3.666982,
+   "delta_rating_app": -1.864972,
+   "n_distinct_app_versions": 353,
+   "n_missing_app_version": 305,
+   "apps_present": {
+    "Robinhood": 761,
+    "Coinbase": 1269,
+    "Trading 212": 258
+   }
+  },
+  {
+   "category": "ASSET_COVERAGE",
+   "cluster_id": "0",
+   "n_reviews": 691,
+   "avg_rating": 4.040521,
+   "sum_thumbsup": 1491,
+   "bl1_cluster_score": 207.918732,
+   "app_weighted_baseline_rating": 3.71097,
+   "delta_rating_app": 0.329551,
+   "n_distinct_app_versions": 266,
+   "n_missing_app_version": 71,
+   "apps_present": {
+    "Trading 212": 199,
+    "Robinhood": 309,
+    "Coinbase": 183
+   }
+  },
+  {
+   "category": "ASSET_COVERAGE",
+   "cluster_id": "1",
+   "n_reviews": 153,
+   "avg_rating": 1.784314,
+   "sum_thumbsup": 733,
+   "bl1_cluster_score": 126.827473,
+   "app_weighted_baseline_rating": 3.646278,
+   "delta_rating_app": -1.861964,
+   "n_distinct_app_versions": 76,
+   "n_missing_app_version": 37,
+   "apps_present": {
+    "Coinbase": 140,
+    "Trading 212": 4,
+    "Robinhood": 9
+   }
+  },
+  {
+   "category": "ASSET_COVERAGE",
+   "cluster_id": "2",
+   "n_reviews": 40,
+   "avg_rating": 3.325,
+   "sum_thumbsup": 3,
+   "bl1_cluster_score": 12.120301,
+   "app_weighted_baseline_rating": 3.75417,
+   "delta_rating_app": -0.42917,
+   "n_distinct_app_versions": 25,
+   "n_missing_app_version": 14,
+   "apps_present": {
+    "Trading 212": 18,
+    "Coinbase": 21,
+    "Robinhood": 1
+   }
+  },
+  {
+   "category": "ASSET_COVERAGE",
+   "cluster_id": "3",
+   "n_reviews": 123,
+   "avg_rating": 1.756098,
+   "sum_thumbsup": 279,
+   "bl1_cluster_score": 85.929167,
+   "app_weighted_baseline_rating": 3.769786,
+   "delta_rating_app": -2.013688,
+   "n_distinct_app_versions": 75,
+   "n_missing_app_version": 32,
+   "apps_present": {
+    "Coinbase": 52,
+    "Trading 212": 63,
+    "Robinhood": 8
+   }
+  },
+  {
+   "category": "CHARTING_TOOLS",
+   "cluster_id": "0",
+   "n_reviews": 24,
+   "avg_rating": 3.25,
+   "sum_thumbsup": 0,
+   "bl1_cluster_score": 7.384615,
+   "app_weighted_baseline_rating": 3.777588,
+   "delta_rating_app": -0.527588,
+   "n_distinct_app_versions": 23,
+   "n_missing_app_version": 0,
+   "apps_present": {
+    "Trading 212": 13,
+    "Coinbase": 11
+   }
+  },
+  {
+   "category": "CHARTING_TOOLS",
+   "cluster_id": "1",
+   "n_reviews": 989,
+   "avg_rating": 3.31547,
+   "sum_thumbsup": 7949,
+   "bl1_cluster_score": 538.0534,
+   "app_weighted_baseline_rating": 3.699666,
+   "delta_rating_app": -0.384196,
+   "n_distinct_app_versions": 279,
+   "n_missing_app_version": 96,
+   "apps_present": {
+    "Robinhood": 451,
+    "Trading 212": 241,
+    "Coinbase": 297
+   }
+  },
+  {
+   "category": "CRYPTO_SPECIFIC",
+   "cluster_id": "0",
+   "n_reviews": 1134,
+   "avg_rating": 1.536155,
+   "sum_thumbsup": 3673,
+   "bl1_cluster_score": 977.310103,
+   "app_weighted_baseline_rating": 3.639113,
+   "delta_rating_app": -2.102958,
+   "n_distinct_app_versions": 205,
+   "n_missing_app_version": 200,
+   "apps_present": {
+    "Coinbase": 890,
+    "Robinhood": 243,
+    "Trading 212": 1
+   }
+  },
+  {
+   "category": "CRYPTO_SPECIFIC",
+   "cluster_id": "1",
+   "n_reviews": 241,
+   "avg_rating": 4.626556,
+   "sum_thumbsup": 120,
+   "bl1_cluster_score": 54.684305,
+   "app_weighted_baseline_rating": 3.643497,
+   "delta_rating_app": 0.983059,
+   "n_distinct_app_versions": 101,
+   "n_missing_app_version": 34,
+   "apps_present": {
+    "Coinbase": 205,
+    "Robinhood": 32,
+    "Trading 212": 4
+   }
+  },
+  {
+   "category": "CRYPTO_SPECIFIC",
+   "cluster_id": "2",
+   "n_reviews": 633,
+   "avg_rating": 4.625592,
+   "sum_thumbsup": 801,
+   "bl1_cluster_score": 154.164037,
+   "app_weighted_baseline_rating": 3.641879,
+   "delta_rating_app": 0.983713,
+   "n_distinct_app_versions": 171,
+   "n_missing_app_version": 89,
+   "apps_present": {
+    "Robinhood": 165,
+    "Coinbase": 460,
+    "Trading 212": 8
+   }
+  },
+  {
+   "category": "CRYPTO_SPECIFIC",
+   "cluster_id": "3",
+   "n_reviews": 276,
+   "avg_rating": 4.862319,
+   "sum_thumbsup": 991,
+   "bl1_cluster_score": 77.144262,
+   "app_weighted_baseline_rating": 3.639828,
+   "delta_rating_app": 1.222491,
+   "n_distinct_app_versions": 89,
+   "n_missing_app_version": 27,
+   "apps_present": {
+    "Coinbase": 271,
+    "Robinhood": 5
+   }
+  },
+  {
+   "category": "CRYPTO_SPECIFIC",
+   "cluster_id": "4",
+   "n_reviews": 131,
+   "avg_rating": 4.832061,
+   "sum_thumbsup": 63,
+   "bl1_cluster_score": 28.414376,
+   "app_weighted_baseline_rating": 3.639732,
+   "delta_rating_app": 1.192329,
+   "n_distinct_app_versions": 51,
+   "n_missing_app_version": 17,
+   "apps_present": {
+    "Coinbase": 126,
+    "Robinhood": 5
+   }
+  },
+  {
+   "category": "CUSTOMER_SUPPORT",
+   "cluster_id": "0",
+   "n_reviews": 95,
+   "avg_rating": 1.463158,
+   "sum_thumbsup": 0,
+   "bl1_cluster_score": 64.928058,
+   "app_weighted_baseline_rating": 3.67202,
+   "delta_rating_app": -2.208862,
+   "n_distinct_app_versions": 54,
+   "n_missing_app_version": 0,
+   "apps_present": {
+    "Coinbase": 83,
+    "Trading 212": 12
+   }
+  },
+  {
+   "category": "CUSTOMER_SUPPORT",
+   "cluster_id": "1",
+   "n_reviews": 4357,
+   "avg_rating": 1.883406,
+   "sum_thumbsup": 21754,
+   "bl1_cluster_score": 3468.397124,
+   "app_weighted_baseline_rating": 3.660309,
+   "delta_rating_app": -1.776903,
+   "n_distinct_app_versions": 431,
+   "n_missing_app_version": 686,
+   "apps_present": {
+    "Coinbase": 2310,
+    "Robinhood": 1666,
+    "Trading 212": 381
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "0",
+   "n_reviews": 466,
+   "avg_rating": 4.716738,
+   "sum_thumbsup": 4617,
+   "bl1_cluster_score": 196.68253,
+   "app_weighted_baseline_rating": 3.730459,
+   "delta_rating_app": 0.986279,
+   "n_distinct_app_versions": 184,
+   "n_missing_app_version": 40,
+   "apps_present": {
+    "Robinhood": 265,
+    "Trading 212": 171,
+    "Coinbase": 30
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "1",
+   "n_reviews": 212,
+   "avg_rating": 4.669811,
+   "sum_thumbsup": 3439,
+   "bl1_cluster_score": 119.041212,
+   "app_weighted_baseline_rating": 3.643105,
+   "delta_rating_app": 1.026706,
+   "n_distinct_app_versions": 89,
+   "n_missing_app_version": 24,
+   "apps_present": {
+    "Coinbase": 191,
+    "Robinhood": 18,
+    "Trading 212": 3
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "2",
+   "n_reviews": 882,
+   "avg_rating": 1.357143,
+   "sum_thumbsup": 7287,
+   "bl1_cluster_score": 1186.831579,
+   "app_weighted_baseline_rating": 3.647065,
+   "delta_rating_app": -2.289922,
+   "n_distinct_app_versions": 199,
+   "n_missing_app_version": 115,
+   "apps_present": {
+    "Coinbase": 739,
+    "Robinhood": 116,
+    "Trading 212": 27
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "3",
+   "n_reviews": 91,
+   "avg_rating": 1.373626,
+   "sum_thumbsup": 660,
+   "bl1_cluster_score": 114.296,
+   "app_weighted_baseline_rating": 3.635126,
+   "delta_rating_app": -2.2615,
+   "n_distinct_app_versions": 53,
+   "n_missing_app_version": 15,
+   "apps_present": {
+    "Robinhood": 91
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "4",
+   "n_reviews": 371,
+   "avg_rating": 1.61186,
+   "sum_thumbsup": 394,
+   "bl1_cluster_score": 254.612709,
+   "app_weighted_baseline_rating": 3.650038,
+   "delta_rating_app": -2.038178,
+   "n_distinct_app_versions": 161,
+   "n_missing_app_version": 62,
+   "apps_present": {
+    "Robinhood": 118,
+    "Coinbase": 236,
+    "Trading 212": 17
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "5",
+   "n_reviews": 199,
+   "avg_rating": 4.839196,
+   "sum_thumbsup": 36,
+   "bl1_cluster_score": 41.866459,
+   "app_weighted_baseline_rating": 3.730743,
+   "delta_rating_app": 1.108453,
+   "n_distinct_app_versions": 129,
+   "n_missing_app_version": 18,
+   "apps_present": {
+    "Trading 212": 72,
+    "Robinhood": 47,
+    "Coinbase": 80
+   }
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "6",
+   "n_reviews": 86,
+   "avg_rating": 3.883721,
+   "sum_thumbsup": 54,
+   "bl1_cluster_score": 23.534132,
+   "app_weighted_baseline_rating": 3.870103,
+   "delta_rating_app": 0.013618,
+   "n_distinct_app_versions": 55,
+   "n_missing_app_version": 6,
+   "apps_present": {
+    "Trading 212": 78,
+    "Coinbase": 2,
+    "Robinhood": 6
+   }
+  },
+  {
+   "category": "FUNDS_TRANSFER",
+   "cluster_id": "0",
+   "n_reviews": 3235,
+   "avg_rating": 1.427202,
+   "sum_thumbsup": 12660,
+   "bl1_cluster_score": 3153.722114,
+   "app_weighted_baseline_rating": 3.663053,
+   "delta_rating_app": -2.235851,
+   "n_distinct_app_versions": 378,
+   "n_missing_app_version": 509,
+   "apps_present": {
+    "Coinbase": 1940,
+    "Robinhood": 982,
+    "Trading 212": 313
+   }
+  },
+  {
+   "category": "FUNDS_TRANSFER",
+   "cluster_id": "1",
+   "n_reviews": 103,
+   "avg_rating": 1.970874,
+   "sum_thumbsup": 0,
+   "bl1_cluster_score": 52.261084,
+   "app_weighted_baseline_rating": 3.728749,
+   "delta_rating_app": -1.757875,
+   "n_distinct_app_versions": 76,
+   "n_missing_app_version": 0,
+   "apps_present": {
+    "Coinbase": 67,
+    "Trading 212": 36
+   }
+  },
+  {
+   "category": "FUNDS_TRANSFER",
+   "cluster_id": "2",
+   "n_reviews": 798,
+   "avg_rating": 4.671679,
+   "sum_thumbsup": 2645,
+   "bl1_cluster_score": 227.434281,
+   "app_weighted_baseline_rating": 3.714747,
+   "delta_rating_app": 0.956932,
+   "n_distinct_app_versions": 258,
+   "n_missing_app_version": 73,
+   "apps_present": {
+    "Coinbase": 344,
+    "Robinhood": 215,
+    "Trading 212": 239
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "0",
+   "n_reviews": 358,
+   "avg_rating": 4.924581,
+   "sum_thumbsup": 10,
+   "bl1_cluster_score": 72.899603,
+   "app_weighted_baseline_rating": 3.661015,
+   "delta_rating_app": 1.263566,
+   "n_distinct_app_versions": 151,
+   "n_missing_app_version": 45,
+   "apps_present": {
+    "Robinhood": 121,
+    "Coinbase": 205,
+    "Trading 212": 32
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "1",
+   "n_reviews": 604,
+   "avg_rating": 4.850993,
+   "sum_thumbsup": 18,
+   "bl1_cluster_score": 124.881638,
+   "app_weighted_baseline_rating": 3.668206,
+   "delta_rating_app": 1.182787,
+   "n_distinct_app_versions": 216,
+   "n_missing_app_version": 86,
+   "apps_present": {
+    "Robinhood": 200,
+    "Coinbase": 333,
+    "Trading 212": 71
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "2",
+   "n_reviews": 295,
+   "avg_rating": 4.80339,
+   "sum_thumbsup": 4,
+   "bl1_cluster_score": 61.498236,
+   "app_weighted_baseline_rating": 3.661879,
+   "delta_rating_app": 1.141511,
+   "n_distinct_app_versions": 130,
+   "n_missing_app_version": 65,
+   "apps_present": {
+    "Coinbase": 188,
+    "Robinhood": 80,
+    "Trading 212": 27
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "3",
+   "n_reviews": 7740,
+   "avg_rating": 4.432558,
+   "sum_thumbsup": 1078,
+   "bl1_cluster_score": 1770.490031,
+   "app_weighted_baseline_rating": 3.665993,
+   "delta_rating_app": 0.766565,
+   "n_distinct_app_versions": 445,
+   "n_missing_app_version": 1231,
+   "apps_present": {
+    "Coinbase": 4034,
+    "Robinhood": 2858,
+    "Trading 212": 848
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "4",
+   "n_reviews": 1282,
+   "avg_rating": 4.842434,
+   "sum_thumbsup": 1737,
+   "bl1_cluster_score": 300.613305,
+   "app_weighted_baseline_rating": 3.640281,
+   "delta_rating_app": 1.202153,
+   "n_distinct_app_versions": 154,
+   "n_missing_app_version": 217,
+   "apps_present": {
+    "Coinbase": 1218,
+    "Robinhood": 61,
+    "Trading 212": 3
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "5",
+   "n_reviews": 437,
+   "avg_rating": 4.743707,
+   "sum_thumbsup": 479,
+   "bl1_cluster_score": 102.219633,
+   "app_weighted_baseline_rating": 3.635181,
+   "delta_rating_app": 1.108526,
+   "n_distinct_app_versions": 115,
+   "n_missing_app_version": 51,
+   "apps_present": {
+    "Robinhood": 432,
+    "Coinbase": 5
+   }
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "6",
+   "n_reviews": 1829,
+   "avg_rating": 4.797704,
+   "sum_thumbsup": 248,
+   "bl1_cluster_score": 386.393185,
+   "app_weighted_baseline_rating": 3.693126,
+   "delta_rating_app": 1.104578,
+   "n_distinct_app_versions": 306,
+   "n_missing_app_version": 221,
+   "apps_present": {
+    "Coinbase": 522,
+    "Trading 212": 400,
+    "Robinhood": 907
+   }
+  },
+  {
+   "category": "ONBOARDING_BEGINNER",
+   "cluster_id": "0",
+   "n_reviews": 1049,
+   "avg_rating": 4.873213,
+   "sum_thumbsup": 4423,
+   "bl1_cluster_score": 306.019894,
+   "app_weighted_baseline_rating": 3.640345,
+   "delta_rating_app": 1.232868,
+   "n_distinct_app_versions": 146,
+   "n_missing_app_version": 149,
+   "apps_present": {
+    "Coinbase": 981,
+    "Robinhood": 65,
+    "Trading 212": 3
+   }
+  },
+  {
+   "category": "ONBOARDING_BEGINNER",
+   "cluster_id": "1",
+   "n_reviews": 368,
+   "avg_rating": 4.744565,
+   "sum_thumbsup": 882,
+   "bl1_cluster_score": 96.152119,
+   "app_weighted_baseline_rating": 3.636547,
+   "delta_rating_app": 1.108018,
+   "n_distinct_app_versions": 91,
+   "n_missing_app_version": 31,
+   "apps_present": {
+    "Robinhood": 365,
+    "Coinbase": 1,
+    "Trading 212": 2
+   }
+  },
+  {
+   "category": "ONBOARDING_BEGINNER",
+   "cluster_id": "2",
+   "n_reviews": 1302,
+   "avg_rating": 4.701997,
+   "sum_thumbsup": 1637,
+   "bl1_cluster_score": 311.718621,
+   "app_weighted_baseline_rating": 3.711414,
+   "delta_rating_app": 0.990583,
+   "n_distinct_app_versions": 264,
+   "n_missing_app_version": 92,
+   "apps_present": {
+    "Robinhood": 782,
+    "Trading 212": 381,
+    "Coinbase": 139
+   }
+  },
+  {
+   "category": "ONBOARDING_BEGINNER",
+   "cluster_id": "3",
+   "n_reviews": 140,
+   "avg_rating": 4.792857,
+   "sum_thumbsup": 48,
+   "bl1_cluster_score": 30.211624,
+   "app_weighted_baseline_rating": 3.647966,
+   "delta_rating_app": 1.144891,
+   "n_distinct_app_versions": 68,
+   "n_missing_app_version": 24,
+   "apps_present": {
+    "Coinbase": 105,
+    "Robinhood": 30,
+    "Trading 212": 5
+   }
+  },
+  {
+   "category": "ONBOARDING_BEGINNER",
+   "cluster_id": "4",
+   "n_reviews": 1399,
+   "avg_rating": 4.739099,
+   "sum_thumbsup": 168,
+   "bl1_cluster_score": 298.748748,
+   "app_weighted_baseline_rating": 3.677295,
+   "delta_rating_app": 1.061804,
+   "n_distinct_app_versions": 269,
+   "n_missing_app_version": 145,
+   "apps_present": {
+    "Coinbase": 585,
+    "Trading 212": 217,
+    "Robinhood": 597
+   }
+  },
+  {
+   "category": "PREDICTION_MARKETS",
+   "cluster_id": "0",
+   "n_reviews": 128,
+   "avg_rating": 3.679688,
+   "sum_thumbsup": 199,
+   "bl1_cluster_score": 40.193631,
+   "app_weighted_baseline_rating": 3.652134,
+   "delta_rating_app": 0.027554,
+   "n_distinct_app_versions": 70,
+   "n_missing_app_version": 18,
+   "apps_present": {
+    "Robinhood": 98,
+    "Coinbase": 22,
+    "Trading 212": 8
+   }
+  },
+  {
+   "category": "PREDICTION_MARKETS",
+   "cluster_id": "1",
+   "n_reviews": 44,
+   "avg_rating": 1.113636,
+   "sum_thumbsup": 196,
+   "bl1_cluster_score": 57.110204,
+   "app_weighted_baseline_rating": 3.63752,
+   "delta_rating_app": -2.523884,
+   "n_distinct_app_versions": 28,
+   "n_missing_app_version": 4,
+   "apps_present": {
+    "Robinhood": 22,
+    "Coinbase": 22
+   }
+  },
+  {
+   "category": "PREDICTION_MARKETS",
+   "cluster_id": "2",
+   "n_reviews": 76,
+   "avg_rating": 1.828947,
+   "sum_thumbsup": 1038,
+   "bl1_cluster_score": 98.307914,
+   "app_weighted_baseline_rating": 3.649386,
+   "delta_rating_app": -1.820439,
+   "n_distinct_app_versions": 45,
+   "n_missing_app_version": 9,
+   "apps_present": {
+    "Robinhood": 62,
+    "Coinbase": 10,
+    "Trading 212": 4
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "0",
+   "n_reviews": 189,
+   "avg_rating": 4.825397,
+   "sum_thumbsup": 607,
+   "bl1_cluster_score": 51.747039,
+   "app_weighted_baseline_rating": 3.648771,
+   "delta_rating_app": 1.176626,
+   "n_distinct_app_versions": 96,
+   "n_missing_app_version": 21,
+   "apps_present": {
+    "Coinbase": 160,
+    "Trading 212": 7,
+    "Robinhood": 22
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "1",
+   "n_reviews": 346,
+   "avg_rating": 4.176301,
+   "sum_thumbsup": 379,
+   "bl1_cluster_score": 91.92346,
+   "app_weighted_baseline_rating": 3.660373,
+   "delta_rating_app": 0.515928,
+   "n_distinct_app_versions": 147,
+   "n_missing_app_version": 50,
+   "apps_present": {
+    "Coinbase": 256,
+    "Robinhood": 61,
+    "Trading 212": 29
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "2",
+   "n_reviews": 91,
+   "avg_rating": 1.263736,
+   "sum_thumbsup": 227,
+   "bl1_cluster_score": 89.971304,
+   "app_weighted_baseline_rating": 3.646614,
+   "delta_rating_app": -2.382878,
+   "n_distinct_app_versions": 57,
+   "n_missing_app_version": 13,
+   "apps_present": {
+    "Robinhood": 85,
+    "Trading 212": 4,
+    "Coinbase": 2
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "3",
+   "n_reviews": 90,
+   "avg_rating": 1.4,
+   "sum_thumbsup": 52,
+   "bl1_cluster_score": 68.0,
+   "app_weighted_baseline_rating": 3.663363,
+   "delta_rating_app": -2.263363,
+   "n_distinct_app_versions": 49,
+   "n_missing_app_version": 36,
+   "apps_present": {
+    "Trading 212": 9,
+    "Robinhood": 37,
+    "Coinbase": 44
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "4",
+   "n_reviews": 81,
+   "avg_rating": 1.259259,
+   "sum_thumbsup": 374,
+   "bl1_cluster_score": 94.023529,
+   "app_weighted_baseline_rating": 3.744828,
+   "delta_rating_app": -2.485569,
+   "n_distinct_app_versions": 63,
+   "n_missing_app_version": 7,
+   "apps_present": {
+    "Trading 212": 34,
+    "Coinbase": 17,
+    "Robinhood": 30
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "5",
+   "n_reviews": 250,
+   "avg_rating": 1.312,
+   "sum_thumbsup": 1129,
+   "bl1_cluster_score": 276.60061,
+   "app_weighted_baseline_rating": 3.640606,
+   "delta_rating_app": -2.328606,
+   "n_distinct_app_versions": 102,
+   "n_missing_app_version": 58,
+   "apps_present": {
+    "Coinbase": 232,
+    "Robinhood": 17,
+    "Trading 212": 1
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "6",
+   "n_reviews": 30,
+   "avg_rating": 1.066667,
+   "sum_thumbsup": 100,
+   "bl1_cluster_score": 37.5,
+   "app_weighted_baseline_rating": 3.636403,
+   "delta_rating_app": -2.569736,
+   "n_distinct_app_versions": 18,
+   "n_missing_app_version": 12,
+   "apps_present": {
+    "Robinhood": 22,
+    "Coinbase": 8
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "7",
+   "n_reviews": 34,
+   "avg_rating": 1.441176,
+   "sum_thumbsup": 101,
+   "bl1_cluster_score": 30.6,
+   "app_weighted_baseline_rating": 3.63738,
+   "delta_rating_app": -2.196204,
+   "n_distinct_app_versions": 23,
+   "n_missing_app_version": 10,
+   "apps_present": {
+    "Robinhood": 18,
+    "Coinbase": 16
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "8",
+   "n_reviews": 94,
+   "avg_rating": 1.553191,
+   "sum_thumbsup": 87,
+   "bl1_cluster_score": 66.121918,
+   "app_weighted_baseline_rating": 3.65216,
+   "delta_rating_app": -2.098969,
+   "n_distinct_app_versions": 52,
+   "n_missing_app_version": 35,
+   "apps_present": {
+    "Trading 212": 5,
+    "Coinbase": 64,
+    "Robinhood": 25
+   }
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "9",
+   "n_reviews": 28,
+   "avg_rating": 1.392857,
+   "sum_thumbsup": 17,
+   "bl1_cluster_score": 21.323077,
+   "app_weighted_baseline_rating": 3.648137,
+   "delta_rating_app": -2.25528,
+   "n_distinct_app_versions": 17,
+   "n_missing_app_version": 11,
+   "apps_present": {
+    "Coinbase": 22,
+    "Robinhood": 5,
+    "Trading 212": 1
+   }
+  },
+  {
+   "category": "TRADE_EXECUTION",
+   "cluster_id": "0",
+   "n_reviews": 502,
+   "avg_rating": 4.237052,
+   "sum_thumbsup": 1338,
+   "bl1_cluster_score": 150.05717,
+   "app_weighted_baseline_rating": 3.682487,
+   "delta_rating_app": 0.554565,
+   "n_distinct_app_versions": 204,
+   "n_missing_app_version": 46,
+   "apps_present": {
+    "Coinbase": 98,
+    "Robinhood": 314,
+    "Trading 212": 90
+   }
+  },
+  {
+   "category": "TRADE_EXECUTION",
+   "cluster_id": "1",
+   "n_reviews": 1372,
+   "avg_rating": 1.615889,
+   "sum_thumbsup": 13191,
+   "bl1_cluster_score": 1665.398827,
+   "app_weighted_baseline_rating": 3.673519,
+   "delta_rating_app": -2.05763,
+   "n_distinct_app_versions": 331,
+   "n_missing_app_version": 176,
+   "apps_present": {
+    "Trading 212": 195,
+    "Robinhood": 722,
+    "Coinbase": 455
+   }
+  },
+  {
+   "category": "TRUST_FAIRNESS_REGULATORY",
+   "cluster_id": "0",
+   "n_reviews": 194,
+   "avg_rating": 4.582474,
+   "sum_thumbsup": 317,
+   "bl1_cluster_score": 49.252868,
+   "app_weighted_baseline_rating": 3.670346,
+   "delta_rating_app": 0.912128,
+   "n_distinct_app_versions": 112,
+   "n_missing_app_version": 21,
+   "apps_present": {
+    "Robinhood": 41,
+    "Coinbase": 129,
+    "Trading 212": 24
+   }
+  },
+  {
+   "category": "TRUST_FAIRNESS_REGULATORY",
+   "cluster_id": "1",
+   "n_reviews": 65,
+   "avg_rating": 1.6,
+   "sum_thumbsup": 40,
+   "bl1_cluster_score": 43.125,
+   "app_weighted_baseline_rating": 3.635126,
+   "delta_rating_app": -2.035126,
+   "n_distinct_app_versions": 36,
+   "n_missing_app_version": 24,
+   "apps_present": {
+    "Robinhood": 65
+   }
+  },
+  {
+   "category": "TRUST_FAIRNESS_REGULATORY",
+   "cluster_id": "2",
+   "n_reviews": 513,
+   "avg_rating": 1.62768,
+   "sum_thumbsup": 1670,
+   "bl1_cluster_score": 417.772455,
+   "app_weighted_baseline_rating": 3.664618,
+   "delta_rating_app": -2.036938,
+   "n_distinct_app_versions": 195,
+   "n_missing_app_version": 60,
+   "apps_present": {
+    "Robinhood": 432,
+    "Trading 212": 58,
+    "Coinbase": 23
+   }
+  },
+  {
+   "category": "TRUST_FAIRNESS_REGULATORY",
+   "cluster_id": "3",
+   "n_reviews": 1282,
+   "avg_rating": 1.26131,
+   "sum_thumbsup": 3817,
+   "bl1_cluster_score": 1319.024985,
+   "app_weighted_baseline_rating": 3.65437,
+   "delta_rating_app": -2.39306,
+   "n_distinct_app_versions": 292,
+   "n_missing_app_version": 278,
+   "apps_present": {
+    "Coinbase": 880,
+    "Robinhood": 323,
+    "Trading 212": 79
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "0",
+   "n_reviews": 310,
+   "avg_rating": 4.932258,
+   "sum_thumbsup": 6,
+   "bl1_cluster_score": 62.973185,
+   "app_weighted_baseline_rating": 3.650545,
+   "delta_rating_app": 1.281713,
+   "n_distinct_app_versions": 111,
+   "n_missing_app_version": 19,
+   "apps_present": {
+    "Robinhood": 108,
+    "Coinbase": 187,
+    "Trading 212": 15
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "1",
+   "n_reviews": 266,
+   "avg_rating": 4.868421,
+   "sum_thumbsup": 2,
+   "bl1_cluster_score": 54.678919,
+   "app_weighted_baseline_rating": 3.698744,
+   "delta_rating_app": 1.169677,
+   "n_distinct_app_versions": 136,
+   "n_missing_app_version": 21,
+   "apps_present": {
+    "Trading 212": 63,
+    "Coinbase": 127,
+    "Robinhood": 76
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "2",
+   "n_reviews": 5239,
+   "avg_rating": 4.892346,
+   "sum_thumbsup": 1774,
+   "bl1_cluster_score": 1107.117147,
+   "app_weighted_baseline_rating": 3.691473,
+   "delta_rating_app": 1.200873,
+   "n_distinct_app_versions": 353,
+   "n_missing_app_version": 462,
+   "apps_present": {
+    "Robinhood": 1765,
+    "Trading 212": 1096,
+    "Coinbase": 2378
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "3",
+   "n_reviews": 1987,
+   "avg_rating": 2.233015,
+   "sum_thumbsup": 10599,
+   "bl1_cluster_score": 1364.478319,
+   "app_weighted_baseline_rating": 3.732242,
+   "delta_rating_app": -1.499227,
+   "n_distinct_app_versions": 345,
+   "n_missing_app_version": 236,
+   "apps_present": {
+    "Coinbase": 605,
+    "Trading 212": 734,
+    "Robinhood": 648
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "4",
+   "n_reviews": 432,
+   "avg_rating": 4.884259,
+   "sum_thumbsup": 1711,
+   "bl1_cluster_score": 123.478294,
+   "app_weighted_baseline_rating": 3.640969,
+   "delta_rating_app": 1.24329,
+   "n_distinct_app_versions": 107,
+   "n_missing_app_version": 43,
+   "apps_present": {
+    "Coinbase": 419,
+    "Robinhood": 11,
+    "Trading 212": 2
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "5",
+   "n_reviews": 338,
+   "avg_rating": 4.769231,
+   "sum_thumbsup": 499,
+   "bl1_cluster_score": 81.333871,
+   "app_weighted_baseline_rating": 3.640611,
+   "delta_rating_app": 1.12862,
+   "n_distinct_app_versions": 117,
+   "n_missing_app_version": 32,
+   "apps_present": {
+    "Coinbase": 279,
+    "Robinhood": 57,
+    "Trading 212": 2
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "6",
+   "n_reviews": 1676,
+   "avg_rating": 4.813246,
+   "sum_thumbsup": 3364,
+   "bl1_cluster_score": 418.096244,
+   "app_weighted_baseline_rating": 3.723246,
+   "delta_rating_app": 1.09,
+   "n_distinct_app_versions": 292,
+   "n_missing_app_version": 128,
+   "apps_present": {
+    "Coinbase": 288,
+    "Robinhood": 823,
+    "Trading 212": 565
+   }
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "7",
+   "n_reviews": 408,
+   "avg_rating": 4.811275,
+   "sum_thumbsup": 881,
+   "bl1_cluster_score": 103.111971,
+   "app_weighted_baseline_rating": 3.635785,
+   "delta_rating_app": 1.17549,
+   "n_distinct_app_versions": 87,
+   "n_missing_app_version": 40,
+   "apps_present": {
+    "Robinhood": 405,
+    "Coinbase": 2,
+    "Trading 212": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+Wrote 147 rows to /home/claude/E1_live/e1_release_notes.csv
+  Trading 212: 94 total, 34 within corpus window [2024-06-01, 2026-09-24]
+  Robinhood: 16 total, 14 within corpus window [2024-06-01, 2026-09-24]
+  Coinbase: 37 total, 37 within corpus window [2024-06-01, 2026-09-24]

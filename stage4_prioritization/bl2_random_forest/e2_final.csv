@@ -1,0 +1,78 @@
+category,cluster_id,cluster_title,e2_matched
+ACCOUNT_ACCESS_AUTH,0,Coinbase identity-verification waitlist blocks trading,False
+ACCOUNT_ACCESS_AUTH,1,"Login lockouts from a mix of causes, most often generic identity verification failures",False
+ACCOUNT_LIFECYCLE,0,"Praise for fast, easy account sign-up",False
+ACCOUNT_LIFECYCLE,1,New sign-ups blocked by phone/document verification failures,False
+ACCOUNT_LIFECYCLE,2,"Coinbase closes accounts with no explanation, trapping funds",False
+ACCOUNT_LIFECYCLE,3,Robinhood account closures/restrictions trap customer funds,False
+ACCOUNT_LIFECYCLE,4,Account closure fights over trapped funds and continued billing,False
+ACCOUNT_LIFECYCLE,5,No self-service way to delete or cancel an account,False
+ADVERTISING_NOTIFICATIONS,0,Relentless upsell pop-ups and misleading sign-up bonuses,False
+ADVERTISING_NOTIFICATIONS,1,"Ads and pop-ups frustrate most users, though a minority likes the promos",False
+ADVERTISING_NOTIFICATIONS,2,Notification overload with no reliable way to opt out,False
+APP_STABILITY_PERFORMANCE,0,"Praise for a stable, fast, bug-free app",False
+APP_STABILITY_PERFORMANCE,1,"Short, positive reports of stable, fast performance",False
+APP_STABILITY_PERFORMANCE,2,"Slowness, freezing, and crashes during active trading",False
+APP_STABILITY_PERFORMANCE,3,"App fails to open, crashes, or breaks after updates",False
+ASSET_COVERAGE,0,Requests for broader asset and account-type coverage,False
+ASSET_COVERAGE,1,Coinbase geo-blocking existing users out of their accounts,False
+ASSET_COVERAGE,2,Prospective users asking for country expansion,False
+ASSET_COVERAGE,3,Sign-up blocked by country-of-residence selection,False
+CHARTING_TOOLS,0,Portfolio Chart/Graph Bugs After Updates,False
+CHARTING_TOOLS,1,"Charts That Fail to Load, Freeze, or Stop Updating",False
+CRYPTO_SPECIFIC,0,"Locked, Frozen, or Delayed Access to Crypto Funds",False
+CRYPTO_SPECIFIC,1,"Broad Positive Reception, With a Beginner-Friendly Sub-Theme",False
+CRYPTO_SPECIFIC,2,"General Satisfaction with Ease and Speed of Buying, Selling, and Trading Crypto",False
+CRYPTO_SPECIFIC,3,"Strong Loyalty and Trust in Coinbase, Driven Partly by Learn-and-Earn Rewards",False
+CRYPTO_SPECIFIC,4,Learn-and-Earn Crypto Education Rewards Program,False
+CUSTOMER_SUPPORT,0,Long verification wait times and unreachable support (mostly Coinbase),False
+CUSTOMER_SUPPORT,1,"Support seen as slow, bot-gated, and unhelpful across platforms",False
+FEES_SUBSCRIPTION,0,Low or zero-commission trading praised as a core strength,False
+FEES_SUBSCRIPTION,1,"Coinbase's standard fees seen as high, offset by the Coinbase One subscription",False
+FEES_SUBSCRIPTION,2,"High, hidden, or 'stacked' fees drive strong dissatisfaction (mostly Coinbase)",False
+FEES_SUBSCRIPTION,3,"Unauthorized Robinhood Gold enrollment, with a smaller pattern of steep account-transfer fees",False
+FEES_SUBSCRIPTION,4,High or hidden fees and unauthorized subscription charges (Coinbase and Robinhood),False
+FEES_SUBSCRIPTION,5,Low fees widely praised as a satisfaction driver across all three apps,False
+FEES_SUBSCRIPTION,6,"Competitive Trading 212 cash ISA rates, with a minority reporting post-signup rate cuts",False
+FUNDS_TRANSFER,0,"Withdrawals blocked by holds, freezes, and verification loops",False
+FUNDS_TRANSFER,1,Deposit and withdrawal blocks reported in non-English-speaking markets,False
+FUNDS_TRANSFER,2,"Fast, hassle-free deposits and withdrawals",False
+GENERAL_SENTIMENT,0,"Terse one-word ""great"" reviews",False
+GENERAL_SENTIMENT,1,"Terse one-word ""good/great/excellent"" reviews",False
+GENERAL_SENTIMENT,2,Emoji-only positive reactions,False
+GENERAL_SENTIMENT,3,"Mixed short generic reviews, majority mildly positive",False
+GENERAL_SENTIMENT,4,Generic loyalty praise naming Coinbase specifically,False
+GENERAL_SENTIMENT,5,Generic loyalty praise naming Robinhood specifically,False
+GENERAL_SENTIMENT,6,Generic praise for making money/investing success,False
+ONBOARDING_BEGINNER,0,"Coinbase Praised as an Easy, Educational On-Ramp for Crypto Beginners",False
+ONBOARDING_BEGINNER,1,"Robinhood Praised as an Accessible, Beginner-Friendly Introduction to Investing",False
+ONBOARDING_BEGINNER,2,Cross-Platform Praise for Ease of Onboarding New Investors,False
+ONBOARDING_BEGINNER,3,Learn-and-Earn Educational Rewards Praised as Standout Onboarding Feature,False
+ONBOARDING_BEGINNER,4,"Broad, Terse Praise for Beginner-Friendliness Across All Three Apps",False
+PREDICTION_MARKETS,0,Prediction markets split opinion between fun feature and gambling worry,False
+PREDICTION_MARKETS,1,Accusations that prediction-market payouts are rigged or withheld,False
+PREDICTION_MARKETS,2,Prediction markets forced to the top of the home screen with no way to hide them,False
+SECURITY_PRIVACY,0,General praise for platform security,False
+SECURITY_PRIVACY,1,Positive security sentiment alongside specific lock-screen and auth gaps,False
+SECURITY_PRIVACY,2,Robinhood accounts hacked with unresponsive support,False
+SECURITY_PRIVACY,3,"Refusal to hand over SSN, ID, or bank login during onboarding",False
+SECURITY_PRIVACY,4,Mandatory face/video selfie verification locking users out,False
+SECURITY_PRIVACY,5,Coinbase accounts drained with no reimbursement,False
+SECURITY_PRIVACY,6,No way to reach support once locked out or hacked,False
+SECURITY_PRIVACY,7,"Accounts hacked and recovery blocked, sometimes via a changed phone/email on file",False
+SECURITY_PRIVACY,8,Terse hacked/scam complaints and a minority of phantom app installs,False
+SECURITY_PRIVACY,9,"Unauthorized fund withdrawals with no refund, mostly on Coinbase",False
+TRADE_EXECUTION,0,"Generally positive trade execution, with requests for more order types",False
+TRADE_EXECUTION,1,"Blocked trades, price slippage, and unreliable stop-loss execution",False
+TRUST_FAIRNESS_REGULATORY,0,Coinbase (and peers) widely described as trustworthy and well-regulated,False
+TRUST_FAIRNESS_REGULATORY,1,Lasting distrust from Robinhood's 2021 GameStop trading restriction,False
+TRUST_FAIRNESS_REGULATORY,2,Perceived market manipulation and unfair trade restrictions (mostly Robinhood),False
+TRUST_FAIRNESS_REGULATORY,3,"Widespread 'scam' and theft accusations, overwhelmingly about Coinbase",False
+USABILITY_NAV,0,Generic 'Easy to use' one-liners,False
+USABILITY_NAV,1,Generic 'easy to use' one-liners (lowercase variant),False
+USABILITY_NAV,2,Short praise for the app's overall usability,False
+USABILITY_NAV,3,UI/UX updates that broke navigation and hid features,False
+USABILITY_NAV,4,"Coinbase praised as easy to use, especially for beginners",False
+USABILITY_NAV,5,"Buying, selling, and trading crypto described as easy",False
+USABILITY_NAV,6,Investing and trading described as easy across apps,False
+USABILITY_NAV,7,"Robinhood praised as the easiest, most user-friendly platform",False

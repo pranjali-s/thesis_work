@@ -1,0 +1,10 @@
+Corpus loaded: 52392 rows from /home/claude/Stage2_live/batches/batch_001.csv
+  rating empty: 0 (0.00%)
+  thumbs_up_count empty in source file: 2311 (4.41%)  -- imputed as 0, per disclosed policy
+Cluster assignments loaded: 77 non-noise clusters (8912 noise rows excluded).
+
+Wrote 77 clusters to cluster_features.json
+Wrote 77 ranked clusters to bl1_ranking.csv
+Total reviews across all clusters: 58388
+Total missing_text (assignment row with no corpus match): 0
+Total thumbs-up imputed: 2263 (3.88% of cluster-member reviews)

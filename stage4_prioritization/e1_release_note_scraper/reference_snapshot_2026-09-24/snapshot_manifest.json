@@ -1,0 +1,27 @@
+{
+  "retrieved_at_utc": "2026-09-24T12:49:24+00:00",
+  "apple_versions": 75,
+  "specific_feature_notes": 0,
+  "coverage_by_app": {
+    "robinhood": {
+      "versions": 25,
+      "oldest_visible_date": "2026-05-18",
+      "newest_visible_date": "2026-09-21"
+    },
+    "coinbase": {
+      "versions": 25,
+      "oldest_visible_date": "2026-04-08",
+      "newest_visible_date": "2026-09-21"
+    },
+    "trading212": {
+      "versions": 25,
+      "oldest_visible_date": "2026-05-12",
+      "newest_visible_date": "2026-09-22"
+    }
+  },
+  "company_live_collection": "unavailable in execution environment; 23 source-linked manually reviewed examples supplied separately; run collector on a network with access to company pages",
+  "limitations": [
+    "Apple version history is limited to the visible public history",
+    "Generic version notes contain no defensible feature change evidence"
+  ]
+}

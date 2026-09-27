@@ -1,0 +1,4 @@
+App baseline ratings (full corpus): {'Robinhood': 3.6351, 'Coinbase': 3.6399, 'Trading 212': 3.8941}
+Wrote 77 clusters to /home/claude/E1_live/cluster_features_bl2.json
+n_distinct_app_versions range: 17-445
+Total missing app_version among cluster members: 8039/58388 (13.77%)

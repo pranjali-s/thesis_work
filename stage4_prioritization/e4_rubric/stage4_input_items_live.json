@@ -1,0 +1,2066 @@
+[
+ {
+  "category": "ACCOUNT_ACCESS_AUTH",
+  "cluster_id": "0",
+  "title": "Coinbase identity-verification waitlist blocks trading",
+  "description": "A majority of the sampled reviews (about 55%, mostly Coinbase users, with some Trading 212 users also affected) describe getting stuck for days to months on an identity-verification \"waitlist\" or repeatedly failing KYC checks, leaving them unable to trade or withdraw funds already deposited. A smaller share report unrelated login or app-crash problems.",
+  "quotes": [
+   "bekomme nach wie vor die Meldung f\u00fcr die Verifizierung stehe ich auf der Warteliste.",
+   "Seit nun \u00fcber 3 Wochen auf der Warteliste f\u00fcr die Verifizierung.",
+   "Impossible de faire v\u00e9rifier mon identit\u00e9, application compl\u00e8tement bugu\u00e9."
+  ],
+  "n_reviews": 119,
+  "avg_rating": 1.285714,
+  "mean_thumbsup": 0.0,
+  "delta_rating_app": -2.392646,
+  "apps_present": {
+   "Trading 212": 18,
+   "Coinbase": 101
+  },
+  "frac_recent_third": 0.1513,
+  "median_review_date": "2025-03-05",
+  "reach_score": 3,
+  "engagement_score": 1,
+  "severity_score": 9,
+  "recency_score": 2,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "ACCOUNT_ACCESS_AUTH",
+  "cluster_id": "1",
+  "title": "Login lockouts from a mix of causes, most often generic identity verification failures",
+  "description": "A majority of the sampled reviews (about two-thirds, spread across Coinbase, Robinhood, and Trading 212) describe being locked out of login. The single largest identifiable cause is generic identity or document/selfie verification failing or looping (roughly a quarter of the sample), not phone-number/2FA changes specifically, which account for a smaller minority (well under 10%). The remainder is a mix of frozen/restricted accounts with no stated reason, forgotten passwords, and app bugs preventing sign-in -- meaning 'locked out of login' is better understood as a broad umbrella than a single dominant mechanism.",
+  "quotes": [
+   "I currently have money stuck in this app because I lost access to the phone number and the only way to recover it is there crappie ai face software that can't tell that I grew a beard.",
+   "Do NOT use this brokerage. Customer support is nonexistent and if you get locked out of your account your money is untouchable. You'll get stuck in endless loops of verifying your account and mobile number only to be told to wait until the next day, you try again and it's the same thing.",
+   "I have a new phone number. I was able to login at first, but when I tried to update my phone number it locked me out, now there is absolutely no way to contact support."
+  ],
+  "n_reviews": 4170,
+  "avg_rating": 1.58801,
+  "mean_thumbsup": 3.0849,
+  "delta_rating_app": -2.072279,
+  "apps_present": {
+   "Coinbase": 2499,
+   "Robinhood": 1312,
+   "Trading 212": 359
+  },
+  "frac_recent_third": 0.2456,
+  "median_review_date": "2025-06-20",
+  "reach_score": 10,
+  "engagement_score": 7,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "0",
+  "title": "Praise for fast, easy account sign-up",
+  "description": "A majority of the sampled reviews (about 54%) are positive, praising how quick and easy it was to open an account and start trading across Coinbase, Robinhood, and Trading 212; a smaller minority mention slow or overly long verification or setup steps.",
+  "quotes": [
+   "I signed up with robinhood due to wanting to get into stocks and within literal minutes, I was verified no muss no fuss.",
+   "Opening an ISA account was very easy and adding funds was also simple.",
+   "it's very easy to sign up and start trading. Very quick and easy!"
+  ],
+  "n_reviews": 124,
+  "avg_rating": 4.403226,
+  "mean_thumbsup": 0.2339,
+  "delta_rating_app": 0.71779,
+  "apps_present": {
+   "Coinbase": 59,
+   "Trading 212": 23,
+   "Robinhood": 42
+  },
+  "frac_recent_third": 0.2903,
+  "median_review_date": "2025-06-09",
+  "reach_score": 3,
+  "engagement_score": 3,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "1",
+  "title": "New sign-ups blocked by phone/document verification failures",
+  "description": "A majority of the sampled reviews (about 61%, spanning Coinbase, Robinhood, and Trading 212) describe being unable to complete new-account creation, most commonly because phone numbers are rejected as \"virtual,\" SSN/national-ID checks fail, or submitted proof-of-address documents are repeatedly rejected.",
+  "quotes": [
+   "Been trying to create an account for a week now. Keeps telling my cannot verify my ss number.",
+   "Not able to get past the point where it wants my phone number as I put in my LEGIT REAL cell phone number and it doesn't allow it.",
+   "I found it was impossible to Sign up for this sevice. having provided a passport and 4 different proofs of address each one was rejected for wrong country then the app blocks for 24 hours for too many attempts."
+  ],
+  "n_reviews": 449,
+  "avg_rating": 1.385301,
+  "mean_thumbsup": 1.1893,
+  "delta_rating_app": -2.291742,
+  "apps_present": {
+   "Coinbase": 199,
+   "Trading 212": 69,
+   "Robinhood": 181
+  },
+  "frac_recent_third": 0.2895,
+  "median_review_date": "2025-07-07",
+  "reach_score": 7,
+  "engagement_score": 4,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "2",
+  "title": "Coinbase closes accounts with no explanation, trapping funds",
+  "description": "A large majority of the sampled reviews (about 70%, overwhelmingly Coinbase) describe the platform abruptly closing, restricting, or freezing accounts with no explanation and no way to appeal, often while the account still holds funds or crypto.",
+  "quotes": [
+   "Today my account was closed, it's irreversible, and a final decision made by CB. CANT GET ANY REASON WHY.",
+   "Coinbase is a joke. They are deciding to close my account and refuse to provide a reason. Every time I try and contact support, I can not get through to anyone.",
+   "Went to open an account, got an error message, and then an email saying they believed I violated TOS and I am no longer allowed to use their service."
+  ],
+  "n_reviews": 141,
+  "avg_rating": 1.368794,
+  "mean_thumbsup": 3.0284,
+  "delta_rating_app": -2.270747,
+  "apps_present": {
+   "Coinbase": 130,
+   "Robinhood": 11
+  },
+  "frac_recent_third": 0.234,
+  "median_review_date": "2025-05-22",
+  "reach_score": 4,
+  "engagement_score": 7,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "3",
+  "title": "Robinhood account closures/restrictions trap customer funds",
+  "description": "A large majority of the sampled reviews (about 70%, almost all Robinhood) describe Robinhood closing, restricting, or freezing accounts without explanation, or making it extremely difficult for the customer to close an account and withdraw the remaining balance.",
+  "quotes": [
+   "Without reason or notice, Robinhood canceled my account, sold off all of my stocks, and will NOT let me withdraw my money from the account.",
+   "Robinhood held my money for months with no explanation, then closed my account without reason.",
+   "RobinHood is a scam! they take your money but make it practically impossible to close your accounts they make it so hard to find out how to do it"
+  ],
+  "n_reviews": 146,
+  "avg_rating": 1.308219,
+  "mean_thumbsup": 4.5068,
+  "delta_rating_app": -2.335874,
+  "apps_present": {
+   "Robinhood": 138,
+   "Trading 212": 5,
+   "Coinbase": 3
+  },
+  "frac_recent_third": 0.3288,
+  "median_review_date": "2025-07-18",
+  "reach_score": 4,
+  "engagement_score": 8,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "4",
+  "title": "Account closure fights over trapped funds and continued billing",
+  "description": "The large majority of the sampled reviews (about 88% mention closing/deleting/deactivating an account, split between Coinbase and Robinhood) describe either the platform abruptly closing/blocking the account while funds are still in it, or the platform blocking the customer's own attempt to close an account while continuing to bill fees.",
+  "quotes": [
+   "Horrible customer service/support. so much so they make it a problem to extract funds and just close the account.",
+   "DO NOT GET COINBASE THEY WILL BLOCK YOUR ACCOUNT WITHOUT ANY REASON",
+   "scam won't let me deactivate because I have 100 dollars in it but it won't let me withdraw it but it charges me 5 dollars a month for using it"
+  ],
+  "n_reviews": 144,
+  "avg_rating": 1.097222,
+  "mean_thumbsup": 1.4028,
+  "delta_rating_app": -2.554319,
+  "apps_present": {
+   "Coinbase": 61,
+   "Robinhood": 75,
+   "Trading 212": 8
+  },
+  "frac_recent_third": 0.2708,
+  "median_review_date": "2025-06-25",
+  "reach_score": 4,
+  "engagement_score": 5,
+  "severity_score": 10,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "5",
+  "title": "No self-service way to delete or cancel an account",
+  "description": "A large majority of the sampled reviews (about 81%, mostly Robinhood with a meaningful share of Coinbase) report that there is no straightforward way to close, delete, deactivate, or cancel a subscription in-app; a notable subset of these also report continued billing after they believed the account was cancelled.",
+  "quotes": [
+   "too many hoops to delete or deactivate account",
+   "I have tried to close my account and they are charging me for a membership that I never consented for. There is no easy way just to close the account either.",
+   "You have to jump through so many hoops to close your account, they have made it almost impossible"
+  ],
+  "n_reviews": 105,
+  "avg_rating": 1.171429,
+  "mean_thumbsup": 0.6476,
+  "delta_rating_app": -2.47018,
+  "apps_present": {
+   "Robinhood": 69,
+   "Coinbase": 34,
+   "Trading 212": 2
+  },
+  "frac_recent_third": 0.3524,
+  "median_review_date": "2025-08-13",
+  "reach_score": 3,
+  "engagement_score": 4,
+  "severity_score": 10,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ADVERTISING_NOTIFICATIONS",
+  "cluster_id": "0",
+  "title": "Relentless upsell pop-ups and misleading sign-up bonuses",
+  "description": "The large majority of sampled reviews (this is the dominant pattern in the cluster, not a minority signal) describe being bombarded with in-app pop-ups pushing Robinhood Gold, prediction markets/gambling features, or credit-card offers every time the app is opened, and a recurring secondary complaint within that majority is that advertised referral or sign-up bonuses (e.g. \"up to $200\") turn out to be far smaller than advertised.",
+  "quotes": [
+   "Now it's just an AD for gambling and their premium product. It constantly asks multiple times a day to try gambling and/or upgrade.",
+   "I signed up after clicking what I believed was a $200 promotion. After opening my account, I learned the reward was randomized, and Robinhood support confirmed 98% of users receive only $5 to $10.",
+   "Ridiculously repetitive popups about unwanted offers from Robinhood within the app. No optout, no way to disable the repetitive annoying robinhood popups."
+  ],
+  "n_reviews": 199,
+  "avg_rating": 1.773869,
+  "mean_thumbsup": 7.1407,
+  "delta_rating_app": -1.883545,
+  "apps_present": {
+   "Robinhood": 122,
+   "Coinbase": 61,
+   "Trading 212": 16
+  },
+  "frac_recent_third": 0.4171,
+  "median_review_date": "2025-08-14",
+  "reach_score": 5,
+  "engagement_score": 9,
+  "severity_score": 8,
+  "recency_score": 5,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ADVERTISING_NOTIFICATIONS",
+  "cluster_id": "1",
+  "title": "Ads and pop-ups frustrate most users, though a minority likes the promos",
+  "description": "Most of the short, terse reviews sampled in this cluster complain about intrusive, hard-to-close ads and pop-ups (some referencing third-party ads shown outside the app itself), and this negative reaction outnumbers positive mentions; however, a real minority of sampled reviews instead praise the app's giveaways, referral rewards, or specifically note it as ad-free, so the ad complaints, while the majority, are not the only voice in this cluster.",
+  "quotes": [
+   "I've gotten stuck inside their as countless times bc of how tiny the x is to end it!",
+   "if i have to see one more offer pop-up add, I think i will move my money somewhere else and delete the app.",
+   "Extremely User friendly, plus I won a huge Amount in USDC prize in the opt in promotion"
+  ],
+  "n_reviews": 214,
+  "avg_rating": 2.579439,
+  "mean_thumbsup": 0.5748,
+  "delta_rating_app": -1.08625,
+  "apps_present": {
+   "Robinhood": 122,
+   "Coinbase": 68,
+   "Trading 212": 24
+  },
+  "frac_recent_third": 0.2804,
+  "median_review_date": "2025-05-31",
+  "reach_score": 5,
+  "engagement_score": 3,
+  "severity_score": 6,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ADVERTISING_NOTIFICATIONS",
+  "cluster_id": "2",
+  "title": "Notification overload with no reliable way to opt out",
+  "description": "A clear majority of the (unsampled, fully-read) reviews in this cluster report being bombarded with excessive push notifications, marketing emails, spam calls, or in-app review prompts, and many explicitly say that disabling notifications in settings does not actually stop them.",
+  "quotes": [
+   "Push notifications and in-app banner messages are both heavily flawed. Risky or otherwise unappealing offers appear again and again after dismissal.",
+   "They sell your data. Had no spam calls daily until I gave them my phone number and now I get at least 3 a day. Wouldn't recommend.",
+   "Too many push notifications that can't be disabled."
+  ],
+  "n_reviews": 107,
+  "avg_rating": 2.074766,
+  "mean_thumbsup": 2.1869,
+  "delta_rating_app": -1.626733,
+  "apps_present": {
+   "Robinhood": 57,
+   "Trading 212": 27,
+   "Coinbase": 23
+  },
+  "frac_recent_third": 0.2523,
+  "median_review_date": "2025-05-05",
+  "reach_score": 3,
+  "engagement_score": 6,
+  "severity_score": 8,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "0",
+  "title": "Praise for a stable, fast, bug-free app",
+  "description": "The clear majority of the sampled reviews (well over half, spread across Coinbase, Robinhood, and Trading 212) are positive, describing the app as stable, fast, and free of crashes or bugs; a minority mention occasional glitches, slowdowns, or issues that appeared after an update.",
+  "quotes": [
+   "Works flawlessly, never an issue in last 7 yrs using it.",
+   "Coinbase is smooth and dependable fast. I trust this Platform.",
+   "The app runs really reliably and well on Android."
+  ],
+  "n_reviews": 82,
+  "avg_rating": 4.743902,
+  "mean_thumbsup": 9.0244,
+  "delta_rating_app": 1.084568,
+  "apps_present": {
+   "Coinbase": 36,
+   "Robinhood": 39,
+   "Trading 212": 7
+  },
+  "frac_recent_third": 0.378,
+  "median_review_date": "2025-10-03",
+  "reach_score": 2,
+  "engagement_score": 9,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "1",
+  "title": "Short, positive reports of stable, fast performance",
+  "description": "The large majority of the sampled reviews in this cluster are brief positive comments about speed and stability (e.g. \"fast,\" \"stable,\" \"reliable,\" \"works great\") across Coinbase, Robinhood, and Trading 212; a small minority mention crashes during setup or occasional glitches, particularly in German-language reviews about photo/ID capture crashing.",
+  "quotes": [
+   "Very stable app.",
+   "fast and reliable",
+   "Very easy to use, quick, reliable."
+  ],
+  "n_reviews": 326,
+  "avg_rating": 4.592025,
+  "mean_thumbsup": 3.316,
+  "delta_rating_app": 0.916862,
+  "apps_present": {
+   "Coinbase": 184,
+   "Trading 212": 47,
+   "Robinhood": 95
+  },
+  "frac_recent_third": 0.2515,
+  "median_review_date": "2025-06-03",
+  "reach_score": 6,
+  "engagement_score": 7,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "2",
+  "title": "Slowness, freezing, and crashes during active trading",
+  "description": "A majority of the sampled reviews (over half, overwhelmingly Coinbase) report the app being slow, freezing, or crashing, especially during high-volume trading or price swings, which reviewers say causes missed trades and financial losses.",
+  "quotes": [
+   "coinbase is too large of a company to have such a crappie,freezing all the time app.",
+   "You will 100% miss trades because of this app. 70% of the time its so slow you cant even put an order through without having to restart the app 5 times.",
+   "App crashes every time now. Used to work but now every single time I try to open the credit card section or Coinbase One section, it crashes."
+  ],
+  "n_reviews": 1576,
+  "avg_rating": 1.760152,
+  "mean_thumbsup": 9.6003,
+  "delta_rating_app": -1.898016,
+  "apps_present": {
+   "Coinbase": 1040,
+   "Robinhood": 415,
+   "Trading 212": 121
+  },
+  "frac_recent_third": 0.2646,
+  "median_review_date": "2025-07-17",
+  "reach_score": 9,
+  "engagement_score": 10,
+  "severity_score": 8,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "3",
+  "title": "App fails to open, crashes, or breaks after updates",
+  "description": "A large share of the sampled reviews (well over half, across Coinbase, Robinhood, and Trading 212) report the app failing to open or load, freezing, or crashing outright, frequently tied to a recent update or device incompatibility.",
+  "quotes": [
+   "hardly ever works. freezes all the time. terrible app. almost unusable",
+   "On OnePlus 13 and OnePlus 10t, the app keep freezing every single minute or less of use! It's almost completely unusable now!",
+   "The new update ruined the app. The app was functioning perfectly, until the developers ruined it with unnecessary functions. Now its glitchy, slow and not intuitive anymore."
+  ],
+  "n_reviews": 2288,
+  "avg_rating": 1.80201,
+  "mean_thumbsup": 2.0756,
+  "delta_rating_app": -1.864972,
+  "apps_present": {
+   "Robinhood": 761,
+   "Coinbase": 1269,
+   "Trading 212": 258
+  },
+  "frac_recent_third": 0.2745,
+  "median_review_date": "2025-07-31",
+  "reach_score": 9,
+  "engagement_score": 5,
+  "severity_score": 8,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "0",
+  "title": "Requests for broader asset and account-type coverage",
+  "description": "Most reviewers in this cluster (spanning Coinbase, Robinhood, and Trading 212) are not complaining about bugs but asking the platform to list more assets or account types than it currently supports -- additional cryptocurrencies, missing stocks/ETFs, or account types like ISA/SIPP -- rather than reporting something broken.",
+  "quotes": [
+   "Get with the program, and add XRP to your crypto lineup, Robinhood! When you do that, I will change my rating. You have Shiba, but you do not have XRP??? Makes no sense!",
+   "only limited options in ISA, no SIPP. No options to buy UK, EU or international stocks",
+   "Wish there was more options for crypto"
+  ],
+  "n_reviews": 691,
+  "avg_rating": 4.040521,
+  "mean_thumbsup": 2.1577,
+  "delta_rating_app": 0.329551,
+  "apps_present": {
+   "Trading 212": 199,
+   "Robinhood": 309,
+   "Coinbase": 183
+  },
+  "frac_recent_third": 0.2344,
+  "median_review_date": "2025-04-11",
+  "reach_score": 8,
+  "engagement_score": 6,
+  "severity_score": 3,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "1",
+  "title": "Coinbase geo-blocking existing users out of their accounts",
+  "description": "The large majority of this cluster (almost entirely Coinbase, with a handful of Trading 212/Robinhood) reports being unable to access, fund, or withdraw from an already-used account because the service is unavailable or has been withdrawn in their country (frequently named: Nigeria, India, Pakistan, South Africa, Bangladesh, Kenya, Uganda, UK, Canada). A smaller minority (roughly 3-4 of the 150 sampled reviews) instead describe never having been able to sign up or use the service at all from their country, rather than losing access to an account they had used before.",
+  "quotes": [
+   "Coinbase app don't work anymore in Nigeria",
+   "What happened to this exchange. It used to accept users from my country but now it doesn't. I'm only able to use the wallet, it's still bad,coinbase was much ea",
+   "The only thing is that Coinbase is not supported in my country (South Africa) which is big inconvenience since I was looking forward to investing in C"
+  ],
+  "n_reviews": 153,
+  "avg_rating": 1.784314,
+  "mean_thumbsup": 4.7908,
+  "delta_rating_app": -1.861964,
+  "apps_present": {
+   "Coinbase": 140,
+   "Trading 212": 4,
+   "Robinhood": 9
+  },
+  "frac_recent_third": 0.1634,
+  "median_review_date": "2025-02-28",
+  "reach_score": 4,
+  "engagement_score": 9,
+  "severity_score": 8,
+  "recency_score": 2,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "2",
+  "title": "Prospective users asking for country expansion",
+  "description": "Nearly every review in this cluster is a short, prospective request -- from users who have not yet been able to use the app -- asking Trading 212 or Coinbase to launch or add support for their country (Nigeria, Pakistan, Bangladesh, South Africa, Indonesia, Malaysia, and others), distinct from the frustration of already-onboarded users being cut off.",
+  "quotes": [
+   "Please make this app available in south africa",
+   "good morning please why is the app not working in Nigeria I really want this app I love it but it not working in Nigeria why",
+   "Genuinely I haven't tried it out yet cause it doesn't support Malaysia yet but I've head great reviews from Mark Tilbury, hopefully it just to support in Malaysia."
+  ],
+  "n_reviews": 40,
+  "avg_rating": 3.325,
+  "mean_thumbsup": 0.075,
+  "delta_rating_app": -0.42917,
+  "apps_present": {
+   "Trading 212": 18,
+   "Coinbase": 21,
+   "Robinhood": 1
+  },
+  "frac_recent_third": 0.2,
+  "median_review_date": "2025-05-19",
+  "reach_score": 1,
+  "engagement_score": 2,
+  "severity_score": 5,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "3",
+  "title": "Sign-up blocked by country-of-residence selection",
+  "description": "Almost all reviews here describe the account-creation flow itself failing on the country-of-residence step -- most often Trading 212 explicitly not supporting the United States, but also Canada, UK, and other countries missing from residency dropdowns or rejected during identity verification -- a narrower, sign-up-specific version of the broader geo-restriction complaints in this category's other clusters.",
+  "quotes": [
+   "How the hell do you not support the US? come on. 1 star!",
+   "I've heard great things about this app, but when I go to select my country of residence, United States of America is not listed on there, so therefore, I cannot use the app like I wanted to.",
+   "Does not allow me to sign up, as a glitch is forcing Canada to not appear in the list of countries. I have spent hours trying to resolve this."
+  ],
+  "n_reviews": 123,
+  "avg_rating": 1.756098,
+  "mean_thumbsup": 2.2683,
+  "delta_rating_app": -2.013688,
+  "apps_present": {
+   "Coinbase": 52,
+   "Trading 212": 63,
+   "Robinhood": 8
+  },
+  "frac_recent_third": 0.2033,
+  "median_review_date": "2025-05-07",
+  "reach_score": 3,
+  "engagement_score": 6,
+  "severity_score": 8,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "CHARTING_TOOLS",
+  "cluster_id": "0",
+  "title": "Portfolio Chart/Graph Bugs After Updates",
+  "description": "A minority of the sampled reviews (roughly 6-7 of 24, about a quarter), mostly from Coinbase users, report that portfolio charts or graphs disappeared, froze, or showed incorrect data after a recent app update. The rest of the cluster is a mix of requests for new charting features (dividend calendars, benchmark comparisons, candlestick views) and general Trading 212 charting praise, so no single theme is a majority.",
+  "quotes": [
+   "Grafen werden nicht angezeigt und somit der Verlauf der Werte nicht erkennbar.",
+   "Die grafische Darstellung im Portfolio ist einfach verschwunden.",
+   "Seit mehrere Tage/Wochen spinnt das Portfolio Diagram. Es werden einfach falsche Informationen gegeben."
+  ],
+  "n_reviews": 24,
+  "avg_rating": 3.25,
+  "mean_thumbsup": 0.0,
+  "delta_rating_app": -0.527588,
+  "apps_present": {
+   "Trading 212": 13,
+   "Coinbase": 11
+  },
+  "frac_recent_third": 0.2917,
+  "median_review_date": "2025-04-16",
+  "reach_score": 1,
+  "engagement_score": 1,
+  "severity_score": 5,
+  "recency_score": 4,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "CHARTING_TOOLS",
+  "cluster_id": "1",
+  "title": "Charts That Fail to Load, Freeze, or Stop Updating",
+  "description": "A plurality of sampled reviews (about 26%, 39/150) describe charts or graphs that fail to load, freeze, lag, or stop updating, with this problem concentrated heavily on Coinbase (23 of the 39) and also reported by Robinhood and Trading 212 users. The remaining majority of reviews is split between requests for more advanced charting features (indicators, TradingView-style tools, candlesticks, dividend calendars) and general praise for the existing charts, so chart-loading bugs are the single largest theme but not an outright majority.",
+  "quotes": [
+   "I actually hate this app now. The charts NEVER work and the app is basically useless during periods of high market activity.",
+   "This app constantly needs to be force-stopped and the cache wiped just to get individual coins to load the charts or even any account records, otherwise you just get constant loading.",
+   "the app has been failing miserably at updating with real-time data, the graph is just gray and will not update."
+  ],
+  "n_reviews": 989,
+  "avg_rating": 3.31547,
+  "mean_thumbsup": 8.0374,
+  "delta_rating_app": -0.384196,
+  "apps_present": {
+   "Robinhood": 451,
+   "Trading 212": 241,
+   "Coinbase": 297
+  },
+  "frac_recent_third": 0.3013,
+  "median_review_date": "2025-06-21",
+  "reach_score": 8,
+  "engagement_score": 9,
+  "severity_score": 5,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "0",
+  "title": "Locked, Frozen, or Delayed Access to Crypto Funds",
+  "description": "A majority of sampled reviews (52%, 78/150) \u2014 overwhelmingly about Coinbase \u2014 describe accounts being frozen or restricted, or crypto/cash being held or locked, so that transfers, withdrawals, selling, or unstaking are blocked for days to weeks, often accompanied by unresponsive customer support.",
+  "quotes": [
+   "DO NOT STAKE ON COINBASE!! THEY SAY IT'S 5 DAYS, BUT THEN THE UNSTAKING IS ANOTHER 5 DAYS, I'M ON 8 DAYS AND STILL NO UNSTAKING.",
+   "I bought cryptocurrency and they held it for 6 days then when I tried to send it to a wallet they put a hold on it saying It may be suspicious activity",
+   "not once does it say 20 days but it does in fact take 20 days plus 5 days after pressing after unstake button"
+  ],
+  "n_reviews": 1134,
+  "avg_rating": 1.536155,
+  "mean_thumbsup": 3.239,
+  "delta_rating_app": -2.102958,
+  "apps_present": {
+   "Coinbase": 890,
+   "Robinhood": 243,
+   "Trading 212": 1
+  },
+  "frac_recent_third": 0.2143,
+  "median_review_date": "2025-05-10",
+  "reach_score": 8,
+  "engagement_score": 7,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "1",
+  "title": "Broad Positive Reception, With a Beginner-Friendly Sub-Theme",
+  "description": "A clear majority of sampled reviews (62%, 93/150) are short, positive statements praising the app (mostly Coinbase). Most of this praise is generic ('great app', 'best crypto app') with no beginner-specific framing; a minority of the positive reviews (roughly an eighth to a sixth of them) explicitly frame the app as easy for someone new to crypto. A small number of reviews (about a dozen) raise problems such as staking confusion or being unable to send crypto.",
+  "quotes": [
+   "Great starting point for the new to crypto crowd!",
+   "Awesome app really teaches you alot about crypto if your new to it,easy to use, definitely the best app I've found so far",
+   "easy to use for a first time crypto guy"
+  ],
+  "n_reviews": 241,
+  "avg_rating": 4.626556,
+  "mean_thumbsup": 0.4979,
+  "delta_rating_app": 0.983059,
+  "apps_present": {
+   "Coinbase": 205,
+   "Robinhood": 32,
+   "Trading 212": 4
+  },
+  "frac_recent_third": 0.166,
+  "median_review_date": "2025-02-11",
+  "reach_score": 5,
+  "engagement_score": 3,
+  "severity_score": 2,
+  "recency_score": 2,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "2",
+  "title": "General Satisfaction with Ease and Speed of Buying, Selling, and Trading Crypto",
+  "description": "A strong majority of sampled reviews (71%, 106/150) express general satisfaction with how easy, fast, or reliable it is to buy, sell, or trade crypto on the app (mostly Coinbase, with some Robinhood and Trading 212), while only a small minority (about 6 reviews) specifically ask for a wider variety of available coins.",
+  "quotes": [
+   "awesome cryptocurrency app great wallet easy transfers.",
+   "This is the best and easiest app to buy sell and trade crypto. Super low fee and you can send and receive crypto so fast.",
+   "It\u2019s the best and fastest way to send and receive crypto"
+  ],
+  "n_reviews": 633,
+  "avg_rating": 4.625592,
+  "mean_thumbsup": 1.2654,
+  "delta_rating_app": 0.983713,
+  "apps_present": {
+   "Robinhood": 165,
+   "Coinbase": 460,
+   "Trading 212": 8
+  },
+  "frac_recent_third": 0.2006,
+  "median_review_date": "2025-03-08",
+  "reach_score": 8,
+  "engagement_score": 5,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "3",
+  "title": "Strong Loyalty and Trust in Coinbase, Driven Partly by Learn-and-Earn Rewards",
+  "description": "This cluster is almost entirely about Coinbase (146/150 reviews), and a clear majority (68%, 102/150) express strong positive sentiment and trust in the platform. Within that, a notable minority (13%, 20/150) specifically single out the 'Learn and Earn' educational rewards program as a standout feature driving their loyalty, while a few reviews note frustration that these rewards became less frequent.",
+  "quotes": [
+   "One of the best tools for learning about crypto currencies and more. I will always consider the platform to all. Thank you Coinbase!",
+   "I Started last bull run as rookie beginner and thanks to all the lessons coinbase offer for free. I became a profitable trader",
+   "they actually pay you to learn more about making money \ud83d\udcb0 That's unheard of, where else you going to find an app that pays you over 50 dollars on your lunch break to just learn more about crypto buying and trading"
+  ],
+  "n_reviews": 276,
+  "avg_rating": 4.862319,
+  "mean_thumbsup": 3.5906,
+  "delta_rating_app": 1.222491,
+  "apps_present": {
+   "Coinbase": 271,
+   "Robinhood": 5
+  },
+  "frac_recent_third": 0.1884,
+  "median_review_date": "2025-02-25",
+  "reach_score": 5,
+  "engagement_score": 8,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "4",
+  "title": "Learn-and-Earn Crypto Education Rewards Program",
+  "description": "A majority of sampled reviews (at least 52%, 68/131, explicitly mention both 'learn' and 'earn', with many additional reviews referencing the same 'earn free crypto'/rewards feature using only one of those words) praise Coinbase's 'Learn and Earn' feature, which pays users in crypto for completing short educational modules and quizzes about individual coins. A small number of reviews note frustration that these rewards have become scarce, discontinued, or unavailable in their region.",
+  "quotes": [
+   "LEARN AND EARN \ud83e\udd29\ud83e\udd11 As a complete newbie to anything crypto , I highly would recommend anyone to try this app .",
+   "Learn and earn makes all the difference in the world. For people out there who let the idea of digital currency intimidate this is the remedy.",
+   "i've had this app a few years and have made a good amount of crypto through learning rewards but unfortunately they stopped doing that now. so I lowered my rating to four"
+  ],
+  "n_reviews": 131,
+  "avg_rating": 4.832061,
+  "mean_thumbsup": 0.4809,
+  "delta_rating_app": 1.192329,
+  "apps_present": {
+   "Coinbase": 126,
+   "Robinhood": 5
+  },
+  "frac_recent_third": 0.0534,
+  "median_review_date": "2024-12-18",
+  "reach_score": 4,
+  "engagement_score": 3,
+  "severity_score": 1,
+  "recency_score": 1,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "CUSTOMER_SUPPORT",
+  "cluster_id": "0",
+  "title": "Long verification wait times and unreachable support (mostly Coinbase)",
+  "description": "The large majority of these reviews, mostly Coinbase with some Trading 212, describe being stuck for days or weeks on identity-verification waitlists with no way to reach a human, and describe the chatbot or the lack of any phone/email option as effectively useless.",
+  "quotes": [
+   "Seit 6 Wochen auf der Warteliste und kein Ende in Sicht! Support hilft nicht weiter, mein Geld kann ich mir abschreiben! Danke f\u00fcr nichts",
+   "Bei coinbase gibt es keinen Support! Keine Telefonnummer, keine Email-Adresse, kein Kontakt-Formular, nichts!",
+   "Ich kann mich seit \u00fcber einem Monat nicht einloggen. Support ist absolut unf\u00e4hig. Nehmt lieber was anderes!"
+  ],
+  "n_reviews": 95,
+  "avg_rating": 1.463158,
+  "mean_thumbsup": 0.0,
+  "delta_rating_app": -2.208862,
+  "apps_present": {
+   "Coinbase": 83,
+   "Trading 212": 12
+  },
+  "frac_recent_third": 0.1474,
+  "median_review_date": "2025-03-14",
+  "reach_score": 3,
+  "engagement_score": 1,
+  "severity_score": 9,
+  "recency_score": 2,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "CUSTOMER_SUPPORT",
+  "cluster_id": "1",
+  "title": "Support seen as slow, bot-gated, and unhelpful across platforms",
+  "description": "A clear majority of sampled reviews describe customer support, chatbots that block escalation, and multi-hour wait times as the platform's biggest weakness, spanning Coinbase, Robinhood, and Trading 212; a smaller minority of reviews in the sample instead praise the support they received.",
+  "quotes": [
+   "The chatbot is the gatekeeper to any real help, and it\u2019s impossible to get past it. It keeps asking me to choose from a list of options, none of which match my problem. My account is locked, and the bot wants to teach me about market trends. Absolutely useless.",
+   "Chat bot is trash and the chat itself just randomly disconnects and makes you start the customer support session all over",
+   "A waiting time of 4 hours to get assistance... This is ridiculous."
+  ],
+  "n_reviews": 4357,
+  "avg_rating": 1.883406,
+  "mean_thumbsup": 4.9929,
+  "delta_rating_app": -1.776903,
+  "apps_present": {
+   "Coinbase": 2310,
+   "Robinhood": 1666,
+   "Trading 212": 381
+  },
+  "frac_recent_third": 0.2369,
+  "median_review_date": "2025-05-04",
+  "reach_score": 10,
+  "engagement_score": 9,
+  "severity_score": 8,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "0",
+  "title": "Low or zero-commission trading praised as a core strength",
+  "description": "The large majority of sampled reviews, across Robinhood, Trading 212, and Coinbase, cite low or zero trading fees and commissions as one of the app's best features; only a small minority raise fee-transparency concerns, such as an unclear per-trade fee.",
+  "quotes": [
+   "Best broker for low fees investing",
+   "Great UX. Fee-free ISA investing, best app on the market for stocks and shares.",
+   "Can't fault it. zero fees trading \ud83d\ude4c\ud83c\udffb"
+  ],
+  "n_reviews": 466,
+  "avg_rating": 4.716738,
+  "mean_thumbsup": 9.9077,
+  "delta_rating_app": 0.986279,
+  "apps_present": {
+   "Robinhood": 265,
+   "Trading 212": 171,
+   "Coinbase": 30
+  },
+  "frac_recent_third": 0.382,
+  "median_review_date": "2025-07-16",
+  "reach_score": 7,
+  "engagement_score": 10,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "1",
+  "title": "Coinbase's standard fees seen as high, offset by the Coinbase One subscription",
+  "description": "In this Coinbase-dominated cluster, a majority of reviewers describe standard transaction fees as high or a downside, and a large share of those reviews pair the complaint with a mention that the paid Coinbase One membership reduces or eliminates the fees.",
+  "quotes": [
+   "last time I used it they killed me with fees and fines. but now that I have coinbase 1, they do not",
+   "Coinbase and safe and legit. I have been on Coinbase One and it has never disappointed. Fees could be lower for tramsactions and withdrawals.",
+   "Fees are high when using the free account but if you buy the subscription it's way better. Great way to get into crypto if you're new"
+  ],
+  "n_reviews": 212,
+  "avg_rating": 4.669811,
+  "mean_thumbsup": 16.2217,
+  "delta_rating_app": 1.026706,
+  "apps_present": {
+   "Coinbase": 191,
+   "Robinhood": 18,
+   "Trading 212": 3
+  },
+  "frac_recent_third": 0.1934,
+  "median_review_date": "2025-03-21",
+  "reach_score": 5,
+  "engagement_score": 10,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "2",
+  "title": "High, hidden, or 'stacked' fees drive strong dissatisfaction (mostly Coinbase)",
+  "description": "A clear majority of sampled reviews, overwhelmingly about Coinbase, describe fees as excessively high, hidden, or charged at multiple points in a single transaction (buying, selling, transferring, withdrawing), with many reviewers calling the platform a scam or rip-off as a result.",
+  "quotes": [
+   "Ridiculously high fees. Greedy exchange.",
+   "Fees are insane, especially if you do the market order which is default and misleading to new users. I will never use Coinbase again and tell everyone I know to avoid it.",
+   "deceptive company, will steal your money through hidden fees when acquiring crypto then hit you again when you try to do anything with the acquired crypto in their \"wallets\"."
+  ],
+  "n_reviews": 882,
+  "avg_rating": 1.357143,
+  "mean_thumbsup": 8.2619,
+  "delta_rating_app": -2.289922,
+  "apps_present": {
+   "Coinbase": 739,
+   "Robinhood": 116,
+   "Trading 212": 27
+  },
+  "frac_recent_third": 0.2063,
+  "median_review_date": "2025-05-08",
+  "reach_score": 8,
+  "engagement_score": 9,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "3",
+  "title": "Unauthorized Robinhood Gold enrollment, with a smaller pattern of steep account-transfer fees",
+  "description": "This Robinhood-only cluster is dominated by one recurring complaint, present in roughly half of the sampled reviews: reviewers say they were auto-enrolled in the paid Gold membership and charged without consent. A smaller minority (roughly one in ten of the sampled reviews) separately report that transferring an account out triggered an undisclosed fee of roughly $100. The two complaints are related (both about unexpected charges) but are not equally common.",
+  "quotes": [
+   "I somehow got signed up and charged for a \"Gold\" accoubt that I never wanted. Robinhood refused to do anything to fix it.",
+   "I haven't been on this app for a bit, and I noticed they were pulling $5 dollars out of my account each month. Turns out, I got subcribed to robinhood gold, which I never subcribed myself to.",
+   "They charged me $100 for a digital stock transfer. No indication of the fee while going through the process."
+  ],
+  "n_reviews": 91,
+  "avg_rating": 1.373626,
+  "mean_thumbsup": 7.2527,
+  "delta_rating_app": -2.2615,
+  "apps_present": {
+   "Robinhood": 91
+  },
+  "frac_recent_third": 0.4286,
+  "median_review_date": "2025-09-26",
+  "reach_score": 2,
+  "engagement_score": 9,
+  "severity_score": 9,
+  "recency_score": 5,
+  "cross_platform_score": 2
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "4",
+  "title": "High or hidden fees and unauthorized subscription charges (Coinbase and Robinhood)",
+  "description": "A majority of sampled reviews, spanning both Coinbase and Robinhood, complain about high or hidden fees and, frequently, about being charged for a subscription (Coinbase's paid plan or Robinhood Gold) that they say they never authorized or could not easily cancel.",
+  "quotes": [
+   "I have tried to close my account and they are charging me for a membership that I never consented for. There is no easy way just to close the account either.",
+   "high fees and hidden fees stay away",
+   "be careful. I was charged a fee buried somewhere in 20 disclosures. it is fraud in my book."
+  ],
+  "n_reviews": 371,
+  "avg_rating": 1.61186,
+  "mean_thumbsup": 1.062,
+  "delta_rating_app": -2.038178,
+  "apps_present": {
+   "Robinhood": 118,
+   "Coinbase": 236,
+   "Trading 212": 17
+  },
+  "frac_recent_third": 0.2803,
+  "median_review_date": "2025-05-20",
+  "reach_score": 6,
+  "engagement_score": 4,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "5",
+  "title": "Low fees widely praised as a satisfaction driver across all three apps",
+  "description": "A large majority of sampled reviews, across Robinhood, Trading 212, and Coinbase, describe fees as low, fair, or nonexistent and cite this as a reason they like the app; complaints about fees are only a small minority in this particular cluster.",
+  "quotes": [
+   "great platform easy to navigate and 0% commission.. What's not to like",
+   "Great platform, low fees",
+   "Excellent app all-round. T212 has an impressive UI, low fees and is the most advanced platform in the UK imo."
+  ],
+  "n_reviews": 199,
+  "avg_rating": 4.839196,
+  "mean_thumbsup": 0.1809,
+  "delta_rating_app": 1.108453,
+  "apps_present": {
+   "Trading 212": 72,
+   "Robinhood": 47,
+   "Coinbase": 80
+  },
+  "frac_recent_third": 0.2764,
+  "median_review_date": "2025-05-15",
+  "reach_score": 5,
+  "engagement_score": 3,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "6",
+  "title": "Competitive Trading 212 cash ISA rates, with a minority reporting post-signup rate cuts",
+  "description": "Roughly a quarter of sampled reviews, all Trading 212, praise the cash ISA or uninvested-cash interest rate as a key draw, while a smaller but notable minority, on the order of one in five, complain that the advertised or initial rate is cut shortly after they sign up or deposit funds.",
+  "quotes": [
+   "5.17% interest tax free - interest paid daily - withdrawals without penalty. \u2b50\u2b50\u2b50\u2b50\u2b50",
+   "trading 212 lure you in with promotions then pull the rug and change the interest rate. don't use them. Go for a well known actual bank or building society. it's worth the 0.5%",
+   "I was lured in by the 5.2% interest cash isa, which has been cut to 4.9% within 3 months of joining."
+  ],
+  "n_reviews": 86,
+  "avg_rating": 3.883721,
+  "mean_thumbsup": 0.6279,
+  "delta_rating_app": 0.013618,
+  "apps_present": {
+   "Trading 212": 78,
+   "Coinbase": 2,
+   "Robinhood": 6
+  },
+  "frac_recent_third": 0.3488,
+  "median_review_date": "2025-08-04",
+  "reach_score": 2,
+  "engagement_score": 4,
+  "severity_score": 4,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FUNDS_TRANSFER",
+  "cluster_id": "0",
+  "title": "Withdrawals blocked by holds, freezes, and verification loops",
+  "description": "Across all three sampled chunks, a clear majority of the reviews describe being unable to withdraw or transfer funds out of the app: money held for days or weeks under vague 'security' reviews, accounts frozen or restricted, device-verification or 2FA loops that lock users out of their own money, and unresponsive or chatbot-only customer support. A smaller minority describe other transfer friction (e.g., IRA rollovers, linking a bank/card) rather than an outright block on withdrawals.",
+  "quotes": [
+   "As soon as you want to withdraw any to your bank account it makes you verify via a message on another device you own. They never send the alert to the other device and thus lock you out of your own money.",
+   "Find another app. This one will hold your money for days even when you bank don't take more than 24 hours for amounts less than $5k.",
+   "They take ages to allow you to withdraw your money. Use a different platform if you need a responsive experience."
+  ],
+  "n_reviews": 3235,
+  "avg_rating": 1.427202,
+  "mean_thumbsup": 3.9134,
+  "delta_rating_app": -2.235851,
+  "apps_present": {
+   "Coinbase": 1940,
+   "Robinhood": 982,
+   "Trading 212": 313
+  },
+  "frac_recent_third": 0.2343,
+  "median_review_date": "2025-05-12",
+  "reach_score": 10,
+  "engagement_score": 8,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "FUNDS_TRANSFER",
+  "cluster_id": "1",
+  "title": "Deposit and withdrawal blocks reported in non-English-speaking markets",
+  "description": "This cluster (mostly German, French, and Italian-language reviews) mirrors the withdrawal-hold complaints seen elsewhere: a large majority of the sampled reviews report being unable to pay out or withdraw money, accounts or specific transactions held indefinitely under review, and slow or unhelpful support. A minority of reviews in this cluster are positive, describing fast and trouble-free deposits or withdrawals.",
+  "quotes": [
+   "Ich konnte mein Geld nicht auszahlen lassen!",
+   "Blockt eingezahltes Geld",
+   "In dem Saftladen kann man das Geld nicht auszahlen. Ich versuche seit mehreren Stunden Geld auszuzahlen es geht nicht!!!"
+  ],
+  "n_reviews": 103,
+  "avg_rating": 1.970874,
+  "mean_thumbsup": 0.0,
+  "delta_rating_app": -1.757875,
+  "apps_present": {
+   "Coinbase": 67,
+   "Trading 212": 36
+  },
+  "frac_recent_third": 0.2913,
+  "median_review_date": "2025-07-08",
+  "reach_score": 3,
+  "engagement_score": 1,
+  "severity_score": 8,
+  "recency_score": 4,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "FUNDS_TRANSFER",
+  "cluster_id": "2",
+  "title": "Fast, hassle-free deposits and withdrawals",
+  "description": "In contrast to the other two funds-transfer clusters, the large majority of the sampled reviews here are positive, praising how quick and easy it is to move money into and out of the app (deposits, withdrawals, and transfers between accounts) across Robinhood, Coinbase, and Trading 212. A minority raise a specific limitation, such as the lack of a recurring/monthly deposit option or a lag on withdrawals, without describing blocked or frozen funds.",
+  "quotes": [
+   "So easy to use. Instant trade action. Instant fund transfers back to bank accounts. Happy customer here.",
+   "Brilliant app, honestly can't fault it withdraw is easy to understand.",
+   "Substantial UI, easy to trade and has instant transfers from up to $1000."
+  ],
+  "n_reviews": 798,
+  "avg_rating": 4.671679,
+  "mean_thumbsup": 3.3145,
+  "delta_rating_app": 0.956932,
+  "apps_present": {
+   "Coinbase": 344,
+   "Robinhood": 215,
+   "Trading 212": 239
+  },
+  "frac_recent_third": 0.2782,
+  "median_review_date": "2025-05-04",
+  "reach_score": 8,
+  "engagement_score": 7,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "0",
+  "title": "Terse one-word \"great\" reviews",
+  "description": "This is a generic-sentiment residual cluster: essentially all sampled reviews consist of nothing more than the single word \"great\" (or a trivial variant such as \"great advices\"), with no elaboration on any specific feature, so no substantive theme can honestly be attributed beyond bare positive sentiment.",
+  "quotes": [
+   "Great great great .",
+   "great advices",
+   "Great new tech"
+  ],
+  "n_reviews": 358,
+  "avg_rating": 4.924581,
+  "mean_thumbsup": 0.0279,
+  "delta_rating_app": 1.263566,
+  "apps_present": {
+   "Robinhood": 121,
+   "Coinbase": 205,
+   "Trading 212": 32
+  },
+  "frac_recent_third": 0.3268,
+  "median_review_date": "2025-08-25",
+  "reach_score": 6,
+  "engagement_score": 2,
+  "severity_score": 1,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "1",
+  "title": "Terse one-word \"good/great/excellent\" reviews",
+  "description": "Like the adjacent generic-sentiment cluster, virtually all sampled reviews here are single words such as \"good,\" \"great,\" or \"Excellent\" with no supporting detail; it is a duplicate-wording variant of the same catch-all positive-sentiment pattern rather than a distinct thematic complaint or request.",
+  "quotes": [
+   "Good boy",
+   "good progress",
+   "Excellent"
+  ],
+  "n_reviews": 604,
+  "avg_rating": 4.850993,
+  "mean_thumbsup": 0.0298,
+  "delta_rating_app": 1.182787,
+  "apps_present": {
+   "Robinhood": 200,
+   "Coinbase": 333,
+   "Trading 212": 71
+  },
+  "frac_recent_third": 0.2583,
+  "median_review_date": "2025-06-11",
+  "reach_score": 7,
+  "engagement_score": 2,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "2",
+  "title": "Emoji-only positive reactions",
+  "description": "Nearly all sampled reviews in this cluster consist solely of one or more emoji (thumbs-up, hearts, fire, etc.) with no accompanying words, and the rare reviews that do contain text are themselves minimal generic praise such as \"nice app\"; this cluster carries essentially no specific product feedback.",
+  "quotes": [
+   "nice app",
+   "nice app",
+   "nice Apps"
+  ],
+  "n_reviews": 295,
+  "avg_rating": 4.80339,
+  "mean_thumbsup": 0.0136,
+  "delta_rating_app": 1.141511,
+  "apps_present": {
+   "Coinbase": 188,
+   "Robinhood": 80,
+   "Trading 212": 27
+  },
+  "frac_recent_third": 0.2237,
+  "median_review_date": "2025-05-01",
+  "reach_score": 6,
+  "engagement_score": 2,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "3",
+  "title": "Mixed short generic reviews, majority mildly positive",
+  "description": "This is a large, heterogeneous catch-all cluster of brief, generic one-line reviews; a majority lean mildly positive (\"great experience,\" \"so far so good\"), while a smaller but clearly present minority are brief negative or lukewarm remarks (\"Very bad app,\" \"Worst app... garbage app\"), without any specific recurring feature or complaint tying the cluster together.",
+  "quotes": [
+   "been a great experience",
+   "Very bad app, i dont recommend this",
+   "So far, so good!"
+  ],
+  "n_reviews": 7740,
+  "avg_rating": 4.432558,
+  "mean_thumbsup": 0.1393,
+  "delta_rating_app": 0.766565,
+  "apps_present": {
+   "Coinbase": 4034,
+   "Robinhood": 2858,
+   "Trading 212": 848
+  },
+  "frac_recent_third": 0.2342,
+  "median_review_date": "2025-04-16",
+  "reach_score": 10,
+  "engagement_score": 2,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "4",
+  "title": "Generic loyalty praise naming Coinbase specifically",
+  "description": "The large majority of sampled reviews are brief, generic statements of loyalty that name Coinbase specifically as the reviewer's preferred or most-trusted crypto platform, frequently citing multi-year tenure without issues; a small minority of reviews in the sample are negative about crypto investing generally rather than about Coinbase's app itself.",
+  "quotes": [
+   "Sound and secure. My go-to for all things crypto.",
+   "Have been a client on coinbase since 2017. Have always had great experiences and would definitely recommend to friends.",
+   "After using coinbase for over 2 years, it is still the best exchange I've ever used for crypto trading."
+  ],
+  "n_reviews": 1282,
+  "avg_rating": 4.842434,
+  "mean_thumbsup": 1.3549,
+  "delta_rating_app": 1.202153,
+  "apps_present": {
+   "Coinbase": 1218,
+   "Robinhood": 61,
+   "Trading 212": 3
+  },
+  "frac_recent_third": 0.2161,
+  "median_review_date": "2025-03-12",
+  "reach_score": 8,
+  "engagement_score": 5,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "5",
+  "title": "Generic loyalty praise naming Robinhood specifically",
+  "description": "The large majority of sampled reviews are broad, generic statements of satisfaction and loyalty that name Robinhood by name, often citing years of use or explicitly recommending it as the best platform; this mirrors the Coinbase-loyalty cluster's pattern but for Robinhood, and a small minority of reviews express sharp negative sentiment instead (e.g. \"Robinhood is BS!\").",
+  "quotes": [
+   "I've been on Robinhood since 2019 and It's been a great way for me to invest.",
+   "robinhood by far the best and have since transferred all assets into robinhood from other brokerages.",
+   "Robinhood is BS!"
+  ],
+  "n_reviews": 437,
+  "avg_rating": 4.743707,
+  "mean_thumbsup": 1.0961,
+  "delta_rating_app": 1.108526,
+  "apps_present": {
+   "Robinhood": 432,
+   "Coinbase": 5
+  },
+  "frac_recent_third": 0.3387,
+  "median_review_date": "2025-04-25",
+  "reach_score": 7,
+  "engagement_score": 4,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "6",
+  "title": "Generic praise for making money/investing success",
+  "description": "The majority of sampled reviews across Robinhood, Trading 212, and Coinbase express generic positive sentiment specifically framed around making money or building wealth through the app (e.g. \"great way to invest,\" \"starting to see real returns\"), rather than about any particular feature; a clear minority instead report losses or disappointing returns.",
+  "quotes": [
+   "great way to invest",
+   "Really good I am starting to see real returns.",
+   "So far all my investments tanked or failed. It's just better to invest in crypto than stocks now."
+  ],
+  "n_reviews": 1829,
+  "avg_rating": 4.797704,
+  "mean_thumbsup": 0.1356,
+  "delta_rating_app": 1.104578,
+  "apps_present": {
+   "Coinbase": 522,
+   "Trading 212": 400,
+   "Robinhood": 907
+  },
+  "frac_recent_third": 0.2881,
+  "median_review_date": "2025-04-12",
+  "reach_score": 9,
+  "engagement_score": 2,
+  "severity_score": 1,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "0",
+  "title": "Coinbase Praised as an Easy, Educational On-Ramp for Crypto Beginners",
+  "description": "A strong majority of sampled reviews (81%, 121/150) \u2014 almost all about Coinbase (138/150) \u2014 describe the app positively as simple and welcoming for people with no prior crypto experience, frequently crediting its built-in tutorials and 'Learn and Earn' rewards for building their confidence and knowledge. A small minority raise complaints, such as app freezing or loading issues.",
+  "quotes": [
+   "Coinbase is wonderful for first timers in crypto, they really educate well.",
+   "Coinbase is a solid platform for beginners looking to buy, sell, and store cryptocurrencies. The user interface is simple and easy to navigate, making it a great entry point for those new to crypto.",
+   "Easy to use and learn with, and provides incentives to learn! I thought learning crypto on my own was overwhelming at first but not with coinbase!"
+  ],
+  "n_reviews": 1049,
+  "avg_rating": 4.873213,
+  "mean_thumbsup": 4.2164,
+  "delta_rating_app": 1.232868,
+  "apps_present": {
+   "Coinbase": 981,
+   "Robinhood": 65,
+   "Trading 212": 3
+  },
+  "frac_recent_third": 0.1277,
+  "median_review_date": "2025-01-22",
+  "reach_score": 8,
+  "engagement_score": 8,
+  "severity_score": 1,
+  "recency_score": 2,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "1",
+  "title": "Robinhood Praised as an Accessible, Beginner-Friendly Introduction to Investing",
+  "description": "A majority of sampled reviews (69%, 104/150), almost entirely about Robinhood (148/150), describe the app positively as easy to navigate and educational for first-time investors with no prior stock-market experience, helping them learn as they go. A small minority push back, citing account closures, a lack of formal tutorials, or fee complaints.",
+  "quotes": [
+   "I absolutely love Robinhood. This has been the easiest app to use, learn from, and grow my investments. It's user-friendly, great for beginners, intermediate and/or advanced users.",
+   "Robinhood makes trading easy with an easy interface, fractional shares, and no trading commissions.",
+   "I would not suggest Robin- Hood for anybody that is a beginner trader, there are no tutorials to learn from it's all reading, it's also very difficult to close your account."
+  ],
+  "n_reviews": 368,
+  "avg_rating": 4.744565,
+  "mean_thumbsup": 2.3967,
+  "delta_rating_app": 1.108018,
+  "apps_present": {
+   "Robinhood": 365,
+   "Coinbase": 1,
+   "Trading 212": 2
+  },
+  "frac_recent_third": 0.3234,
+  "median_review_date": "2025-04-11",
+  "reach_score": 6,
+  "engagement_score": 6,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "2",
+  "title": "Cross-Platform Praise for Ease of Onboarding New Investors",
+  "description": "A majority of sampled reviews (69%, 104/150), spanning Robinhood (97), Trading 212 (36), and Coinbase (17), describe the respective app as easy and welcoming for first-time or novice investors, often mentioning built-in tutorials or educational content. This spans multiple apps rather than being specific to one platform.",
+  "quotes": [
+   "Great platform, super easy to setup-&-use app even for non-trading professionals like me and the Pies are a blessing to make decent amount of money over a short period of time.",
+   "Excellent app for trading stocks, options, futures, and crypto. It's super-easy to get started, and it walks you through everything.",
+   "I was honestly always skeptical about using an investing application, but this has been absolutely fantastic and is really easy to use."
+  ],
+  "n_reviews": 1302,
+  "avg_rating": 4.701997,
+  "mean_thumbsup": 1.2573,
+  "delta_rating_app": 0.990583,
+  "apps_present": {
+   "Robinhood": 782,
+   "Trading 212": 381,
+   "Coinbase": 139
+  },
+  "frac_recent_third": 0.2995,
+  "median_review_date": "2025-04-15",
+  "reach_score": 9,
+  "engagement_score": 5,
+  "severity_score": 2,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "3",
+  "title": "Learn-and-Earn Educational Rewards Praised as Standout Onboarding Feature",
+  "description": "An overwhelming majority of sampled reviews (85%, 119/140), across both Coinbase and Robinhood, praise a 'Learn and Earn' style feature that pays new users in crypto or cash for completing short educational lessons and quizzes, describing it as fun, motivating, and a low-risk way to build confidence. A small minority report the feature paying out incorrectly, being discontinued, or requiring a paid membership.",
+  "quotes": [
+   "This app is actually very simple to use, I love it. (That's what she said) this app also let's you earn as you learn. Awesome app!",
+   "The learn feature with it's lessons and rewards is excellent!!!",
+   "They have learn and earn rewards and almost every quest I completed I had to contact support to get paid part of the rewards and half the time they didn't even pay me for them"
+  ],
+  "n_reviews": 140,
+  "avg_rating": 4.792857,
+  "mean_thumbsup": 0.3429,
+  "delta_rating_app": 1.144891,
+  "apps_present": {
+   "Coinbase": 105,
+   "Robinhood": 30,
+   "Trading 212": 5
+  },
+  "frac_recent_third": 0.0714,
+  "median_review_date": "2025-01-17",
+  "reach_score": 4,
+  "engagement_score": 3,
+  "severity_score": 1,
+  "recency_score": 2,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "4",
+  "title": "Broad, Terse Praise for Beginner-Friendliness Across All Three Apps",
+  "description": "A strong majority of sampled reviews (81%, 122/150) are short positive statements calling the app easy, simple, or beginner-friendly, spread fairly evenly across Coinbase (65), Robinhood (68), and Trading 212 (17); about two in five of the sample (61/150) use the explicit word 'beginner', 'novice', or 'newbie'. A small number of reviews (4/150) push back, saying the app lacks sufficient explanation or educational help for newcomers.",
+  "quotes": [
+   "This is a great app for beginners and novices alike. This app has been a godsend for me. I recomend it to everyone!",
+   "Easy to use and understand especially for beginners",
+   "When you need help, Noone will help you. Very difficult for beginners with no help."
+  ],
+  "n_reviews": 1399,
+  "avg_rating": 4.739099,
+  "mean_thumbsup": 0.1201,
+  "delta_rating_app": 1.061804,
+  "apps_present": {
+   "Coinbase": 585,
+   "Trading 212": 217,
+   "Robinhood": 597
+  },
+  "frac_recent_third": 0.2102,
+  "median_review_date": "2025-03-04",
+  "reach_score": 9,
+  "engagement_score": 2,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "PREDICTION_MARKETS",
+  "cluster_id": "0",
+  "title": "Prediction markets split opinion between fun feature and gambling worry",
+  "description": "Reviews mentioning the new prediction/event-contract markets (mostly on Robinhood) are genuinely divided: a large share explicitly call it gambling or a casino and express discomfort mixing it with investing, while a comparable or larger share describe it positively as a fun, profitable addition -- this is a mixed cluster, not a one-sided complaint.",
+  "quotes": [
+   "Be careful with \"predictions\"... this is pure gambling.",
+   "I do wish that you could disable the prediction market. I don't really like having gambling next to investments.",
+   "I've had this app for 9 years. Great investing app with no stock fees and prediction markets. Easy to use and works great on mobile"
+  ],
+  "n_reviews": 128,
+  "avg_rating": 3.679688,
+  "mean_thumbsup": 1.5547,
+  "delta_rating_app": 0.027554,
+  "apps_present": {
+   "Robinhood": 98,
+   "Coinbase": 22,
+   "Trading 212": 8
+  },
+  "frac_recent_third": 0.5625,
+  "median_review_date": "2026-02-17",
+  "reach_score": 4,
+  "engagement_score": 5,
+  "severity_score": 4,
+  "recency_score": 6,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "PREDICTION_MARKETS",
+  "cluster_id": "1",
+  "title": "Accusations that prediction-market payouts are rigged or withheld",
+  "description": "The dominant pattern in this cluster (nearly all reviews, split between Robinhood and Coinbase) is an allegation that the prediction market itself is manipulated -- that winning positions are not paid out, prices are altered at the last moment, or contracts are closed late to favor the house -- rather than a general gambling complaint.",
+  "quotes": [
+   "rigged and manipulated prediction market. buyer beware. they will close a prediction late to recover their own losses.",
+   "prediction markets are a scam. Users beware. They take your money and don't pay the contract when you are correct.",
+   "Used the prediction market and was deceived by CoinBase's graphs. The app was running awful with lag time of predictions causing my order to fall."
+  ],
+  "n_reviews": 44,
+  "avg_rating": 1.113636,
+  "mean_thumbsup": 4.4545,
+  "delta_rating_app": -2.523884,
+  "apps_present": {
+   "Robinhood": 22,
+   "Coinbase": 22
+  },
+  "frac_recent_third": 0.9545,
+  "median_review_date": "2026-04-18",
+  "reach_score": 2,
+  "engagement_score": 8,
+  "severity_score": 10,
+  "recency_score": 10,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "PREDICTION_MARKETS",
+  "cluster_id": "2",
+  "title": "Prediction markets forced to the top of the home screen with no way to hide them",
+  "description": "The large majority of this cluster (almost all Robinhood) complains specifically about interface placement -- prediction/event markets and sports betting pushed above stock holdings on the home screen with no toggle to disable or reorder them -- rather than about payout fairness or gambling per se.",
+  "quotes": [
+   "I don't want to see \"prediction markets\" (a.k.a. gambling) and there's no way to hide them (only sports can be hidden)",
+   "while the app is amazing and simple for investment they've added prediction market in the app. This is sports betting and I don't want this to show up every time I open the app. I tried disabling it but there is no setting to disable it.",
+   "Garbage junk sports prediction markets ruined Robinhood. It literally clogs up the screen. They placed that junk above my investments trying to jam force it on me against my will."
+  ],
+  "n_reviews": 76,
+  "avg_rating": 1.828947,
+  "mean_thumbsup": 13.6579,
+  "delta_rating_app": -1.820439,
+  "apps_present": {
+   "Robinhood": 62,
+   "Coinbase": 10,
+   "Trading 212": 4
+  },
+  "frac_recent_third": 0.7763,
+  "median_review_date": "2026-04-11",
+  "reach_score": 2,
+  "engagement_score": 10,
+  "severity_score": 8,
+  "recency_score": 8,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "0",
+  "title": "General praise for platform security",
+  "description": "This cluster is overwhelmingly (the large majority) short, positive reassurance that the app -- mostly Coinbase -- feels 'safe' and 'secure', citing 2FA, identity checks on suspicious activity, and general trust, with almost no negative reports.",
+  "quotes": [
+   "User-friendly for sending/receiving crypto. Good security on app with 2FA. Looking forward to more currency on this platform",
+   "coin base has my back. I'm a novice user. I'm pleased that they check my identity when they see suspicious activity.",
+   "ease of use is key and on a personal note coinbase one account security system alerted me in the nick of time as I was almost hacked and the hacker was targeting my xrp, now I use a security key"
+  ],
+  "n_reviews": 189,
+  "avg_rating": 4.825397,
+  "mean_thumbsup": 3.2116,
+  "delta_rating_app": 1.176626,
+  "apps_present": {
+   "Coinbase": 160,
+   "Trading 212": 7,
+   "Robinhood": 22
+  },
+  "frac_recent_third": 0.2116,
+  "median_review_date": "2025-04-09",
+  "reach_score": 4,
+  "engagement_score": 7,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "1",
+  "title": "Positive security sentiment alongside specific lock-screen and auth gaps",
+  "description": "Like the previous cluster, most reviews here are brief positive praise of security ('secure', 'safe'), but this cluster also contains a distinct recurring minority pattern (roughly a tenth of reviews) of specific, concrete complaints: the account balance briefly flashing on screen before the PIN/biometric lock appears, and requests for missing options such as auto-logout or authenticator-app/passkey support.",
+  "quotes": [
+   "Best Crypto app available. Easy&Secure!",
+   "My one concern is when I open the app which is secured with biometricsc my account homepage is briefly shown before the biometrics screen appears,this then reveals my savings amount.",
+   "the app should auto logout when you close it. this is a poor security feature and I can't see a way to enable it. every other banking app auto logs out either immediately or after about 5 minutes but this can stay logged in indefinitely."
+  ],
+  "n_reviews": 346,
+  "avg_rating": 4.176301,
+  "mean_thumbsup": 1.0954,
+  "delta_rating_app": 0.515928,
+  "apps_present": {
+   "Coinbase": 256,
+   "Robinhood": 61,
+   "Trading 212": 29
+  },
+  "frac_recent_third": 0.211,
+  "median_review_date": "2025-04-11",
+  "reach_score": 6,
+  "engagement_score": 4,
+  "severity_score": 3,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "2",
+  "title": "Robinhood accounts hacked with unresponsive support",
+  "description": "The large majority of this cluster (almost exclusively Robinhood) describes an account being hacked or funds stolen, followed by an inability to reach effective customer support to recover the money or the account, often over many weeks.",
+  "quotes": [
+   "I had roughly 15k stolen from my account. Robinhood chat PERSONALLY gave the hacker the money on a Sunday morning!. Robinhood will lock your account, you will have ZERO options of contacting Robinhood.",
+   "Robinhood is not a safe place for your money. Use at your own risk. There's no legitimate customer service support. if you have an issue with your account being hacked they will not transfer you to someone who can help.",
+   "2 factor authentication with authenticator apps has been quietly removed without warning causing me to lose trust in the company. I've been getting authentication requests via text message and device approvals which I never selected."
+  ],
+  "n_reviews": 91,
+  "avg_rating": 1.263736,
+  "mean_thumbsup": 2.4945,
+  "delta_rating_app": -2.382878,
+  "apps_present": {
+   "Robinhood": 85,
+   "Trading 212": 4,
+   "Coinbase": 2
+  },
+  "frac_recent_third": 0.3736,
+  "median_review_date": "2025-08-30",
+  "reach_score": 3,
+  "engagement_score": 6,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "3",
+  "title": "Refusal to hand over SSN, ID, or bank login during onboarding",
+  "description": "Nearly all reviews in this cluster are onboarding/KYC privacy objections -- reviewers refusing or balking at requests for a Social Security number, government ID, or bank-login access via Plaid, and often uninstalling as a result -- distinct from clusters about accounts actually being compromised.",
+  "quotes": [
+   "Weird, you want me to send my Government ID to a stranger to be verified? A stranger is getting my information to be verified? Not like a bank with face to face interaction, but a real stranger I can't see? Yeah that's a HARD NO for me.",
+   "I'm not about to trust some random third party called Plaid with my BANK ACCOUNT LOGIN DETAILS. This is insane",
+   "Requires SSN, it's against federal law to force someone to give their social security number"
+  ],
+  "n_reviews": 90,
+  "avg_rating": 1.4,
+  "mean_thumbsup": 0.5778,
+  "delta_rating_app": -2.263363,
+  "apps_present": {
+   "Trading 212": 9,
+   "Robinhood": 37,
+   "Coinbase": 44
+  },
+  "frac_recent_third": 0.2,
+  "median_review_date": "2025-04-23",
+  "reach_score": 2,
+  "engagement_score": 3,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "4",
+  "title": "Mandatory face/video selfie verification locking users out",
+  "description": "Almost every review in this cluster (Trading 212, Robinhood, and Coinbase) objects specifically to forced facial-recognition or video-selfie verification -- often required just to withdraw funds or re-trust a device -- describing it as invasive and, in many cases, as something that locked them out of their own money.",
+  "quotes": [
+   "Why is it asking for my face? I have given you my PIN and my two-factor authentication. Can't access my account without a privacy violation.",
+   "I need to scan my face to use the app, what!? So sending you bank statements to prove I'm real is not enough, now you also want my face?",
+   "This app has only gotten worse over the years. Now, you have to take a live photo of yourself every single time you make a withdraw. F these guys."
+  ],
+  "n_reviews": 81,
+  "avg_rating": 1.259259,
+  "mean_thumbsup": 4.6173,
+  "delta_rating_app": -2.485569,
+  "apps_present": {
+   "Trading 212": 34,
+   "Coinbase": 17,
+   "Robinhood": 30
+  },
+  "frac_recent_third": 0.3704,
+  "median_review_date": "2025-11-10",
+  "reach_score": 2,
+  "engagement_score": 8,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "5",
+  "title": "Coinbase accounts drained with no reimbursement",
+  "description": "Nearly all reviews here (almost exclusively Coinbase) describe funds or crypto being stolen from the account -- via hacking, SIM-swap, or unauthorized transfers -- followed by Coinbase declining to reimburse or resolve the case, the Coinbase counterpart to the Robinhood-hacking cluster elsewhere in this category.",
+  "quotes": [
+   "Big warning to everyone! I had funds in my account, and despite ALL the So-called security and Two factors authentication, all my funds were still stolen!",
+   "Horrible security. If you want to risk losing all your crypto then get this app. Someone hacked into my email, reset my password, changed my my email address, and coinbase did nothing to stop them.",
+   "if you value your security please do not use this app. July 31st , 2025 an unauthorized withdrawal of over 4000 dollars was taken. coinbase has no intentions of reeimbursing me."
+  ],
+  "n_reviews": 250,
+  "avg_rating": 1.312,
+  "mean_thumbsup": 4.516,
+  "delta_rating_app": -2.328606,
+  "apps_present": {
+   "Coinbase": 232,
+   "Robinhood": 17,
+   "Trading 212": 1
+  },
+  "frac_recent_third": 0.224,
+  "median_review_date": "2025-06-24",
+  "reach_score": 5,
+  "engagement_score": 8,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "6",
+  "title": "No way to reach support once locked out or hacked",
+  "description": "The dominant pattern in this cluster (split across Robinhood and Coinbase) is a specific catch-22: reviewers who suspect fraud or are locked out find there is no phone line or live agent, and any support channel that exists requires logging into the very account they cannot access.",
+  "quotes": [
+   "there is no customer support, if you forget your password if you change device and you need assistance, they tell you to log in to get assistance. it is absolutely impossible",
+   "If you have issues with app you get absolutely no help! I believe I was hacked and now locked out of app and you have to have access to app to get help. How does that work?",
+   "Impossible to report on the options listed given that you have to 1) Login to the account to report issues, 2) Be on the same phone associated with the account to lock it, or 3) Have very specific non-scam related options they can deal with instead."
+  ],
+  "n_reviews": 30,
+  "avg_rating": 1.066667,
+  "mean_thumbsup": 3.3333,
+  "delta_rating_app": -2.569736,
+  "apps_present": {
+   "Robinhood": 22,
+   "Coinbase": 8
+  },
+  "frac_recent_third": 0.2667,
+  "median_review_date": "2025-05-28",
+  "reach_score": 1,
+  "engagement_score": 8,
+  "severity_score": 10,
+  "recency_score": 3,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "7",
+  "title": "Accounts hacked and recovery blocked, sometimes via a changed phone/email on file",
+  "description": "This cluster is a mix of account-takeover and lockout reports. A minority of the sampled reviews (roughly 2-6 of 34, depending on how loosely the language is read) describe the specific mechanism of an attacker or a forced re-verification changing the phone number or email on file, blocking the legitimate owner's recovery. The majority of the cluster's reviews report being hacked or locked out in more generic terms, without stating that specific mechanism -- meaning this cluster overlaps substantially with the broader 'account hacked, support unresponsive' pattern seen elsewhere in SECURITY_PRIVACY rather than being as narrowly distinct as the original description implied.",
+  "quotes": [
+   "Can't login because I changed my phone number. The only way to recover your account is with a phone number, so if that changes, you can't access your account unless you upload your ID",
+   "The number on my account isnt the one i got texted on, its an old number i dont have access anymore. I cant lock the account because the tect verifications dont come through. I cant change the information because I need to have my old number that I dont use to verify. Im completely stuck. My account is hacked.",
+   "my account was hacked and I've tried getting in touch with someone but I've had no luck. But the guy stole $2800 from me and now I'm locked out of my account. He's changed the password and phone number so I don't know what to do to regain my account or my money"
+  ],
+  "n_reviews": 34,
+  "avg_rating": 1.441176,
+  "mean_thumbsup": 2.9706,
+  "delta_rating_app": -2.196204,
+  "apps_present": {
+   "Robinhood": 18,
+   "Coinbase": 16
+  },
+  "frac_recent_third": 0.3529,
+  "median_review_date": "2025-10-30",
+  "reach_score": 1,
+  "engagement_score": 6,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 6
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "8",
+  "title": "Terse hacked/scam complaints and a minority of phantom app installs",
+  "description": "Most reviews in this cluster are brief, low-detail one-liners alleging hacking, scams, or data breaches without much narrative; a smaller but recurring minority (a handful of reviews) specifically report the Trading 212 app mysteriously appearing or installing itself on a device without the reviewer ever creating an account.",
+  "quotes": [
+   "APP INSTALLED BY ITSELF ON MY DEVICE. Google Pixel 9a lol. just had notification that app installed itself. I don't have 212 account, never went to its website and so on.",
+   "you let someone else hack my account and change All my passwords and email and phone number",
+   "continuous data breaches! last one in Feb of 2025. This isn't the first time this has happened."
+  ],
+  "n_reviews": 94,
+  "avg_rating": 1.553191,
+  "mean_thumbsup": 0.9255,
+  "delta_rating_app": -2.098969,
+  "apps_present": {
+   "Trading 212": 5,
+   "Coinbase": 64,
+   "Robinhood": 25
+  },
+  "frac_recent_third": 0.2234,
+  "median_review_date": "2025-06-20",
+  "reach_score": 3,
+  "engagement_score": 4,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "9",
+  "title": "Unauthorized fund withdrawals with no refund, mostly on Coinbase",
+  "description": "This small cluster (predominantly Coinbase) reports unauthorized withdrawals or account draining with the company declining to refund or investigate. Some reviews cite a specific dollar amount taken; most describe money or crypto being stolen without citing a figure. Thematically close to the larger, better-supported cluster 5 ('Coinbase accounts drained with no reimbursement') in this same category, with which it substantially overlaps.",
+  "quotes": [
+   "Very disapointed. someone hacked in my account and they didn't do anything to get my money back",
+   "Terrible security. I had 2 factor login security and they still allowed an out of state hacker to steal my savings.",
+   "stolen from me $3187.00 and wells fargo bank is in on it. transaction was to Romania. unreal!!!"
+  ],
+  "n_reviews": 28,
+  "avg_rating": 1.392857,
+  "mean_thumbsup": 0.6071,
+  "delta_rating_app": -2.25528,
+  "apps_present": {
+   "Coinbase": 22,
+   "Robinhood": 5,
+   "Trading 212": 1
+  },
+  "frac_recent_third": 0.25,
+  "median_review_date": "2025-08-16",
+  "reach_score": 1,
+  "engagement_score": 3,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "TRADE_EXECUTION",
+  "cluster_id": "0",
+  "title": "Generally positive trade execution, with requests for more order types",
+  "description": "A majority of sampled reviews describe placing trades (stocks, options, crypto) as fast, easy, and reliable overall, but a substantial minority raise specific execution gaps as recurring pain points, most often requests for trailing stop-loss or additional limit-order controls, wide spreads, or instances of trades being blocked/restricted.",
+  "quotes": [
+   "Easy to navigate. Fast trades. Trustworthy platform.",
+   "I want to do a trailing stop loss on shares which you only do in cfds. this would be amazing if it was implemented",
+   "Gave it 4 at first.. but once they started Blocking trades. Had to edit"
+  ],
+  "n_reviews": 502,
+  "avg_rating": 4.237052,
+  "mean_thumbsup": 2.6653,
+  "delta_rating_app": 0.554565,
+  "apps_present": {
+   "Coinbase": 98,
+   "Robinhood": 314,
+   "Trading 212": 90
+  },
+  "frac_recent_third": 0.3008,
+  "median_review_date": "2025-05-14",
+  "reach_score": 7,
+  "engagement_score": 6,
+  "severity_score": 3,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "TRADE_EXECUTION",
+  "cluster_id": "1",
+  "title": "Blocked trades, price slippage, and unreliable stop-loss execution",
+  "description": "The large majority of sampled reviews in this cluster describe serious trade-execution failures: orders filling at a worse price than shown or set, stop-loss/limit orders not triggering correctly, or accounts being restricted from buying or selling at critical moments, frequently described as directly costing the reviewer money. This is a much more uniformly negative cluster than the companion trade-execution cluster, which was execution complaints mixed with substantial positive sentiment.",
+  "quotes": [
+   "When you buy or sell shares they do not execute at the price it shows or that you set a limit on.",
+   "Stop loss doesn't always work. You don't get out of option plays on time.",
+   "Logged in today to find out robinhood didn't want me holding soundhound ai and they sold all my shares at a loss with no warning, no good reason, and without my approval."
+  ],
+  "n_reviews": 1372,
+  "avg_rating": 1.615889,
+  "mean_thumbsup": 9.6144,
+  "delta_rating_app": -2.05763,
+  "apps_present": {
+   "Trading 212": 195,
+   "Robinhood": 722,
+   "Coinbase": 455
+  },
+  "frac_recent_third": 0.2631,
+  "median_review_date": "2025-06-10",
+  "reach_score": 9,
+  "engagement_score": 10,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "0",
+  "title": "Coinbase (and peers) widely described as trustworthy and well-regulated",
+  "description": "The large majority of sampled reviews, mostly about Coinbase, describe the platform as trustworthy, safe, or well-regulated, with many reviewers naming it as the only exchange they trust; in this particular cluster, trust-related complaints are a minority.",
+  "quotes": [
+   "Coinbase is trust worthy.",
+   "Safest centralized crypto exchange in the US. You can put your faith in Coinbase.",
+   "Coinbase is highly secure and user friendly and is regulated in the USA."
+  ],
+  "n_reviews": 194,
+  "avg_rating": 4.582474,
+  "mean_thumbsup": 1.634,
+  "delta_rating_app": 0.912128,
+  "apps_present": {
+   "Robinhood": 41,
+   "Coinbase": 129,
+   "Trading 212": 24
+  },
+  "frac_recent_third": 0.2732,
+  "median_review_date": "2025-05-26",
+  "reach_score": 5,
+  "engagement_score": 5,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "1",
+  "title": "Lasting distrust from Robinhood's 2021 GameStop trading restriction",
+  "description": "This Robinhood-only cluster is almost entirely about the January 2021 GameStop/meme-stock trading halt: the large majority of sampled reviews say they still do not trust Robinhood because of it, years later.",
+  "quotes": [
+   "I will never forget what you clowns pulled with GameStop.",
+   "I used to like Robinhood, but the GameStop stock freeze was a huge letdown. Limiting trades during the pump felt like market manipulation, and it hurt trust in the platform.",
+   "Never forget gamestop."
+  ],
+  "n_reviews": 65,
+  "avg_rating": 1.6,
+  "mean_thumbsup": 0.6154,
+  "delta_rating_app": -2.035126,
+  "apps_present": {
+   "Robinhood": 65
+  },
+  "frac_recent_third": 0.2154,
+  "median_review_date": "2025-04-10",
+  "reach_score": 2,
+  "engagement_score": 4,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 2
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "2",
+  "title": "Perceived market manipulation and unfair trade restrictions (mostly Robinhood)",
+  "description": "A majority of sampled reviews, almost all about Robinhood, accuse the platform of manipulating prices or order fills, restricting trading to protect large institutions or hedge funds, or freezing accounts and orders unfairly.",
+  "quotes": [
+   "Everything about the stock options is rigged .",
+   "Price scalping their clients. Front running options so they always get .05 off your contracts.",
+   "Freezes trading to prevent customers from realizing gains."
+  ],
+  "n_reviews": 513,
+  "avg_rating": 1.62768,
+  "mean_thumbsup": 3.2554,
+  "delta_rating_app": -2.036938,
+  "apps_present": {
+   "Robinhood": 432,
+   "Trading 212": 58,
+   "Coinbase": 23
+  },
+  "frac_recent_third": 0.2788,
+  "median_review_date": "2025-06-21",
+  "reach_score": 7,
+  "engagement_score": 7,
+  "severity_score": 9,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "3",
+  "title": "Widespread 'scam' and theft accusations, overwhelmingly about Coinbase",
+  "description": "A large majority of sampled reviews, overwhelmingly about Coinbase, explicitly call the platform a scam or accuse it of stealing, locking, or refusing to return customers' funds.",
+  "quotes": [
+   "AWFUL COINBASE STOLE 16000 DOLLARS FROM ME AND THERE TRYING TO NOT PAY ME MY MONEY BACK",
+   "Coinbase is an internet fraud organization. They are theives. They stole my money.",
+   "SCAM ALERT!! Never Deposit in this App! or your money is gone forever!"
+  ],
+  "n_reviews": 1282,
+  "avg_rating": 1.26131,
+  "mean_thumbsup": 2.9774,
+  "delta_rating_app": -2.39306,
+  "apps_present": {
+   "Coinbase": 880,
+   "Robinhood": 323,
+   "Trading 212": 79
+  },
+  "frac_recent_third": 0.2738,
+  "median_review_date": "2025-06-27",
+  "reach_score": 8,
+  "engagement_score": 7,
+  "severity_score": 9,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "0",
+  "title": "Generic 'Easy to use' one-liners",
+  "description": "Nearly all of the sampled reviews in this cluster consist of the identical brief phrase 'Easy to use' (or trivial case/spelling variants), spread across Coinbase, Robinhood, and Trading 212, with no elaboration on which feature is easy. It reflects blanket usability praise rather than a specific, describable pattern.",
+  "quotes": [
+   "Easy to use",
+   "EASY TO USE",
+   "Easy and transparent to use"
+  ],
+  "n_reviews": 310,
+  "avg_rating": 4.932258,
+  "mean_thumbsup": 0.0194,
+  "delta_rating_app": 1.281713,
+  "apps_present": {
+   "Robinhood": 108,
+   "Coinbase": 187,
+   "Trading 212": 15
+  },
+  "frac_recent_third": 0.0806,
+  "median_review_date": "2024-12-28",
+  "reach_score": 6,
+  "engagement_score": 2,
+  "severity_score": 1,
+  "recency_score": 2,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "1",
+  "title": "Generic 'easy to use' one-liners (lowercase variant)",
+  "description": "Like its sibling cluster, virtually all sampled reviews here are the same short phrase 'easy to use' (lowercase), with only minor wording variants such as 'easy to use system' or 'easy to handle'. These carry no specific detail about what makes the app easy to use.",
+  "quotes": [
+   "easy to use",
+   "Smoth and easy to use",
+   "Easy for an Ole farther to use"
+  ],
+  "n_reviews": 266,
+  "avg_rating": 4.868421,
+  "mean_thumbsup": 0.0075,
+  "delta_rating_app": 1.169677,
+  "apps_present": {
+   "Trading 212": 63,
+   "Coinbase": 127,
+   "Robinhood": 76
+  },
+  "frac_recent_third": 0.3158,
+  "median_review_date": "2025-08-26",
+  "reach_score": 5,
+  "engagement_score": 1,
+  "severity_score": 1,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "2",
+  "title": "Short praise for the app's overall usability",
+  "description": "A large majority of the sampled reviews are brief, generically positive comments praising the app as easy, simple, or intuitive, usually just one short phrase or sentence with no specifics. A smaller minority pair this praise with a specific usability gripe, such as a cluttered screen, slow-loading advanced features, or a wish for more detailed charts.",
+  "quotes": [
+   "Easy to use. No issues on my end. Great support.",
+   "The most advanced app, full of options but easy to use at the same time.",
+   "easy to use, informative, prompt."
+  ],
+  "n_reviews": 5239,
+  "avg_rating": 4.892346,
+  "mean_thumbsup": 0.3386,
+  "delta_rating_app": 1.200873,
+  "apps_present": {
+   "Robinhood": 1765,
+   "Trading 212": 1096,
+   "Coinbase": 2378
+  },
+  "frac_recent_third": 0.255,
+  "median_review_date": "2025-05-01",
+  "reach_score": 10,
+  "engagement_score": 3,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "3",
+  "title": "UI/UX updates that broke navigation and hid features",
+  "description": "A large majority of the sampled reviews complain that a recent app update made the app harder to navigate: menus moved or hidden behind extra taps, features removed (watchlists, total-invested figures, open-order summaries), broken back-button behavior, or a generally more cluttered layout. A minority instead describe navigation as difficult in general, without tying it to a specific update.",
+  "quotes": [
+   "The app used to be good and everything was easily accessible, now each update ruins it by hiding features that were easy to access behind additional clicks.",
+   "T212 have been constantly making unnecessary changes to the UI that make the app nearly unusable.",
+   "App update is horrible. The new UI is an incoherent mess. Avoid if you can."
+  ],
+  "n_reviews": 1987,
+  "avg_rating": 2.233015,
+  "mean_thumbsup": 5.3342,
+  "delta_rating_app": -1.499227,
+  "apps_present": {
+   "Coinbase": 605,
+   "Trading 212": 734,
+   "Robinhood": 648
+  },
+  "frac_recent_third": 0.3775,
+  "median_review_date": "2025-08-18",
+  "reach_score": 9,
+  "engagement_score": 9,
+  "severity_score": 7,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "4",
+  "title": "Coinbase praised as easy to use, especially for beginners",
+  "description": "The large majority of the sampled reviews, almost all about Coinbase, praise the app as easy, intuitive, and beginner-friendly, often citing its educational content and simple navigation. A minority of these otherwise-positive reviews also flag a specific downside, most often high fees or an occasional technical glitch.",
+  "quotes": [
+   "Coinbase is a solid app for buying and managing crypto. It\u2019s easy to use, even for beginners, and transactions are quick and secure. However, the fees can be a bit high compared to other platforms. Overall, it\u2019s reliable and user-friendly!",
+   "carefully structured, organized and a clear visual hierarchy makes Coinbase truly a user-friendly and intuitive experience.",
+   "The user interface is simple and easy to navigate, making it a great entry point for those new to crypto."
+  ],
+  "n_reviews": 432,
+  "avg_rating": 4.884259,
+  "mean_thumbsup": 3.9606,
+  "delta_rating_app": 1.24329,
+  "apps_present": {
+   "Coinbase": 419,
+   "Robinhood": 11,
+   "Trading 212": 2
+  },
+  "frac_recent_third": 0.2176,
+  "median_review_date": "2025-04-30",
+  "reach_score": 7,
+  "engagement_score": 8,
+  "severity_score": 1,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "5",
+  "title": "Buying, selling, and trading crypto described as easy",
+  "description": "Nearly all of the sampled reviews in this cluster specifically praise how easy and fast it is to buy, sell, or trade crypto within the app (predominantly Coinbase, with some Robinhood). A small minority mention friction, most concretely low deposit limits; a couple of reviews separately mention difficulty withdrawing certain crypto assets out of the app entirely, which is a different problem from a processing delay.",
+  "quotes": [
+   "Terrific crypto platform. 5 stars easily. Extremely user friendly. Makes crypto buying/selling/trading a breeze.",
+   "best and easiest app for crypto no delays on selling buying or withdraw",
+   "easiest way to buy and trade crypto"
+  ],
+  "n_reviews": 338,
+  "avg_rating": 4.769231,
+  "mean_thumbsup": 1.4763,
+  "delta_rating_app": 1.12862,
+  "apps_present": {
+   "Coinbase": 279,
+   "Robinhood": 57,
+   "Trading 212": 2
+  },
+  "frac_recent_third": 0.1834,
+  "median_review_date": "2025-03-10",
+  "reach_score": 6,
+  "engagement_score": 5,
+  "severity_score": 2,
+  "recency_score": 3,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "6",
+  "title": "Investing and trading described as easy across apps",
+  "description": "A large majority of the sampled reviews, spanning Robinhood, Trading 212, and Coinbase, praise how easy and beginner-friendly investing or trading is on the app, often crediting a clean interface or a quick account setup. A small minority pair this praise with a specific limitation, most commonly slow or limited chart loading.",
+  "quotes": [
+   "Best trading app for beginners and experienced investors or traders, Best user interface with tips that show what you can do, very secure login system, and allows investments to be easy.",
+   "The app is really user friendly. it was quick and simple to set up a stock and shares isa and I love how easy it is to deposit money and buy the shares you want.",
+   "I find this trading platform quite intuitive and beginner friendly. The UI is very clean and simple."
+  ],
+  "n_reviews": 1676,
+  "avg_rating": 4.813246,
+  "mean_thumbsup": 2.0072,
+  "delta_rating_app": 1.09,
+  "apps_present": {
+   "Coinbase": 288,
+   "Robinhood": 823,
+   "Trading 212": 565
+  },
+  "frac_recent_third": 0.3425,
+  "median_review_date": "2025-05-19",
+  "reach_score": 9,
+  "engagement_score": 5,
+  "severity_score": 1,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "7",
+  "title": "Robinhood praised as the easiest, most user-friendly platform",
+  "description": "Virtually all of the sampled reviews in this cluster are Robinhood-specific testimonials describing it as the easiest or most user-friendly trading/investing app the reviewer has used, frequently in direct comparison to competitors like Fidelity, Schwab, or Webull. Complaints are rare and, when present, appear only as minor asides within an otherwise positive review.",
+  "quotes": [
+   "I\u2019ve had an excellent experience using Robinhood. The platform is extremely user-friendly, especially for anyone looking to get into investing or trading without feeling overwhelmed.",
+   "Robinhood stands out as the most effective financial app available. The interface is genuinely intuitive, allowing efficient navigation between positions, watchlists, and trade execution.",
+   "I can't believe Robinhood is still the most user friendly brokerage after all this time."
+  ],
+  "n_reviews": 408,
+  "avg_rating": 4.811275,
+  "mean_thumbsup": 2.1593,
+  "delta_rating_app": 1.17549,
+  "apps_present": {
+   "Robinhood": 405,
+   "Coinbase": 2,
+   "Trading 212": 1
+  },
+  "frac_recent_third": 0.3529,
+  "median_review_date": "2025-04-19",
+  "reach_score": 7,
+  "engagement_score": 6,
+  "severity_score": 1,
+  "recency_score": 4,
+  "cross_platform_score": 10
+ }
+]

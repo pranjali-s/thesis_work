@@ -1,0 +1,41 @@
+{
+ "n_clusters": 77,
+ "n_positive": 0,
+ "n_negative": 77,
+ "feature_names": [
+  "n_reviews",
+  "avg_rating",
+  "delta_rating_app",
+  "n_distinct_app_versions"
+ ],
+ "variants": {
+  "no_smote": {
+   "accuracy": 1.0,
+   "precision_pos": null,
+   "recall_pos": null,
+   "f1_pos": null,
+   "roc_auc": null,
+   "confusion_matrix": [
+    [
+     77,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "note": "Positive-class metrics and ROC-AUC are undefined with 0 positive examples."
+  },
+  "smote_k1": {
+   "note": "SMOTE could not be run: it requires at least 1 minority-class example to interpolate from (k_neighbors>=1), and this run's E2 ground truth has 0. No SMOTE variant exists for this run."
+  }
+ },
+ "feature_importances_full_fit": {
+  "n_reviews": 0.0,
+  "avg_rating": 0.0,
+  "delta_rating_app": 0.0,
+  "n_distinct_app_versions": 0.0
+ },
+ "headline_finding": "BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no positive class whatsoever (0/77), a more severe degeneration of the same problem the original run already found at 2/65."
+}

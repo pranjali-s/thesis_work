@@ -1,0 +1,38 @@
+{
+ "n_clusters": 77,
+ "n_positive_e2": 0,
+ "methods": {
+  "rubric": {
+   "precision_at_k": null,
+   "mrr": null,
+   "spearman_vs_ground_truth": null,
+   "note": "Undefined: E2 ground truth has 0 positive examples this run, so there is nothing for Precision@k/MRR to find and no variance in the label for Spearman correlation to be computed against (not zero -- mathematically undefined)."
+  },
+  "bl1": {
+   "precision_at_k": null,
+   "mrr": null,
+   "spearman_vs_ground_truth": null,
+   "note": "Undefined: E2 ground truth has 0 positive examples this run, so there is nothing for Precision@k/MRR to find and no variance in the label for Spearman correlation to be computed against (not zero -- mathematically undefined)."
+  },
+  "bl2": {
+   "excluded_from_ranking_analysis": true,
+   "reason": "BL2's Random Forest was trained on an all-negative target (0/77 positives) and has a single-class predict_proba output -- every cluster receives an identical score, so it carries no rank information to correlate against anything. This is a direct consequence of BL2's headline finding: BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no positive class whatsoever (0/77), a more severe degeneration of the same problem the original run already found at 2/65."
+  }
+ },
+ "pairwise_correlations": {
+  "rubric_vs_bl1": {
+   "rho": 0.4078,
+   "p": 0.00023182041276921352
+  },
+  "rubric_vs_bl2": {
+   "rho": null,
+   "p": null,
+   "note": "Undefined -- BL2 output has zero variance this run (see above)."
+  },
+  "bl1_vs_bl2": {
+   "rho": null,
+   "p": null,
+   "note": "Undefined -- BL2 output has zero variance this run (see above)."
+  }
+ }
+}

@@ -1,0 +1,11 @@
+Joined 77 clusters on (category, cluster_id) -- exact key match confirmed.
+Target label e2_matched: 0 positive / 77 negative out of 77 (0.0% positive).
+
+ZERO positive examples in this run's E2 ground truth.
+A classifier cannot learn a positive-class decision boundary from zero positive examples -- this is not a training failure, it is a direct, mechanical consequence of the label distribution. Precision/recall/F1 for the positive class and ROC-AUC are UNDEFINED (not zero, not computable) with no positive examples to score against.
+Running LOOCV anyway to report accuracy / confusion matrix for transparency, and to confirm the model does exactly what a 0-positive label set implies: predicts negative for every held-out cluster.
+LOOCV accuracy: 1.0000 (trivially 1.0 if the model predicts 0 for every cluster, which is the only thing it CAN learn from an all-negative training set)
+Confusion matrix [[TN FP][FN TP]]: [[77, 0], [0, 0]]
+Feature importances (single fit, all-negative target -- not meaningful, reported for transparency only): {'n_reviews': 0.0, 'avg_rating': 0.0, 'delta_rating_app': 0.0, 'n_distinct_app_versions': 0.0}
+
+Wrote bl2_metadata.json and bl2_predictions.csv

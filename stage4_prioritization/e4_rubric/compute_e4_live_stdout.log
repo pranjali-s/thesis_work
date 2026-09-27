@@ -1,0 +1,8 @@
+Joined 77 clusters on (category, cluster_id) -- exact key match confirmed across rubric, BL1, and E2 sources.
+E2 ground truth: 0 positive / 77 negative out of 77.
+
+Rubric vs. BL1 Spearman rho = 0.4078 (p=0.0002318)
+Rubric vs. BL2 and BL1 vs. BL2: undefined (BL2 output has zero variance this run).
+All ground-truth-based metrics (Precision@k, MRR, Spearman vs. E2) are undefined for all three methods this run: E2 has 0 positive examples.
+
+Wrote e4_results_live.json and e4_rankings_full_live.csv

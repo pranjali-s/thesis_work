@@ -1,0 +1,3 @@
+Reviewed 77 clusters. Matched: 0. Not matched: 77.
+Individually content-verified (fetched real article text): 10 clusters (the highest-scoring / most plausible candidates).
+Remaining clusters: no in-window candidate scored highly enough to warrant an individual content fetch; verdict based on title/description comparison against the candidate list.
