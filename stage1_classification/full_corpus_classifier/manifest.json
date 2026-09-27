@@ -1,0 +1,1057 @@
+{
+  "batch_size": 300,
+  "total_reviews": 53275,
+  "n_batches": 175,
+  "batches": [
+    {
+      "batch_num": 1,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_001.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 2,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_002.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 3,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_003.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 4,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_004.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 5,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_005.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 6,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_006.csv",
+      "n": 311,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 7,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_007.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 8,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_008.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 9,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_009.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 10,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_010.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 11,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_011.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 12,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_012.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 13,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_013.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 14,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_014.csv",
+      "n": 316,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 15,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_015.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 16,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_016.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 17,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_017.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 18,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_018.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 19,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_019.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 20,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_020.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 21,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_021.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 22,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_022.csv",
+      "n": 309,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 23,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_023.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 24,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_024.csv",
+      "n": 311,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 25,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_025.csv",
+      "n": 312,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 26,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_026.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 27,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_027.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 28,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_028.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 29,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_029.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 30,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_030.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 31,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_031.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 32,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_032.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 33,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_033.csv",
+      "n": 318,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 34,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_034.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 35,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_035.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 36,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_036.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 37,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_037.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 38,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_038.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 39,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_039.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 40,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_040.csv",
+      "n": 313,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 41,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_041.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 42,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_042.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 43,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_043.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 44,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_044.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 45,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_045.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 46,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_046.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 47,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_047.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 48,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_048.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 49,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_049.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 50,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_050.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 51,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_051.csv",
+      "n": 309,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 52,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_052.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 53,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_053.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 54,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_054.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 55,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_055.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 56,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_056.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 57,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_057.csv",
+      "n": 312,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 58,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_058.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 59,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_059.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 60,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_060.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 61,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_061.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 62,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_062.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 63,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_063.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 64,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_064.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 65,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_065.csv",
+      "n": 318,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 66,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_066.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 67,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_067.csv",
+      "n": 319,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 68,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_068.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 69,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_069.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 70,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_070.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 71,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_071.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 72,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_072.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 73,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_073.csv",
+      "n": 314,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 74,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_074.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 75,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_075.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 76,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_076.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 77,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_077.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 78,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_078.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 79,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_079.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 80,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_080.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 81,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_081.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 82,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_082.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 83,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_083.csv",
+      "n": 331,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 84,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_084.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 85,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_085.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 86,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_086.csv",
+      "n": 322,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 87,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_087.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 88,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_088.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 89,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_089.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 90,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_090.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 91,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_091.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 92,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_092.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 93,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_093.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 94,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_094.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 95,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_095.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 96,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_096.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 97,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_097.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 98,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_098.csv",
+      "n": 316,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 99,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_099.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 100,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_100.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 101,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_101.csv",
+      "n": 333,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 102,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_102.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 103,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_103.csv",
+      "n": 314,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 104,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_104.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 105,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_105.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 106,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_106.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 107,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_107.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 108,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_108.csv",
+      "n": 311,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 109,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_109.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 110,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_110.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 111,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_111.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 112,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_112.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 113,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_113.csv",
+      "n": 312,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 114,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_114.csv",
+      "n": 314,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 115,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_115.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 116,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_116.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 117,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_117.csv",
+      "n": 327,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 118,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_118.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 119,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_119.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 120,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_120.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 121,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_121.csv",
+      "n": 317,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 122,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_122.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 123,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_123.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 124,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_124.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 125,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_125.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 126,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_126.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 127,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_127.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 128,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_128.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 129,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_129.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 130,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_130.csv",
+      "n": 320,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 131,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_131.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 132,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_132.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 133,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_133.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 134,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_134.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 135,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_135.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 136,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_136.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 137,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_137.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 138,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_138.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 139,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_139.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 140,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_140.csv",
+      "n": 319,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 141,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_141.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 142,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_142.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 143,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_143.csv",
+      "n": 308,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 144,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_144.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 145,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_145.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 146,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_146.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 147,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_147.csv",
+      "n": 307,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 148,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_148.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 149,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_149.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 150,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_150.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 151,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_151.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 152,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_152.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 153,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_153.csv",
+      "n": 303,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 154,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_154.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 155,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_155.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 156,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_156.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 157,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_157.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 158,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_158.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 159,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_159.csv",
+      "n": 311,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 160,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_160.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 161,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_161.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 162,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_162.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 163,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_163.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 164,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_164.csv",
+      "n": 306,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 165,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_165.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 166,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_166.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 167,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_167.csv",
+      "n": 300,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 168,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_168.csv",
+      "n": 309,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 169,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_169.csv",
+      "n": 304,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 170,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_170.csv",
+      "n": 310,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 171,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_171.csv",
+      "n": 301,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 172,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_172.csv",
+      "n": 302,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 173,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_173.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 174,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_174.csv",
+      "n": 305,
+      "status": "verified_done"
+    },
+    {
+      "batch_num": 175,
+      "path": "C:\\Users\\pranj\\AI Projects\\PranjaliThesis\\classification_v2\\batches\\batch_175.csv",
+      "n": 192,
+      "status": "verified_done"
+    }
+  ]
+}
