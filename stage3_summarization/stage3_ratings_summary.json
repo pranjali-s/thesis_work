@@ -1,0 +1,300 @@
+{
+ "completeness_check": {
+  "duplicates": [],
+  "missing": [],
+  "extra": [],
+  "passed": true
+ },
+ "overall": {
+  "n_items": 77,
+  "faithfulness_avg": 4.49,
+  "clarity_avg": 4.55,
+  "usefulness_avg": 3.4
+ },
+ "per_category": {
+  "ACCOUNT_ACCESS_AUTH": {
+   "n_items": 2,
+   "faithfulness_avg": 3.5,
+   "clarity_avg": 4.0,
+   "usefulness_avg": 4.0
+  },
+  "ACCOUNT_LIFECYCLE": {
+   "n_items": 6,
+   "faithfulness_avg": 4.5,
+   "clarity_avg": 4.67,
+   "usefulness_avg": 4.33
+  },
+  "ADVERTISING_NOTIFICATIONS": {
+   "n_items": 3,
+   "faithfulness_avg": 4.67,
+   "clarity_avg": 4.33,
+   "usefulness_avg": 4.33
+  },
+  "APP_STABILITY_PERFORMANCE": {
+   "n_items": 4,
+   "faithfulness_avg": 4.25,
+   "clarity_avg": 4.0,
+   "usefulness_avg": 3.75
+  },
+  "ASSET_COVERAGE": {
+   "n_items": 4,
+   "faithfulness_avg": 4.0,
+   "clarity_avg": 4.25,
+   "usefulness_avg": 3.5
+  },
+  "CHARTING_TOOLS": {
+   "n_items": 2,
+   "faithfulness_avg": 4.0,
+   "clarity_avg": 4.0,
+   "usefulness_avg": 4.0
+  },
+  "CRYPTO_SPECIFIC": {
+   "n_items": 5,
+   "faithfulness_avg": 4.4,
+   "clarity_avg": 4.2,
+   "usefulness_avg": 3.8
+  },
+  "CUSTOMER_SUPPORT": {
+   "n_items": 2,
+   "faithfulness_avg": 4.5,
+   "clarity_avg": 5.0,
+   "usefulness_avg": 4.0
+  },
+  "FEES_SUBSCRIPTION": {
+   "n_items": 7,
+   "faithfulness_avg": 4.57,
+   "clarity_avg": 4.43,
+   "usefulness_avg": 3.43
+  },
+  "FUNDS_TRANSFER": {
+   "n_items": 3,
+   "faithfulness_avg": 5.0,
+   "clarity_avg": 4.67,
+   "usefulness_avg": 3.67
+  },
+  "GENERAL_SENTIMENT": {
+   "n_items": 7,
+   "faithfulness_avg": 4.71,
+   "clarity_avg": 4.86,
+   "usefulness_avg": 1.57
+  },
+  "ONBOARDING_BEGINNER": {
+   "n_items": 5,
+   "faithfulness_avg": 4.6,
+   "clarity_avg": 4.6,
+   "usefulness_avg": 3.4
+  },
+  "PREDICTION_MARKETS": {
+   "n_items": 3,
+   "faithfulness_avg": 4.67,
+   "clarity_avg": 4.67,
+   "usefulness_avg": 4.33
+  },
+  "SECURITY_PRIVACY": {
+   "n_items": 10,
+   "faithfulness_avg": 4.3,
+   "clarity_avg": 4.5,
+   "usefulness_avg": 3.1
+  },
+  "TRADE_EXECUTION": {
+   "n_items": 2,
+   "faithfulness_avg": 5.0,
+   "clarity_avg": 5.0,
+   "usefulness_avg": 4.5
+  },
+  "TRUST_FAIRNESS_REGULATORY": {
+   "n_items": 4,
+   "faithfulness_avg": 5.0,
+   "clarity_avg": 5.0,
+   "usefulness_avg": 4.0
+  },
+  "USABILITY_NAV": {
+   "n_items": 8,
+   "faithfulness_avg": 4.5,
+   "clarity_avg": 4.75,
+   "usefulness_avg": 2.38
+  }
+ },
+ "flagged_le2_any_dimension": [
+  {
+   "category": "ASSET_COVERAGE",
+   "cluster_id": "1",
+   "faithfulness": 2,
+   "clarity": 3,
+   "usefulness": 3,
+   "faithfulness_note": "The description's core distinguishing claim -- that this is about ALREADY-USED accounts being cut off, unlike cluster 2's prospective users -- is not well supported: a large share of the sample reads exactly like first-time sign-up failures, and one of the three supplied quotes ('Am new to using Coinbase but... no payment methods supported in my country') directly contradicts the 'existing user' framing it is meant to illustrate.",
+   "clarity_note": "The title is clear on its face, but given the faithfulness issue a reader would be misled about what actually separates this cluster from clusters 2 and 3.",
+   "usefulness_note": "Real signal (country-based restrictions), but overlaps substantially with ASSET_COVERAGE clusters 2 and 3, which cover the same underlying geo-restriction problem from different angles -- three clusters on essentially one root cause dilutes the roadmap signal."
+  },
+  {
+   "category": "FEES_SUBSCRIPTION",
+   "cluster_id": "5",
+   "faithfulness": 5,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "Reading all 150 reviews (Robinhood, Trading 212, Coinbase) confirms an overwhelming majority praise fees as low/fair/nonexistent with only a handful of complaints; all three quotes are verbatim short praise snippets accurately representing their source reviews.",
+   "clarity_note": "Description is accurate on its own terms, but its title/theme is essentially indistinguishable from FEES_SUBSCRIPTION cluster 0, which could confuse a reader trying to understand why there are two separate 'low fees praised' items.",
+   "usefulness_note": "Near-duplicate of FEES_SUBSCRIPTION cluster 0 (same three apps, same 'low fees praised' theme, same rough proportions); as a distinct roadmap item it adds little beyond what cluster 0 already covers."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "0",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 1,
+   "faithfulness_note": "Read all 150 sampled reviews; the overwhelming majority (well over 90%) are literally just the word 'great' or a trivial variant, exactly as described. All three quotes (f8e3cdf5, 616eed7d, 875221d5) are verbatim exact matches to short one-line reviews with no hidden context.",
+   "clarity_note": "Title and description are unambiguous and self-aware about being a residual, no-signal cluster.",
+   "usefulness_note": "Correctly and honestly flagged as carrying no actionable content beyond bare positive sentiment -- appropriately low usefulness, not a faithfulness problem."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "1",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 1,
+   "faithfulness_note": "Read all 150 sampled reviews; virtually all are single words ('good', 'great', 'Excellent' and capitalization variants) with no elaboration, matching the description precisely. Quotes (08860a9e 'Good boy', 01d065de 'good progress', 0f660964 'Excellent') are verbatim exact matches to the full review text.",
+   "clarity_note": "Clear, and appropriately framed as a near-duplicate of the adjacent 'great'-only cluster rather than a distinct theme.",
+   "usefulness_note": "No actionable content, honestly described as such."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "2",
+   "faithfulness": 4,
+   "clarity": 5,
+   "usefulness": 1,
+   "faithfulness_note": "Read all 150 sampled reviews; the vast majority are indeed emoji-only (thumbs up, hearts, fire) with a handful of 'nice app' text reviews, matching the description well. However the title 'Emoji-only positive reactions' slightly overstates uniformity -- a small number of sampled entries are negative-only emoji (e.g. \ud83d\udc4e\ud83d\udc4e, \ud83e\udee2\ud83e\udee2, \u2620\ufe0f) or mixed/ambiguous (\ud83d\ude25\ud83d\ude25\ud83d\ude25\ud83d\ude25\u2764\ufe0f), about 3/150 (~2%). A minor, low-impact overclaim. Quotes (5fc30f87, 7123eb0f, 9d717eb0 'nice App(s)') verified verbatim.",
+   "clarity_note": "Immediately clear what this cluster is and that it carries no specific feedback.",
+   "usefulness_note": "No actionable content; correctly flagged as such."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "3",
+   "faithfulness": 5,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "Read all 150 sampled reviews; roughly 85% are brief mildly positive one-liners, ~10-15 are clearly negative or lukewarm ('Very bad app', 'Worst app...garbage app', 'it suck', 'useless app'), matching the 'majority mildly positive... smaller but clearly present minority negative/lukewarm' framing well, with no single recurring feature theme tying them together, as stated. Quotes (9e726eb4, a1653c84, 74e5d2c5) verified verbatim.",
+   "clarity_note": "Title/description clearly communicate this is a heterogeneous catch-all with no unifying theme, which is itself useful clarity for a PM deciding whether to act on it.",
+   "usefulness_note": "Low actionability given the acknowledged lack of a specific theme, but not zero -- the ~10% negative/lukewarm minority is a real, if diffuse, satisfaction signal worth tracking over time even without a specific fix to point to."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "4",
+   "faithfulness": 4,
+   "clarity": 5,
+   "usefulness": 2,
+   "faithfulness_note": "Read all 150 sampled reviews (almost entirely Coinbase); the large-majority loyalty/tenure claim is very well supported. However the specific characterization of the small negative minority ('negative about crypto investing generally rather than about Coinbase's app itself') is only clearly true for one example in the sample (a674ddc6, about the crypto market); the other negative entries actually target Coinbase/the app itself (07838ea2 'I hate this app, I hate coinbase'; dbc7c8de 'Any Crypto exchange except coinbase!'), which contradicts the stated direction of that minority. A minor mischaracterization of a small (~4/150) slice.",
+   "clarity_note": "Clear and specific about what this cluster is (brand loyalty, not feature feedback).",
+   "usefulness_note": "Not product-actionable, but a legitimate brand-health/trust signal that could inform marketing messaging or churn-risk framing."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "5",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 2,
+   "faithfulness_note": "Read all 150 sampled reviews (almost entirely Robinhood); large-majority loyalty/tenure claim well supported, and the negative-minority claim is accurate and even quote-matched exactly to a real, representative sample entry (f2b93b81 'Robinhood is BS!', ~4% of sample is negative). Quotes (3b5a90ab, c757a41c, f2b93b81) all verified verbatim and non-misleading in context.",
+   "clarity_note": "Clear parallel framing to the Coinbase-loyalty cluster, easy to understand.",
+   "usefulness_note": "Same as the Coinbase-loyalty cluster: a brand-health signal rather than a specific product fix, but not without value."
+  },
+  {
+   "category": "GENERAL_SENTIMENT",
+   "cluster_id": "6",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 2,
+   "faithfulness_note": "Read all 150 sampled reviews; the majority are generic 'making money/great way to invest' statements not tied to any specific feature, and a small but real minority (~4-6/150) report losses/tanked investments, matching 'clear minority' without overstating its size. Quotes (6384d169, 70c4e033, c44459d9) verified verbatim; the loss-quote (c44459d9) is framed in the source as about market performance, not an app defect, consistent with how the description uses it.",
+   "clarity_note": "Clear and appropriately scoped as a generic-sentiment cluster distinct from the loyalty clusters.",
+   "usefulness_note": "Not specifically actionable for engineering/product, though it is a useful signal that users frame value primarily around 'making money' rather than app features, which could inform onboarding/education messaging."
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "0",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 2,
+   "faithfulness_note": "Essentially all 150 sampled reviews are short positive 'feels secure/safe' statements, overwhelmingly Coinbase, with almost no negative reports, exactly as described; all three quotes verify verbatim.",
+   "clarity_note": "Unambiguous -- a PM would immediately understand this is background positive sentiment, not a problem report.",
+   "usefulness_note": "Pure praise with no actionable defect; also near-duplicate of cluster 1, which covers the same 'general positive security sentiment' territory but additionally surfaces a concrete minority complaint -- this cluster adds little beyond what cluster 1 already contains."
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "7",
+   "faithfulness": 2,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "The description claims 'almost every review' describes the specific mechanism of an attacker changing the phone/email on file to block recovery, but on inspection only roughly a third of the 34 sampled reviews actually state that mechanism; most are generic hacked/locked-out/unresponsive-support complaints indistinguishable from clusters 2 and 6. The three supplied quotes are drawn from the minority that does precisely fit the claimed mechanism, which overstates how distinctive/pure this cluster actually is.",
+   "clarity_note": "As written the title/description is clear and specific, but that specificity is not actually representative of most of the underlying sample.",
+   "usefulness_note": "Given the overstated specificity and heavy content overlap with clusters 2, 6, and 8 (all 'hacked, no support' variants), this does not clearly stand on its own as a distinct product issue worth a separate roadmap line."
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "8",
+   "faithfulness": 4,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "Most of the 94 sampled reviews are indeed brief, low-detail 'hacked'/'scam' one-liners, and there is a real small recurring minority about apps appearing on a device without the user signing up (mostly Trading 212, one Coinbase example), matching the 'handful' framing; quotes largely verify, though one selected quote ('you let someone else hack my account and change All my passwords and email and phone number') is actually more detailed than the 'terse one-liner' framing implies.",
+   "clarity_note": "Reasonably clear, though as a low-detail catch-all it is the least specific of the SECURITY_PRIVACY clusters.",
+   "usefulness_note": "As a bucket of terse, low-detail hacking complaints this adds little actionable information beyond what clusters 2, 5, 6, 7, and 9 already cover in more detail; the phantom-install sub-pattern is the only genuinely distinct nugget here and is a small minority."
+  },
+  {
+   "category": "SECURITY_PRIVACY",
+   "cluster_id": "9",
+   "faithfulness": 3,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "The general theme (unauthorized withdrawal, no refund, predominantly Coinbase) holds for most of the 28 sampled reviews, but the description's emphasis on a 'specific dollar amount taken' is only true for roughly a third of the sample -- most reviews just say money/crypto was stolen without a figure -- so the description overstates how distinctively 'named-amount' this cluster is versus a generic theft complaint.",
+   "clarity_note": "Title and description are understandable on their own, and the description does honestly flag its own closeness to cluster 5.",
+   "usefulness_note": "This 28-review cluster is thematically almost identical to the much larger, better-supported cluster 5 ('Coinbase accounts drained with no reimbursement'); as a separate roadmap line it mostly duplicates that signal at smaller scale rather than adding a new one."
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "0",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 1,
+   "faithfulness_note": "Sample is essentially 100% literal 'Easy to use' duplicates and trivial case/spelling variants across all three apps, exactly as described.",
+   "clarity_note": "Impossible to misread; title and description both explicitly flag this as generic one-liners with no elaboration.",
+   "usefulness_note": "Zero specific, actionable content \u2014 as the description itself concedes, this is undifferentiated boilerplate praise with no product signal."
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "1",
+   "faithfulness": 5,
+   "clarity": 5,
+   "usefulness": 1,
+   "faithfulness_note": "Sample is essentially 100% literal lowercase 'easy to use' duplicates, matching the description exactly, including the cited wording variants ('easy to use system', 'Easy for an Ole farther to use').",
+   "clarity_note": "Clear, and explicitly self-identifies as a near-duplicate of the other generic-praise cluster.",
+   "usefulness_note": "No actionable content; also appears to be a redundant split of cluster 0's identical signal by capitalization, which the clustering arguably should have merged rather than presenting as two roadmap items."
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "2",
+   "faithfulness": 4,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "Majority is brief generic positive one-liners as described; the specific minority gripes cited (cluttered/busy screens, slow-loading advanced features, a wish for more detailed charts) are real and verified in the sample, though quite sparse (~5 of 150).",
+   "clarity_note": "Clear enough, but 'brief... praising... easy, simple, or intuitive' overlaps heavily with clusters 0/1/4/6 without explaining what differentiates this specific cluster.",
+   "usefulness_note": "Mostly generic praise; the handful of specific gripes are real but too sparse and varied to form a clear standalone roadmap signal."
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "5",
+   "faithfulness": 4,
+   "clarity": 5,
+   "usefulness": 2,
+   "faithfulness_note": "Sample overwhelmingly praises ease of buying/selling/trading crypto as described, and the 'low deposit limits' friction point is verified; however the description's 'single report of withdrawal delays' doesn't clearly correspond to any review in the sample I could find \u2014 the closest matches actually praise the absence of delays or describe a different problem (being unable to withdraw a specific crypto), so this detail appears imprecise/unsupported.",
+   "clarity_note": "Clear and correctly scoped to the buy/sell/trade action specifically, distinguishing it from the general usability-praise clusters.",
+   "usefulness_note": "Mostly generic positive signal about a core flow; limited new actionable content beyond the deposit-limit mention."
+  },
+  {
+   "category": "USABILITY_NAV",
+   "cluster_id": "6",
+   "faithfulness": 3,
+   "clarity": 4,
+   "usefulness": 2,
+   "faithfulness_note": "The majority-positive characterization (easy/beginner-friendly investing across Robinhood, Trading 212, Coinbase) is accurate, but the description's specific example of a minority gripe \u2014 'a missing per-company investment breakdown' \u2014 does not appear anywhere in the full 150-review sample; this reads as a fabricated or misattributed specific detail attached to an otherwise correct general claim.",
+   "clarity_note": "Reasonably clear, though it overlaps substantially with clusters 2 and 4 without a sharp distinguishing feature of its own.",
+   "usefulness_note": "Mostly generic cross-app praise; the unverifiable example undermines confidence in what the cited 'minority limitation' actually is."
+  }
+ ]
+}

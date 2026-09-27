@@ -1,0 +1,695 @@
+[
+ {
+  "category": "ACCOUNT_ACCESS_AUTH",
+  "cluster_id": "0",
+  "file": "ACCOUNT_ACCESS_AUTH__0.json",
+  "n_total": 119,
+  "n_sampled": 119,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_ACCESS_AUTH",
+  "cluster_id": "1",
+  "file": "ACCOUNT_ACCESS_AUTH__1.json",
+  "n_total": 4170,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "0",
+  "file": "ACCOUNT_LIFECYCLE__0.json",
+  "n_total": 124,
+  "n_sampled": 124,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "1",
+  "file": "ACCOUNT_LIFECYCLE__1.json",
+  "n_total": 449,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "2",
+  "file": "ACCOUNT_LIFECYCLE__2.json",
+  "n_total": 141,
+  "n_sampled": 141,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "3",
+  "file": "ACCOUNT_LIFECYCLE__3.json",
+  "n_total": 146,
+  "n_sampled": 146,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "4",
+  "file": "ACCOUNT_LIFECYCLE__4.json",
+  "n_total": 144,
+  "n_sampled": 144,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ACCOUNT_LIFECYCLE",
+  "cluster_id": "5",
+  "file": "ACCOUNT_LIFECYCLE__5.json",
+  "n_total": 105,
+  "n_sampled": 105,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ADVERTISING_NOTIFICATIONS",
+  "cluster_id": "0",
+  "file": "ADVERTISING_NOTIFICATIONS__0.json",
+  "n_total": 199,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ADVERTISING_NOTIFICATIONS",
+  "cluster_id": "1",
+  "file": "ADVERTISING_NOTIFICATIONS__1.json",
+  "n_total": 214,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ADVERTISING_NOTIFICATIONS",
+  "cluster_id": "2",
+  "file": "ADVERTISING_NOTIFICATIONS__2.json",
+  "n_total": 107,
+  "n_sampled": 107,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "0",
+  "file": "APP_STABILITY_PERFORMANCE__0.json",
+  "n_total": 82,
+  "n_sampled": 82,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "1",
+  "file": "APP_STABILITY_PERFORMANCE__1.json",
+  "n_total": 326,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "2",
+  "file": "APP_STABILITY_PERFORMANCE__2.json",
+  "n_total": 1576,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "APP_STABILITY_PERFORMANCE",
+  "cluster_id": "3",
+  "file": "APP_STABILITY_PERFORMANCE__3.json",
+  "n_total": 2288,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "0",
+  "file": "ASSET_COVERAGE__0.json",
+  "n_total": 691,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "1",
+  "file": "ASSET_COVERAGE__1.json",
+  "n_total": 153,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "2",
+  "file": "ASSET_COVERAGE__2.json",
+  "n_total": 40,
+  "n_sampled": 40,
+  "n_chunks": 1,
+  "missing_text": 0
+ },
+ {
+  "category": "ASSET_COVERAGE",
+  "cluster_id": "3",
+  "file": "ASSET_COVERAGE__3.json",
+  "n_total": 123,
+  "n_sampled": 123,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CHARTING_TOOLS",
+  "cluster_id": "0",
+  "file": "CHARTING_TOOLS__0.json",
+  "n_total": 24,
+  "n_sampled": 24,
+  "n_chunks": 1,
+  "missing_text": 0
+ },
+ {
+  "category": "CHARTING_TOOLS",
+  "cluster_id": "1",
+  "file": "CHARTING_TOOLS__1.json",
+  "n_total": 989,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "0",
+  "file": "CRYPTO_SPECIFIC__0.json",
+  "n_total": 1134,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "1",
+  "file": "CRYPTO_SPECIFIC__1.json",
+  "n_total": 241,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "2",
+  "file": "CRYPTO_SPECIFIC__2.json",
+  "n_total": 633,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "3",
+  "file": "CRYPTO_SPECIFIC__3.json",
+  "n_total": 276,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CRYPTO_SPECIFIC",
+  "cluster_id": "4",
+  "file": "CRYPTO_SPECIFIC__4.json",
+  "n_total": 131,
+  "n_sampled": 131,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "CUSTOMER_SUPPORT",
+  "cluster_id": "0",
+  "file": "CUSTOMER_SUPPORT__0.json",
+  "n_total": 95,
+  "n_sampled": 95,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "CUSTOMER_SUPPORT",
+  "cluster_id": "1",
+  "file": "CUSTOMER_SUPPORT__1.json",
+  "n_total": 4357,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "0",
+  "file": "FEES_SUBSCRIPTION__0.json",
+  "n_total": 466,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "1",
+  "file": "FEES_SUBSCRIPTION__1.json",
+  "n_total": 212,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "2",
+  "file": "FEES_SUBSCRIPTION__2.json",
+  "n_total": 882,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "3",
+  "file": "FEES_SUBSCRIPTION__3.json",
+  "n_total": 91,
+  "n_sampled": 91,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "4",
+  "file": "FEES_SUBSCRIPTION__4.json",
+  "n_total": 371,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "5",
+  "file": "FEES_SUBSCRIPTION__5.json",
+  "n_total": 199,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FEES_SUBSCRIPTION",
+  "cluster_id": "6",
+  "file": "FEES_SUBSCRIPTION__6.json",
+  "n_total": 86,
+  "n_sampled": 86,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "FUNDS_TRANSFER",
+  "cluster_id": "0",
+  "file": "FUNDS_TRANSFER__0.json",
+  "n_total": 3235,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FUNDS_TRANSFER",
+  "cluster_id": "1",
+  "file": "FUNDS_TRANSFER__1.json",
+  "n_total": 103,
+  "n_sampled": 103,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "FUNDS_TRANSFER",
+  "cluster_id": "2",
+  "file": "FUNDS_TRANSFER__2.json",
+  "n_total": 798,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "0",
+  "file": "GENERAL_SENTIMENT__0.json",
+  "n_total": 358,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "1",
+  "file": "GENERAL_SENTIMENT__1.json",
+  "n_total": 604,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "2",
+  "file": "GENERAL_SENTIMENT__2.json",
+  "n_total": 295,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "3",
+  "file": "GENERAL_SENTIMENT__3.json",
+  "n_total": 7740,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "4",
+  "file": "GENERAL_SENTIMENT__4.json",
+  "n_total": 1282,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "5",
+  "file": "GENERAL_SENTIMENT__5.json",
+  "n_total": 437,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "GENERAL_SENTIMENT",
+  "cluster_id": "6",
+  "file": "GENERAL_SENTIMENT__6.json",
+  "n_total": 1829,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "0",
+  "file": "ONBOARDING_BEGINNER__0.json",
+  "n_total": 1049,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "1",
+  "file": "ONBOARDING_BEGINNER__1.json",
+  "n_total": 368,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "2",
+  "file": "ONBOARDING_BEGINNER__2.json",
+  "n_total": 1302,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "3",
+  "file": "ONBOARDING_BEGINNER__3.json",
+  "n_total": 140,
+  "n_sampled": 140,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "ONBOARDING_BEGINNER",
+  "cluster_id": "4",
+  "file": "ONBOARDING_BEGINNER__4.json",
+  "n_total": 1399,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "PREDICTION_MARKETS",
+  "cluster_id": "0",
+  "file": "PREDICTION_MARKETS__0.json",
+  "n_total": 128,
+  "n_sampled": 128,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "PREDICTION_MARKETS",
+  "cluster_id": "1",
+  "file": "PREDICTION_MARKETS__1.json",
+  "n_total": 44,
+  "n_sampled": 44,
+  "n_chunks": 1,
+  "missing_text": 0
+ },
+ {
+  "category": "PREDICTION_MARKETS",
+  "cluster_id": "2",
+  "file": "PREDICTION_MARKETS__2.json",
+  "n_total": 76,
+  "n_sampled": 76,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "0",
+  "file": "SECURITY_PRIVACY__0.json",
+  "n_total": 189,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "1",
+  "file": "SECURITY_PRIVACY__1.json",
+  "n_total": 346,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "2",
+  "file": "SECURITY_PRIVACY__2.json",
+  "n_total": 91,
+  "n_sampled": 91,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "3",
+  "file": "SECURITY_PRIVACY__3.json",
+  "n_total": 90,
+  "n_sampled": 90,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "4",
+  "file": "SECURITY_PRIVACY__4.json",
+  "n_total": 81,
+  "n_sampled": 81,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "5",
+  "file": "SECURITY_PRIVACY__5.json",
+  "n_total": 250,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "6",
+  "file": "SECURITY_PRIVACY__6.json",
+  "n_total": 30,
+  "n_sampled": 30,
+  "n_chunks": 1,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "7",
+  "file": "SECURITY_PRIVACY__7.json",
+  "n_total": 34,
+  "n_sampled": 34,
+  "n_chunks": 1,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "8",
+  "file": "SECURITY_PRIVACY__8.json",
+  "n_total": 94,
+  "n_sampled": 94,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "SECURITY_PRIVACY",
+  "cluster_id": "9",
+  "file": "SECURITY_PRIVACY__9.json",
+  "n_total": 28,
+  "n_sampled": 28,
+  "n_chunks": 1,
+  "missing_text": 0
+ },
+ {
+  "category": "TRADE_EXECUTION",
+  "cluster_id": "0",
+  "file": "TRADE_EXECUTION__0.json",
+  "n_total": 502,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "TRADE_EXECUTION",
+  "cluster_id": "1",
+  "file": "TRADE_EXECUTION__1.json",
+  "n_total": 1372,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "0",
+  "file": "TRUST_FAIRNESS_REGULATORY__0.json",
+  "n_total": 194,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "1",
+  "file": "TRUST_FAIRNESS_REGULATORY__1.json",
+  "n_total": 65,
+  "n_sampled": 65,
+  "n_chunks": 2,
+  "missing_text": 0
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "2",
+  "file": "TRUST_FAIRNESS_REGULATORY__2.json",
+  "n_total": 513,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "TRUST_FAIRNESS_REGULATORY",
+  "cluster_id": "3",
+  "file": "TRUST_FAIRNESS_REGULATORY__3.json",
+  "n_total": 1282,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "0",
+  "file": "USABILITY_NAV__0.json",
+  "n_total": 310,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "1",
+  "file": "USABILITY_NAV__1.json",
+  "n_total": 266,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "2",
+  "file": "USABILITY_NAV__2.json",
+  "n_total": 5239,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "3",
+  "file": "USABILITY_NAV__3.json",
+  "n_total": 1987,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "4",
+  "file": "USABILITY_NAV__4.json",
+  "n_total": 432,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "5",
+  "file": "USABILITY_NAV__5.json",
+  "n_total": 338,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "6",
+  "file": "USABILITY_NAV__6.json",
+  "n_total": 1676,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ },
+ {
+  "category": "USABILITY_NAV",
+  "cluster_id": "7",
+  "file": "USABILITY_NAV__7.json",
+  "n_total": 408,
+  "n_sampled": 150,
+  "n_chunks": 3,
+  "missing_text": 0
+ }
+]
