@@ -1,0 +1,242 @@
+[
+  {
+    "category": "ACCOUNT_ACCESS_AUTH",
+    "cluster_id": "0",
+    "title": "Coinbase identity-verification waitlist blocks trading",
+    "description": "A majority of the sampled reviews (about 55%, mostly Coinbase users, with some Trading 212 users also affected) describe getting stuck for days to months on an identity-verification \"waitlist\" or repeatedly failing KYC checks, leaving them unable to trade or withdraw funds already deposited. A smaller share report unrelated login or app-crash problems.",
+    "quotes": [
+      {
+        "review_id": "b55ed7397872186764420efc",
+        "quote": "bekomme nach wie vor die Meldung für die Verifizierung stehe ich auf der Warteliste."
+      },
+      {
+        "review_id": "76ca4dce4365baa6ed2cacc5",
+        "quote": "Seit nun über 3 Wochen auf der Warteliste für die Verifizierung."
+      },
+      {
+        "review_id": "056d54b46b502793e8a7e371",
+        "quote": "Impossible de faire vérifier mon identité, application complètement bugué."
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_ACCESS_AUTH",
+    "cluster_id": "1",
+    "title": "Login lockouts tied to 2FA and phone-number changes",
+    "description": "A majority of the sampled reviews (about two-thirds, spread across Coinbase, Robinhood, and Trading 212) describe being locked out of login, most often because two-factor or identity verification is tied to an old phone number that changed or was lost, with no working recovery path.",
+    "quotes": [
+      {
+        "review_id": "37896f0dcfd89ad6eafa102d",
+        "quote": "I currently have money stuck in this app because I lost access to the phone number and the only way to recover it is there crappie ai face software that can't tell that I grew a beard."
+      },
+      {
+        "review_id": "e412bf50a99ad0f2a2141a0e",
+        "quote": "Do NOT use this brokerage. Customer support is nonexistent and if you get locked out of your account your money is untouchable. You'll get stuck in endless loops of verifying your account and mobile number only to be told to wait until the next day, you try again and it's the same thing."
+      },
+      {
+        "review_id": "a9d60c20742d991bb5797e70",
+        "quote": "I have a new phone number. I was able to login at first, but when I tried to update my phone number it locked me out, now there is absolutely no way to contact support."
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "0",
+    "title": "Praise for fast, easy account sign-up",
+    "description": "A majority of the sampled reviews (about 54%) are positive, praising how quick and easy it was to open an account and start trading across Coinbase, Robinhood, and Trading 212; a smaller minority mention slow or overly long verification or setup steps.",
+    "quotes": [
+      {
+        "review_id": "e17e46a72ebb0495d444dea6",
+        "quote": "I signed up with robinhood due to wanting to get into stocks and within literal minutes, I was verified no muss no fuss."
+      },
+      {
+        "review_id": "294ed47fcb9838e1de9abe03",
+        "quote": "Opening an ISA account was very easy and adding funds was also simple."
+      },
+      {
+        "review_id": "18d37a69220acda0edd95480",
+        "quote": "it's very easy to sign up and start trading. Very quick and easy!"
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "1",
+    "title": "New sign-ups blocked by phone/document verification failures",
+    "description": "A majority of the sampled reviews (about 61%, spanning Coinbase, Robinhood, and Trading 212) describe being unable to complete new-account creation, most commonly because phone numbers are rejected as \"virtual,\" SSN/national-ID checks fail, or submitted proof-of-address documents are repeatedly rejected.",
+    "quotes": [
+      {
+        "review_id": "d468c499d9c0e6e73f34c46e",
+        "quote": "Been trying to create an account for a week now. Keeps telling my cannot verify my ss number."
+      },
+      {
+        "review_id": "a11473a9f5074b6ad0d86bf9",
+        "quote": "Not able to get past the point where it wants my phone number as I put in my LEGIT REAL cell phone number and it doesn't allow it."
+      },
+      {
+        "review_id": "3c9e3ee7cfeb0a84cb9ae534",
+        "quote": "I found it was impossible to Sign up for this sevice. having provided a passport and 4 different proofs of address each one was rejected for wrong country then the app blocks for 24 hours for too many attempts."
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "2",
+    "title": "Coinbase closes accounts with no explanation, trapping funds",
+    "description": "A large majority of the sampled reviews (about 70%, overwhelmingly Coinbase) describe the platform abruptly closing, restricting, or freezing accounts with no explanation and no way to appeal, often while the account still holds funds or crypto.",
+    "quotes": [
+      {
+        "review_id": "376260fbcc7e392836980f4e",
+        "quote": "Today my account was closed, it's irreversible, and a final decision made by CB. CANT GET ANY REASON WHY."
+      },
+      {
+        "review_id": "1720c82648f0d9655303b0a9",
+        "quote": "Coinbase is a joke. They are deciding to close my account and refuse to provide a reason. Every time I try and contact support, I can not get through to anyone."
+      },
+      {
+        "review_id": "d526ad4e986be80c3a999d35",
+        "quote": "Went to open an account, got an error message, and then an email saying they believed I violated TOS and I am no longer allowed to use their service."
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "3",
+    "title": "Robinhood account closures/restrictions trap customer funds",
+    "description": "A large majority of the sampled reviews (about 70%, almost all Robinhood) describe Robinhood closing, restricting, or freezing accounts without explanation, or making it extremely difficult for the customer to close an account and withdraw the remaining balance.",
+    "quotes": [
+      {
+        "review_id": "872ca1a3f7be3249d66c86e7",
+        "quote": "Without reason or notice, Robinhood canceled my account, sold off all of my stocks, and will NOT let me withdraw my money from the account."
+      },
+      {
+        "review_id": "965768faf08e434c67a6c0f8",
+        "quote": "Robinhood held my money for months with no explanation, then closed my account without reason."
+      },
+      {
+        "review_id": "6298efb50e53cc61f76e06c9",
+        "quote": "RobinHood is a scam! they take your money but make it practically impossible to close your accounts they make it so hard to find out how to do it"
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "4",
+    "title": "Account closure fights over trapped funds and continued billing",
+    "description": "The large majority of the sampled reviews (about 88% mention closing/deleting/deactivating an account, split between Coinbase and Robinhood) describe either the platform abruptly closing/blocking the account while funds are still in it, or the platform blocking the customer's own attempt to close an account while continuing to bill fees.",
+    "quotes": [
+      {
+        "review_id": "61c570b36aaf90667becc156",
+        "quote": "Horrible customer service/support. so much so they make it a problem to extract funds and just close the account."
+      },
+      {
+        "review_id": "dbcf4f687c07d2bec9a7a961",
+        "quote": "DO NOT GET COINBASE THEY WILL BLOCK YOUR ACCOUNT WITHOUT ANY REASON"
+      },
+      {
+        "review_id": "88446b60a431bb4d20754077",
+        "quote": "scam won't let me deactivate because I have 100 dollars in it but it won't let me withdraw it but it charges me 5 dollars a month for using it"
+      }
+    ]
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "5",
+    "title": "No self-service way to delete or cancel an account",
+    "description": "A large majority of the sampled reviews (about 81%, mostly Robinhood with a meaningful share of Coinbase) report that there is no straightforward way to close, delete, deactivate, or cancel a subscription in-app; a notable subset of these also report continued billing after they believed the account was cancelled.",
+    "quotes": [
+      {
+        "review_id": "07574627fa1d97bf34113c74",
+        "quote": "too many hoops to delete or deactivate account"
+      },
+      {
+        "review_id": "a8c4b5e43bfe36216a5175e8",
+        "quote": "I have tried to close my account and they are charging me for a membership that I never consented for. There is no easy way just to close the account either."
+      },
+      {
+        "review_id": "e8149a8349e22f97c16ed6d3",
+        "quote": "You have to jump through so many hoops to close your account, they have made it almost impossible"
+      }
+    ]
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "0",
+    "title": "Praise for a stable, fast, bug-free app",
+    "description": "The clear majority of the sampled reviews (well over half, spread across Coinbase, Robinhood, and Trading 212) are positive, describing the app as stable, fast, and free of crashes or bugs; a minority mention occasional glitches, slowdowns, or issues that appeared after an update.",
+    "quotes": [
+      {
+        "review_id": "28e99f0febfdeebb2894f72b",
+        "quote": "Works flawlessly, never an issue in last 7 yrs using it."
+      },
+      {
+        "review_id": "fa643b311ee51de227956888",
+        "quote": "Coinbase is smooth and dependable fast. I trust this Platform."
+      },
+      {
+        "review_id": "fb7eb1d9d0bbafeaf5c47dd0",
+        "quote": "The app runs really reliably and well on Android."
+      }
+    ]
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "1",
+    "title": "Short, positive reports of stable, fast performance",
+    "description": "The large majority of the sampled reviews in this cluster are brief positive comments about speed and stability (e.g. \"fast,\" \"stable,\" \"reliable,\" \"works great\") across Coinbase, Robinhood, and Trading 212; a small minority mention crashes during setup or occasional glitches, particularly in German-language reviews about photo/ID capture crashing.",
+    "quotes": [
+      {
+        "review_id": "7e74619a17dcf6d59ee6e929",
+        "quote": "Very stable app."
+      },
+      {
+        "review_id": "79488e02dd131f5686d513fc",
+        "quote": "fast and reliable"
+      },
+      {
+        "review_id": "8cb609bd683d352fd8202d59",
+        "quote": "Very easy to use, quick, reliable."
+      }
+    ]
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "2",
+    "title": "Slowness, freezing, and crashes during active trading",
+    "description": "A majority of the sampled reviews (over half, overwhelmingly Coinbase) report the app being slow, freezing, or crashing, especially during high-volume trading or price swings, which reviewers say causes missed trades and financial losses.",
+    "quotes": [
+      {
+        "review_id": "643b91589a2eb880cea176bf",
+        "quote": "coinbase is too large of a company to have such a crappie,freezing all the time app."
+      },
+      {
+        "review_id": "d79064f720c61bdacdf7f965",
+        "quote": "You will 100% miss trades because of this app. 70% of the time its so slow you cant even put an order through without having to restart the app 5 times."
+      },
+      {
+        "review_id": "9fb30255c8fde2d904fdec91",
+        "quote": "App crashes every time now. Used to work but now every single time I try to open the credit card section or Coinbase One section, it crashes."
+      }
+    ]
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "3",
+    "title": "App fails to open, crashes, or breaks after updates",
+    "description": "A large share of the sampled reviews (well over half, across Coinbase, Robinhood, and Trading 212) report the app failing to open or load, freezing, or crashing outright, frequently tied to a recent update or device incompatibility.",
+    "quotes": [
+      {
+        "review_id": "bc79fb960a3c15ec94a152a0",
+        "quote": "hardly ever works. freezes all the time. terrible app. almost unusable"
+      },
+      {
+        "review_id": "4203a9591d53be59899b5bfa",
+        "quote": "On OnePlus 13 and OnePlus 10t, the app keep freezing every single minute or less of use! It's almost completely unusable now!"
+      },
+      {
+        "review_id": "e5dc52c05b4523222e1500a1",
+        "quote": "The new update ruined the app. The app was functioning perfectly, until the developers ruined it with unnecessary functions. Now its glitchy, slow and not intuitive anymore."
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ACCOUNT_ACCESS_AUTH",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "Reading all 119 sampled reviews, the dominant theme is genuinely verification/KYC delays and a literal 'Warteliste' (waitlist), with a real minority of pure login/crash/app-bug complaints as the description states; the exact '55%' figure can't be independently confirmed but the direction and framing are accurate.",
+    "clarity": 5,
+    "clarity_note": "Title and description precisely name the mechanism (identity-verification waitlist), the affected apps, and the consequence (blocked trading/withdrawals), which a PM could act on immediately.",
+    "usefulness": 5,
+    "usefulness_note": "A specific, high-volume (119 reviews), single-root-cause onboarding blocker with clear business impact (lost customers, stuck funds) - directly actionable for the KYC/verification team."
+  },
+  {
+    "category": "ACCOUNT_ACCESS_AUTH",
+    "cluster_id": "1",
+    "faithfulness": 3,
+    "faithfulness_note": "The broad claim that most reviews describe being 'locked out of login' is accurate, but reading all 150 sampled reviews, phone-number-tied 2FA lockouts are only a modest sub-theme (roughly 15-20% of reviews); a larger share involve generic identity-verification loops, unexplained account freezes/restrictions, app bugs preventing sign-in, or forgotten credentials, so 'most often because...phone number' overstates that specific cause's share relative to the rest of the mix.",
+    "clarity": 3,
+    "clarity_note": "The title/description point a PM toward a narrower root cause (2FA/phone-number changes) than what the sample actually shows, which could misdirect engineering effort away from the larger 'generic verification/lockout with unclear cause' problem also present in the same cluster.",
+    "usefulness": 3,
+    "usefulness_note": "Login lockouts are a real pain point worth fixing, but this item overlaps substantially with cluster ACCOUNT_ACCESS_AUTH/0 (verification delays) and with ACCOUNT_LIFECYCLE's frozen-account clusters, so its incremental, precisely-scoped signal is more modest than the title implies."
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "The sampled 124 reviews are overwhelmingly short positive comments about easy/fast sign-up, with a real minority citing slow or complex verification/setup, matching the description; if anything the true positive share looks higher than 54%, which is a conservative rather than misleading estimate.",
+    "clarity": 4,
+    "clarity_note": "Clear, unambiguous positive-signal title; a PM would immediately understand this is validation of the onboarding flow rather than a problem report.",
+    "usefulness": 3,
+    "usefulness_note": "Useful as a 'don't break this' signal and as a counterweight to the verification-friction clusters, but positive-sentiment clusters are inherently less actionable for a roadmap than problem clusters."
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "1",
+    "faithfulness": 4,
+    "faithfulness_note": "Across all 150 sampled reviews, the three cited blockers (virtual/rejected phone numbers, SSN/national-ID verification failures, repeatedly rejected proof-of-address documents) are recurring, verifiable reasons among those who state one; a large remainder cite generic 'can't sign up' or app bugs, which the description's broader framing ('most commonly...') accommodates.",
+    "clarity": 5,
+    "clarity_note": "Title and description name concrete, distinct failure modes a PM can route to the right team (identity-verification vendor vs. phone-validation logic vs. document-review process).",
+    "usefulness": 5,
+    "usefulness_note": "High-volume (449 total, 4th-largest ACCOUNT_LIFECYCLE cluster), pre-revenue funnel-loss signal with specific, fixable causes - strong roadmap candidate."
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "130/141 sampled reviews (92%) are Coinbase and the overwhelming majority describe exactly the pattern stated: abrupt, unexplained account closure/restriction while funds or crypto remain trapped, confirmed by reading the full cluster.",
+    "clarity": 5,
+    "clarity_note": "Unambiguous, specific title naming the platform, the mechanism, and the consequence.",
+    "usefulness": 5,
+    "usefulness_note": "Large (141), single-platform, high-severity trust/compliance issue (arbitrary account closure with no appeal) that is directly actionable for Coinbase's compliance/support process."
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "138/146 sampled reviews (95%) are Robinhood and the sampled text confirms the stated pattern of unexplained closures/restrictions and difficulty withdrawing or closing accounts with a balance.",
+    "clarity": 5,
+    "clarity_note": "Clear, platform-specific title mirroring cluster 2's Coinbase framing, easy for a PM to distinguish and act on.",
+    "usefulness": 5,
+    "usefulness_note": "Same high-severity trust issue as cluster 2 but isolated to Robinhood, which is useful for routing to the correct product team rather than being buried in a mixed-platform cluster."
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "4",
+    "faithfulness": 4,
+    "faithfulness_note": "The sampled reviews do split fairly evenly between platform-initiated closures trapping funds and customer-initiated closure attempts blocked while billing continues, consistent with the description; the '88%' figure is plausible given how dominant these two sub-themes are in the sample.",
+    "clarity": 4,
+    "clarity_note": "The two-sided framing (platform closes you vs. you can't close it) is accurate but slightly less crisp than clusters 2/3/5, since it bundles two related-but-distinct failure modes into one item.",
+    "usefulness": 4,
+    "usefulness_note": "Actionable, but it meaningfully overlaps with clusters 2/3 (funds trapped by platform closure) and cluster 5 (no self-service closure + continued billing), so it functions more as a summary of those themes than a fully distinct signal."
+  },
+  {
+    "category": "ACCOUNT_LIFECYCLE",
+    "cluster_id": "5",
+    "faithfulness": 5,
+    "faithfulness_note": "The sampled 105 reviews overwhelmingly describe an inability to self-service close/delete/cancel an account, with a clear subset (continued billing after a believed cancellation) also present, matching the '81%' framing well.",
+    "clarity": 5,
+    "clarity_note": "Precisely scoped title focused on the missing self-service capability itself, distinct from the 'platform closes your account' theme in clusters 2-4.",
+    "usefulness": 4,
+    "usefulness_note": "Concrete, fixable UX/process gap (add a real self-service delete/cancel flow) that is independently actionable, though it overlaps somewhat with cluster 4's billing-after-closure sub-theme."
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "The 82 sampled reviews are dominated by clearly positive stability/speed praise across all three apps, with a real but smaller minority citing glitches, slowdowns, or update-related regressions, matching the description.",
+    "clarity": 4,
+    "clarity_note": "Clear positive-signal title; description appropriately caveats the minority negative content.",
+    "usefulness": 3,
+    "usefulness_note": "Useful baseline/validation signal but, like other 'praise' clusters, less directly actionable than a problem cluster, and it overlaps thematically with the shorter praise cluster (APP_STABILITY_PERFORMANCE/1)."
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Sampled reviews have a median length of ~40 characters and are overwhelmingly short positive fragments ('fast', 'stable', 'reliable'); a small number of German-language reviews specifically describe crashes during photo/ID capture, exactly as the description states, confirmed by direct examples in the sample (e.g. 'Jedesmal beim Pass-Fotografieren stürzt die App ab').",
+    "clarity": 4,
+    "clarity_note": "Title and description accurately distinguish this as a lower-signal, brief-praise cluster and correctly call out the specific German-language crash sub-pattern as a notable exception.",
+    "usefulness": 3,
+    "usefulness_note": "Mostly low-actionability short praise; the one specific, real signal (ID-capture crashes) is useful but is a minor fraction of the cluster and somewhat buried under generic 'fast/reliable' comments, and duplicates part of cluster 0's positive-sentiment territory."
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "2",
+    "faithfulness": 4,
+    "faithfulness_note": "109/150 sampled reviews (73%) are Coinbase, and a majority of the sample does describe slowness/freezing/crashes specifically impacting active trading (missed orders, stuck charts, failed sells during volatility), matching the core claim; 73% is a clear majority but 'overwhelmingly Coinbase' is a slightly strong characterization for that share.",
+    "clarity": 4,
+    "clarity_note": "Title ties the performance problem to the specific, high-stakes moment (active trading) rather than generic instability, which is useful framing for prioritization.",
+    "usefulness": 5,
+    "usefulness_note": "Large sample (150 of 1576), concrete financial-harm angle (missed trades/losses during volatility) makes this one of the more clearly prioritizable performance issues in the set."
+  },
+  {
+    "category": "APP_STABILITY_PERFORMANCE",
+    "cluster_id": "3",
+    "faithfulness": 4,
+    "faithfulness_note": "The sampled reviews strongly confirm app-fails-to-open/freezes/crashes tied to updates or device incompatibility ('not compatible with my Pixel...', 'since last update...'), consistent with the description across all three apps.",
+    "clarity": 4,
+    "clarity_note": "Clear framing around the trigger (updates/device compatibility) that differentiates it from cluster 2's trading-specific framing, though the two clusters' underlying symptoms (freezing, crashing) still read as similar to a PM at a glance.",
+    "usefulness": 4,
+    "usefulness_note": "Actionable (points to update QA / device-compatibility testing) but has real symptom overlap with cluster 2 (also freezing/crashing), so some redundancy exists between the two performance-problem clusters in this sample."
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "category": "FUNDS_TRANSFER",
+    "cluster_id": "0",
+    "title": "Withdrawals blocked by holds, freezes, and verification loops",
+    "description": "Across all three sampled chunks, a clear majority of the reviews describe being unable to withdraw or transfer funds out of the app: money held for days or weeks under vague 'security' reviews, accounts frozen or restricted, device-verification or 2FA loops that lock users out of their own money, and unresponsive or chatbot-only customer support. A smaller minority describe other transfer friction (e.g., IRA rollovers, linking a bank/card) rather than an outright block on withdrawals.",
+    "quotes": [
+      {"review_id": "db9d962eb5e9213154c1ffba", "quote": "As soon as you want to withdraw any to your bank account it makes you verify via a message on another device you own. They never send the alert to the other device and thus lock you out of your own money."},
+      {"review_id": "63b1175ceabbb07ddfcb9e44", "quote": "Find another app. This one will hold your money for days even when you bank don't take more than 24 hours for amounts less than $5k."},
+      {"review_id": "810af88626bc098736e7547f", "quote": "They take ages to allow you to withdraw your money. Use a different platform if you need a responsive experience."}
+    ]
+  },
+  {
+    "category": "FUNDS_TRANSFER",
+    "cluster_id": "1",
+    "title": "Deposit and withdrawal blocks reported in non-English-speaking markets",
+    "description": "This cluster (mostly German, French, and Italian-language reviews) mirrors the withdrawal-hold complaints seen elsewhere: a large majority of the sampled reviews report being unable to pay out or withdraw money, accounts or specific transactions held indefinitely under review, and slow or unhelpful support. A minority of reviews in this cluster are positive, describing fast and trouble-free deposits or withdrawals.",
+    "quotes": [
+      {"review_id": "6a9c6635a89995c97b0b2358", "quote": "Ich konnte mein Geld nicht auszahlen lassen!"},
+      {"review_id": "a5883fdfca8350b4d329d073", "quote": "Blockt eingezahltes Geld"},
+      {"review_id": "41ea132b95e2a1e526388f94", "quote": "In dem Saftladen kann man das Geld nicht auszahlen. Ich versuche seit mehreren Stunden Geld auszuzahlen es geht nicht!!!"}
+    ]
+  },
+  {
+    "category": "FUNDS_TRANSFER",
+    "cluster_id": "2",
+    "title": "Fast, hassle-free deposits and withdrawals",
+    "description": "In contrast to the other two funds-transfer clusters, the large majority of the sampled reviews here are positive, praising how quick and easy it is to move money into and out of the app (deposits, withdrawals, and transfers between accounts) across Robinhood, Coinbase, and Trading 212. A minority raise a specific limitation, such as the lack of a recurring/monthly deposit option or a lag on withdrawals, without describing blocked or frozen funds.",
+    "quotes": [
+      {"review_id": "7096373686722927a652594b", "quote": "So easy to use. Instant trade action. Instant fund transfers back to bank accounts. Happy customer here."},
+      {"review_id": "fe0e90f62a116514e3c5166f", "quote": "Brilliant app, honestly can't fault it withdraw is easy to understand."},
+      {"review_id": "093c481904c878ccf82382f7", "quote": "Substantial UI, easy to trade and has instant transfers from up to $1000."}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "0",
+    "title": "Generic 'Easy to use' one-liners",
+    "description": "Nearly all of the sampled reviews in this cluster consist of the identical brief phrase 'Easy to use' (or trivial case/spelling variants), spread across Coinbase, Robinhood, and Trading 212, with no elaboration on which feature is easy. It reflects blanket usability praise rather than a specific, describable pattern.",
+    "quotes": [
+      {"review_id": "94438ed70b53e496c6c17fce", "quote": "Easy to use"},
+      {"review_id": "f050b755672456ba0790c6cb", "quote": "EASY TO USE"},
+      {"review_id": "ae3c4ed6c4d6216925398332", "quote": "Easy and transparent to use"}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "1",
+    "title": "Generic 'easy to use' one-liners (lowercase variant)",
+    "description": "Like its sibling cluster, virtually all sampled reviews here are the same short phrase 'easy to use' (lowercase), with only minor wording variants such as 'easy to use system' or 'easy to handle'. These carry no specific detail about what makes the app easy to use.",
+    "quotes": [
+      {"review_id": "727bad7e71dc33f724e23506", "quote": "easy to use"},
+      {"review_id": "69175311ca9439c5f2ee192a", "quote": "Smoth and easy to use"},
+      {"review_id": "f924c2f015f674399d9b55da", "quote": "Easy for an Ole farther to use"}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "2",
+    "title": "Short praise for the app's overall usability",
+    "description": "A large majority of the sampled reviews are brief, generically positive comments praising the app as easy, simple, or intuitive, usually just one short phrase or sentence with no specifics. A smaller minority pair this praise with a specific usability gripe, such as a cluttered screen, slow-loading advanced features, or a wish for more detailed charts.",
+    "quotes": [
+      {"review_id": "8152fa20910d5bd96bfc1192", "quote": "Easy to use. No issues on my end. Great support."},
+      {"review_id": "0707761d385736cbaa32d57c", "quote": "The most advanced app, full of options but easy to use at the same time."},
+      {"review_id": "d9bfaa1411a3a4db1bcc68a7", "quote": "easy to use, informative, prompt."}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "3",
+    "title": "UI/UX updates that broke navigation and hid features",
+    "description": "A large majority of the sampled reviews complain that a recent app update made the app harder to navigate: menus moved or hidden behind extra taps, features removed (watchlists, total-invested figures, open-order summaries), broken back-button behavior, or a generally more cluttered layout. A minority instead describe navigation as difficult in general, without tying it to a specific update.",
+    "quotes": [
+      {"review_id": "ab024650d76824423e9e52e7", "quote": "The app used to be good and everything was easily accessible, now each update ruins it by hiding features that were easy to access behind additional clicks."},
+      {"review_id": "52ec23af30bf1ee8c3515e16", "quote": "T212 have been constantly making unnecessary changes to the UI that make the app nearly unusable."},
+      {"review_id": "cdc36f4a330af6f186ce78cc", "quote": "App update is horrible. The new UI is an incoherent mess. Avoid if you can."}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "4",
+    "title": "Coinbase praised as easy to use, especially for beginners",
+    "description": "The large majority of the sampled reviews, almost all about Coinbase, praise the app as easy, intuitive, and beginner-friendly, often citing its educational content and simple navigation. A minority of these otherwise-positive reviews also flag a specific downside, most often high fees or an occasional technical glitch.",
+    "quotes": [
+      {"review_id": "d696bcfd998dceb0521bd1c6", "quote": "Coinbase is a solid app for buying and managing crypto. It’s easy to use, even for beginners, and transactions are quick and secure. However, the fees can be a bit high compared to other platforms. Overall, it’s reliable and user-friendly!"},
+      {"review_id": "b91b46182628988016065349", "quote": "carefully structured, organized and a clear visual hierarchy makes Coinbase truly a user-friendly and intuitive experience."},
+      {"review_id": "92e7c67285af7ba5404540df", "quote": "The user interface is simple and easy to navigate, making it a great entry point for those new to crypto."}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "5",
+    "title": "Buying, selling, and trading crypto described as easy",
+    "description": "Nearly all of the sampled reviews in this cluster specifically praise how easy and fast it is to buy, sell, or trade crypto within the app (predominantly Coinbase, with some Robinhood). Only a small minority mention friction, such as low deposit limits or a single report of withdrawal delays.",
+    "quotes": [
+      {"review_id": "905e2301de26f6b59e011c05", "quote": "Terrific crypto platform. 5 stars easily. Extremely user friendly. Makes crypto buying/selling/trading a breeze."},
+      {"review_id": "2361c2bcc8816d3a646f2a48", "quote": "best and easiest app for crypto no delays on selling buying or withdraw"},
+      {"review_id": "efe3d58afa460e1c8297e461", "quote": "easiest way to buy and trade crypto"}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "6",
+    "title": "Investing and trading described as easy across apps",
+    "description": "A large majority of the sampled reviews, spanning Robinhood, Trading 212, and Coinbase, praise how easy and beginner-friendly investing or trading is on the app, often crediting a clean interface or a quick account setup. A minority pair this praise with a specific limitation, such as slow chart loading or a missing per-company investment breakdown.",
+    "quotes": [
+      {"review_id": "8e6fda19b482c4550defb3cc", "quote": "Best trading app for beginners and experienced investors or traders, Best user interface with tips that show what you can do, very secure login system, and allows investments to be easy."},
+      {"review_id": "2deee9a0301b9740899105e5", "quote": "The app is really user friendly. it was quick and simple to set up a stock and shares isa and I love how easy it is to deposit money and buy the shares you want."},
+      {"review_id": "9018d18af63b6201ce084f27", "quote": "I find this trading platform quite intuitive and beginner friendly. The UI is very clean and simple."}
+    ]
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "7",
+    "title": "Robinhood praised as the easiest, most user-friendly platform",
+    "description": "Virtually all of the sampled reviews in this cluster are Robinhood-specific testimonials describing it as the easiest or most user-friendly trading/investing app the reviewer has used, frequently in direct comparison to competitors like Fidelity, Schwab, or Webull. Complaints are rare and, when present, appear only as minor asides within an otherwise positive review.",
+    "quotes": [
+      {"review_id": "7d54111af40b204fcf2b39fa", "quote": "I’ve had an excellent experience using Robinhood. The platform is extremely user-friendly, especially for anyone looking to get into investing or trading without feeling overwhelmed."},
+      {"review_id": "b7706970020ecfac00b769bf", "quote": "Robinhood stands out as the most effective financial app available. The interface is genuinely intuitive, allowing efficient navigation between positions, watchlists, and trade execution."},
+      {"review_id": "dd6bc7900d350828b7278cd6", "quote": "I can't believe Robinhood is still the most user friendly brokerage after all this time."}
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "category": "CHARTING_TOOLS",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "Read all 24 sampled reviews (full census, n_total=24): roughly 5-6 are clear Coinbase chart-disappeared/froze/wrong-data-after-update complaints, matching the stated 'roughly 6-7 of 24, mostly Coinbase' and the honest 'no single theme is a majority' hedge; the rest is genuinely a mix of dividend-calendar/benchmark/candlestick feature requests and general praise as described. All 3 quotes verified verbatim and in-context.",
+    "clarity": 4,
+    "clarity_note": "Title names the dominant-but-minority bug theme and the description explicitly clarifies it is not a majority, so a PM would not mistake this for a single unified complaint.",
+    "usefulness": 4,
+    "usefulness_note": "Flags a real 'chart broke after update' regression pattern (actionable bug) alongside a useful catalog of recurring charting feature asks (dividend calendar requested 4x, candlesticks, benchmark comparison)."
+  },
+  {
+    "category": "CHARTING_TOOLS",
+    "cluster_id": "1",
+    "faithfulness": 4,
+    "faithfulness_note": "Independent keyword-based re-scan of chart+failure language found ~27-30/150 chart loading/freezing/lagging complaints (vs. claimed 39/150), with Coinbase at ~60-63% share (vs. claimed 59%) - directionally correct and in a plausible range once phrasings my regex missed (e.g. 'charts NEVER work') are added back in; not an overstated majority since the write-up correctly says it's the largest theme, not a majority. All 3 quotes verified verbatim in their source reviews.",
+    "clarity": 4,
+    "clarity_note": "Title and description clearly scope this to load/freeze/stale-data bugs specifically, distinct from feature requests, and correctly caveat it's a plurality not a majority.",
+    "usefulness": 4,
+    "usefulness_note": "A concentrated, technically specific bug pattern (chart rendering pipeline, heavily Coinbase) is exactly the kind of signal an eng team could triage directly."
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Manually classified the first 50/150 sampled reviews by hand (not just keyword matching) and found ~26/50 (52%) genuinely describe frozen/held/restricted funds blocking transfer, sale, withdrawal or unstaking - an exact match to the claimed 52% (78/150). Both spot-checked quotes (unstaking delay, 6-day hold) verified verbatim and consistent with their full review context.",
+    "clarity": 5,
+    "clarity_note": "Title and description precisely name the mechanism (locked/frozen/delayed access), the affected actions (transfer/withdraw/sell/unstake), the timeframe (days to weeks), and the platform concentration (Coinbase) - unambiguous to a PM.",
+    "usefulness": 5,
+    "usefulness_note": "This is a severe, recurring trust/ops issue (funds inaccessible for days-weeks plus unresponsive support) that is unambiguously actionable and non-redundant with other clusters in this batch."
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "1",
+    "faithfulness": 3,
+    "faithfulness_note": "Read ~110/150 sampled reviews. The 62% positive-sentiment figure is plausible, but the description frames essentially all of that majority as praise 'for being an easy, beginner-friendly way to get started' - in the actual sample, well under half of the positive reviews explicitly invoke beginner/new/starting language (e.g. 'Best crypto app!', 'Fantastic platform for crypto', 'it's the app for crypto'); the rest is generic crypto-app positivity with no beginner framing at all. The title/description conflate generic praise with beginner-specific praise, overstating how much of the cluster is really about onboarding ease. Quotes themselves (verified verbatim) were cherry-picked from the genuinely beginner-flavored subset, which is not representative of the bucket as a whole.",
+    "clarity": 3,
+    "clarity_note": "The title promises a specific 'beginner entry point' narrative, but a PM reading only title+description would not realize that much of the underlying '62%' is undifferentiated generic praise rather than beginner-specific commentary.",
+    "usefulness": 3,
+    "usefulness_note": "Largely restates positive sentiment already covered by ONBOARDING_BEGINNER clusters 0/2/4 in this same batch; as a standalone roadmap item it adds little new action beyond 'keep crypto onboarding simple.'"
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "2",
+    "faithfulness": 4,
+    "faithfulness_note": "First 60/150 reviews manually reviewed: the large majority genuinely praise ease/speed/reliability of buying, selling, and trading crypto as described, and coin-variety requests appear at roughly the stated minority rate (~5 in the first 60, close to the claimed ~6/150 overall).",
+    "clarity": 4,
+    "clarity_note": "Title and description clearly state this is general satisfaction with core buy/sell/trade mechanics plus a small variety-of-coins ask, with no overreach.",
+    "usefulness": 3,
+    "usefulness_note": "Mostly a 'things are fine' signal with limited direct action beyond the minor coin-variety request; useful as context but not a strong standalone roadmap driver."
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "First 60/150 reviews manually reviewed: overwhelmingly Coinbase and overwhelmingly positive/trusting as described, and Learn-and-Earn is explicitly named in roughly the claimed minority proportion (~7/60, close to 13%). All 3 quotes verified verbatim and consistent with their full-review context.",
+    "clarity": 4,
+    "clarity_note": "Clear and specific, though it bundles two related-but-distinct signals (general brand loyalty and the Learn-and-Earn sub-theme) into one item, which a PM would need to read carefully to disentangle.",
+    "usefulness": 4,
+    "usefulness_note": "Useful confirmation that Learn-and-Earn is a loyalty driver worth protecting/expanding, with an early warning that reduced reward frequency causes friction."
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "4",
+    "faithfulness": 5,
+    "faithfulness_note": "Programmatically re-verified the headline statistic directly against the prep file: reviews mentioning both 'learn' and 'earn' = exactly 68/131 (51.9%), matching the claimed 'at least 52%, 68/131' precisely. All 3 quotes verified verbatim, including the negative one (rewards discontinued) which is consistent with the description's caveat.",
+    "clarity": 5,
+    "clarity_note": "Title and description precisely describe the mechanic (pays crypto for completing educational modules/quizzes) and correctly flag the discontinuation complaint as a minority counter-signal.",
+    "usefulness": 4,
+    "usefulness_note": "Concrete, well-evidenced signal that Learn-and-Earn drives both love and (when curtailed) frustration; somewhat overlapping with CRYPTO_SPECIFIC/3 and ONBOARDING_BEGINNER/3 in this same batch, but still a legitimate distinct data point on the feature itself."
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "App split verified programmatically against the prep file: 138/150 Coinbase, exact match to the claimed 138/150. Manual read of first 50 reviews shows the pattern is dominated by beginner-friendly praise crediting tutorials and Learn-and-Earn, consistent with the 81% figure; only a couple of complaints appear in that sample, consistent with 'small minority.' Both spot-checked quotes verified verbatim.",
+    "clarity": 5,
+    "clarity_note": "Title and description are specific and accurate: Coinbase, beginner-friendly, tutorials/Learn-and-Earn as the credited mechanism, small complaint minority named explicitly.",
+    "usefulness": 3,
+    "usefulness_note": "Primarily a 'this is working, keep it' signal rather than a new action item; value is in confirming which mechanism (tutorials/Learn-and-Earn) is driving the positive perception."
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "App split verified programmatically: 148/150 Robinhood, exact match to claim. Manual read of first 40 reviews strongly supports the 'easy, educational for first-timers' majority framing, and the cited minority complaints (account closures, no formal tutorials, fees) are genuinely present, including the quoted review which explicitly criticizes the lack of tutorials and account-closure difficulty. All 3 quotes verified verbatim.",
+    "clarity": 5,
+    "clarity_note": "Clearly scoped to Robinhood and to the specific beginner-onboarding narrative, with the counter-signal (no tutorials, account closures) named specifically rather than vaguely.",
+    "usefulness": 4,
+    "usefulness_note": "The minority complaint about 'no tutorials, all reading' is a specific, actionable onboarding gap worth flagging even within an overall-positive cluster."
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "App split verified programmatically: Robinhood 97, Trading 212 36, Coinbase 17 - an exact match to the claimed breakdown. Manual read of first 40 reviews confirms the cross-platform 'easy for first-time/novice investors' pattern. All 3 quotes verified verbatim.",
+    "clarity": 4,
+    "clarity_note": "Clear that this is a cross-platform version of the same beginner-friendliness theme, though a PM reading it next to ONBOARDING_BEGINNER 0/1 would need to notice it's largely restating the same signal across apps rather than a new insight.",
+    "usefulness": 3,
+    "usefulness_note": "Mostly a rollup/aggregation of the same 'beginner-friendly' finding already captured per-platform in clusters 0 and 1 of this batch, so its incremental value as a distinct roadmap item is limited."
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "Manual read of first 40 of 140 reviews (full sample, n_total=140) overwhelmingly matches the 'Learn and Earn as onboarding driver' description, including the negative quote which is genuinely negative overall ('I would give it 0 stars') and matches the description's caveat about incorrect/missing payouts. All 3 quotes verified verbatim and in-context.",
+    "clarity": 5,
+    "clarity_note": "Precisely names the mechanism and both the positive majority and the specific payout-failure minority complaint.",
+    "usefulness": 4,
+    "usefulness_note": "Actionable: the payout-reliability complaint (support tickets needed to get paid, or never paid) is a concrete fix that protects a feature the same cluster shows drives strong onboarding sentiment."
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "4",
+    "faithfulness": 3,
+    "faithfulness_note": "App split (Coinbase 65 / Robinhood 68 / Trading 212 17) verified exactly. However, the specific claim that 'about half of the sample (72/150) uses the explicit word beginner/novice/newbie' does not hold up: a direct keyword count against the prep file (case-insensitive, including plural/typo forms like 'beginn*', 'novice', 'newb*') finds only 61-62/150 (41%), not 72/150 (48%) - a measurable overstatement of a precisely-stated number, even though the broader qualitative claim (terse cross-platform beginner praise) is accurate.",
+    "clarity": 4,
+    "clarity_note": "Title and description are otherwise clear and well-scoped (terse positive statements, roughly even app split, small pushback minority), undermined only by the inaccurate specific statistic.",
+    "usefulness": 3,
+    "usefulness_note": "Confirms an already-established pattern (beginner-friendliness) at a coarse, terse-review level; the minority 'not enough help' complaints (a real, findable subset in the data) are the most actionable part but are given only a passing one-clause mention."
+  }
+]

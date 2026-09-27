@@ -1,0 +1,112 @@
+[
+  {
+    "category": "FUNDS_TRANSFER",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample overwhelmingly shows withdrawal holds, account freezes/restrictions, 2FA/device-verification loops, and unresponsive chatbot support across Robinhood/Coinbase/Trading 212, exactly as described; the minor IRA-rollover/bank-linking exceptions noted in the description are also genuinely present.",
+    "clarity": 5,
+    "clarity_note": "Title and description precisely name the mechanism (holds, freezes, verification loops) so a PM immediately understands the blocker class.",
+    "usefulness": 5,
+    "usefulness_note": "Highly actionable: points to specific broken flows (device-verification alerts never arriving, multi-week 'security review' holds) worth prioritizing."
+  },
+  {
+    "category": "FUNDS_TRANSFER",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample (German/French/Italian reviews, mostly Coinbase/Trading 212) is dominated by withdrawal-block, verification-waitlist, and unresponsive-support complaints mirroring cluster 0, with a genuine positive minority (roughly 15% of the sample) describing fast, trouble-free transfers, exactly as claimed.",
+    "clarity": 4,
+    "clarity_note": "Clear on the language/market angle, but doesn't explain why this is a separate roadmap item from cluster 0 rather than the same underlying issue segmented by language.",
+    "usefulness": 3,
+    "usefulness_note": "Adds a real signal (one review explicitly cites MiCA regulatory verification delays), but is largely a language-based duplicate of cluster 0's finding rather than a distinct actionable issue on its own."
+  },
+  {
+    "category": "FUNDS_TRANSFER",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample is overwhelmingly positive testimonials about fast/easy deposits and withdrawals across all three apps; the described minority limitations (no recurring/monthly deposit option, an occasional withdrawal lag) are genuinely present and not the dominant theme.",
+    "clarity": 5,
+    "clarity_note": "Straightforward positive-signal title, correctly framed as the contrast case to the two withdrawal-problem clusters.",
+    "usefulness": 3,
+    "usefulness_note": "Mostly validates an existing strength rather than surfacing a new problem, though the recurring-deposit gap is a concrete, implementable feature request worth noting."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample is essentially 100% literal 'Easy to use' duplicates and trivial case/spelling variants across all three apps, exactly as described.",
+    "clarity": 5,
+    "clarity_note": "Impossible to misread; title and description both explicitly flag this as generic one-liners with no elaboration.",
+    "usefulness": 1,
+    "usefulness_note": "Zero specific, actionable content — as the description itself concedes, this is undifferentiated boilerplate praise with no product signal."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample is essentially 100% literal lowercase 'easy to use' duplicates, matching the description exactly, including the cited wording variants ('easy to use system', 'Easy for an Ole farther to use').",
+    "clarity": 5,
+    "clarity_note": "Clear, and explicitly self-identifies as a near-duplicate of the other generic-praise cluster.",
+    "usefulness": 1,
+    "usefulness_note": "No actionable content; also appears to be a redundant split of cluster 0's identical signal by capitalization, which the clustering arguably should have merged rather than presenting as two roadmap items."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "2",
+    "faithfulness": 4,
+    "faithfulness_note": "Majority is brief generic positive one-liners as described; the specific minority gripes cited (cluttered/busy screens, slow-loading advanced features, a wish for more detailed charts) are real and verified in the sample, though quite sparse (~5 of 150).",
+    "clarity": 4,
+    "clarity_note": "Clear enough, but 'brief... praising... easy, simple, or intuitive' overlaps heavily with clusters 0/1/4/6 without explaining what differentiates this specific cluster.",
+    "usefulness": 2,
+    "usefulness_note": "Mostly generic praise; the handful of specific gripes are real but too sparse and varied to form a clear standalone roadmap signal."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample strongly confirms the pattern: a clear majority of complaints explicitly reference a recent update/new UI removing or hiding features (watchlist, total-invested figure, back-button behavior), with a real minority of general (non-update-tied) navigation complaints, exactly as described.",
+    "clarity": 5,
+    "clarity_note": "Precise, names the mechanism (update-driven regressions) and gives concrete examples that match the sample well.",
+    "usefulness": 5,
+    "usefulness_note": "Highly actionable: identifies specific regressions (broken back button, removed watchlist/total-invested figures) that are concrete, fixable engineering/design issues."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "4",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample is dominated by Coinbase beginner-friendliness praise citing education/navigation, with a real minority citing high fees (most common) or occasional technical glitches as the downside, matching the description precisely.",
+    "clarity": 5,
+    "clarity_note": "Clear and correctly scoped specifically to Coinbase rather than the whole app set.",
+    "usefulness": 3,
+    "usefulness_note": "Mostly a positive/branding signal; the recurring fee complaint is a known, already well-documented issue rather than new actionable information."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "5",
+    "faithfulness": 4,
+    "faithfulness_note": "Sample overwhelmingly praises ease of buying/selling/trading crypto as described, and the 'low deposit limits' friction point is verified; however the description's 'single report of withdrawal delays' doesn't clearly correspond to any review in the sample I could find — the closest matches actually praise the absence of delays or describe a different problem (being unable to withdraw a specific crypto), so this detail appears imprecise/unsupported.",
+    "clarity": 5,
+    "clarity_note": "Clear and correctly scoped to the buy/sell/trade action specifically, distinguishing it from the general usability-praise clusters.",
+    "usefulness": 2,
+    "usefulness_note": "Mostly generic positive signal about a core flow; limited new actionable content beyond the deposit-limit mention."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "6",
+    "faithfulness": 3,
+    "faithfulness_note": "The majority-positive characterization (easy/beginner-friendly investing across Robinhood, Trading 212, Coinbase) is accurate, but the description's specific example of a minority gripe — 'a missing per-company investment breakdown' — does not appear anywhere in the full 150-review sample; this reads as a fabricated or misattributed specific detail attached to an otherwise correct general claim.",
+    "clarity": 4,
+    "clarity_note": "Reasonably clear, though it overlaps substantially with clusters 2 and 4 without a sharp distinguishing feature of its own.",
+    "usefulness": 2,
+    "usefulness_note": "Mostly generic cross-app praise; the unverifiable example undermines confidence in what the cited 'minority limitation' actually is."
+  },
+  {
+    "category": "USABILITY_NAV",
+    "cluster_id": "7",
+    "faithfulness": 5,
+    "faithfulness_note": "Sample is essentially all Robinhood, with frequent explicit comparisons to Fidelity/Schwab/Webull/Vanguard/Moomoo as described, and genuine complaints are indeed rare and typically appear only as minor asides within otherwise positive reviews.",
+    "clarity": 5,
+    "clarity_note": "Precisely scoped to Robinhood and correctly distinguishes the competitive-comparison framing from the other, cross-app usability-praise clusters.",
+    "usefulness": 3,
+    "usefulness_note": "Useful as a competitive-positioning signal (repeatedly cited differentiators: low fees, Gold membership perks, fractional shares) though it remains a positive/branding cluster rather than a concrete bug or gap to act on."
+  }
+]

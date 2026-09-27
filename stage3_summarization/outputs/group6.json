@@ -1,0 +1,134 @@
+[
+  {
+    "category": "CHARTING_TOOLS",
+    "cluster_id": "0",
+    "title": "Portfolio Chart/Graph Bugs After Updates",
+    "description": "A minority of the sampled reviews (roughly 6-7 of 24, about a quarter), mostly from Coinbase users, report that portfolio charts or graphs disappeared, froze, or showed incorrect data after a recent app update. The rest of the cluster is a mix of requests for new charting features (dividend calendars, benchmark comparisons, candlestick views) and general Trading 212 charting praise, so no single theme is a majority.",
+    "quotes": [
+      {"review_id": "d821a2c3e7ef018fa17c5e75", "quote": "Grafen werden nicht angezeigt und somit der Verlauf der Werte nicht erkennbar."},
+      {"review_id": "b649799e85ef1f6ea43cc2f6", "quote": "Die grafische Darstellung im Portfolio ist einfach verschwunden."},
+      {"review_id": "4f697eb71ef6ce209e30dcd4", "quote": "Seit mehrere Tage/Wochen spinnt das Portfolio Diagram. Es werden einfach falsche Informationen gegeben."}
+    ]
+  },
+  {
+    "category": "CHARTING_TOOLS",
+    "cluster_id": "1",
+    "title": "Charts That Fail to Load, Freeze, or Stop Updating",
+    "description": "A plurality of sampled reviews (about 26%, 39/150) describe charts or graphs that fail to load, freeze, lag, or stop updating, with this problem concentrated heavily on Coinbase (23 of the 39) and also reported by Robinhood and Trading 212 users. The remaining majority of reviews is split between requests for more advanced charting features (indicators, TradingView-style tools, candlesticks, dividend calendars) and general praise for the existing charts, so chart-loading bugs are the single largest theme but not an outright majority.",
+    "quotes": [
+      {"review_id": "e67f38833b316a8a5617f0a3", "quote": "I actually hate this app now. The charts NEVER work and the app is basically useless during periods of high market activity."},
+      {"review_id": "c4335cc4f398875ca4847a94", "quote": "This app constantly needs to be force-stopped and the cache wiped just to get individual coins to load the charts or even any account records, otherwise you just get constant loading."},
+      {"review_id": "9ab418315575ca52195c9993", "quote": "the app has been failing miserably at updating with real-time data, the graph is just gray and will not update."}
+    ]
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "0",
+    "title": "Locked, Frozen, or Delayed Access to Crypto Funds",
+    "description": "A majority of sampled reviews (52%, 78/150) — overwhelmingly about Coinbase — describe accounts being frozen or restricted, or crypto/cash being held or locked, so that transfers, withdrawals, selling, or unstaking are blocked for days to weeks, often accompanied by unresponsive customer support.",
+    "quotes": [
+      {"review_id": "7f389396cc618b26794682ae", "quote": "DO NOT STAKE ON COINBASE!! THEY SAY IT'S 5 DAYS, BUT THEN THE UNSTAKING IS ANOTHER 5 DAYS, I'M ON 8 DAYS AND STILL NO UNSTAKING."},
+      {"review_id": "91d044c18e0ddd9853311a4d", "quote": "I bought cryptocurrency and they held it for 6 days then when I tried to send it to a wallet they put a hold on it saying It may be suspicious activity"},
+      {"review_id": "4c9baeef537d14ad0827dc38", "quote": "not once does it say 20 days but it does in fact take 20 days plus 5 days after pressing after unstake button"}
+    ]
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "1",
+    "title": "Positive Reception as an Easy Crypto Entry Point for Beginners",
+    "description": "A clear majority of sampled reviews (62%, 93/150) are short, positive statements praising the app (mostly Coinbase) as an easy, beginner-friendly way to get started in crypto, while only a small minority (about a dozen reviews) raise problems such as staking confusion or being unable to send crypto.",
+    "quotes": [
+      {"review_id": "de7f419544ee27bd419283f7", "quote": "Great starting point for the new to crypto crowd!"},
+      {"review_id": "a3fba5b18f7cd2426d639727", "quote": "Awesome app really teaches you alot about crypto if your new to it,easy to use, definitely the best app I've found so far"},
+      {"review_id": "c00363bfd7c1bd523b51c28a", "quote": "easy to use for a first time crypto guy"}
+    ]
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "2",
+    "title": "General Satisfaction with Ease and Speed of Buying, Selling, and Trading Crypto",
+    "description": "A strong majority of sampled reviews (71%, 106/150) express general satisfaction with how easy, fast, or reliable it is to buy, sell, or trade crypto on the app (mostly Coinbase, with some Robinhood and Trading 212), while only a small minority (about 6 reviews) specifically ask for a wider variety of available coins.",
+    "quotes": [
+      {"review_id": "c181b9262d508a6f5aea9add", "quote": "awesome cryptocurrency app great wallet easy transfers."},
+      {"review_id": "fe791681e877b47379e518e5", "quote": "This is the best and easiest app to buy sell and trade crypto. Super low fee and you can send and receive crypto so fast."},
+      {"review_id": "0e1b4db4491458a517b287d8", "quote": "It’s the best and fastest way to send and receive crypto"}
+    ]
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "3",
+    "title": "Strong Loyalty and Trust in Coinbase, Driven Partly by Learn-and-Earn Rewards",
+    "description": "This cluster is almost entirely about Coinbase (146/150 reviews), and a clear majority (68%, 102/150) express strong positive sentiment and trust in the platform. Within that, a notable minority (13%, 20/150) specifically single out the 'Learn and Earn' educational rewards program as a standout feature driving their loyalty, while a few reviews note frustration that these rewards became less frequent.",
+    "quotes": [
+      {"review_id": "bd9e088e8159a31071e3e14c", "quote": "One of the best tools for learning about crypto currencies and more. I will always consider the platform to all. Thank you Coinbase!"},
+      {"review_id": "dbe046392a1630cd3e6e0fb3", "quote": "I Started last bull run as rookie beginner and thanks to all the lessons coinbase offer for free. I became a profitable trader"},
+      {"review_id": "1341e2f8bd25584503d629c6", "quote": "they actually pay you to learn more about making money 💰 That's unheard of, where else you going to find an app that pays you over 50 dollars on your lunch break to just learn more about crypto buying and trading"}
+    ]
+  },
+  {
+    "category": "CRYPTO_SPECIFIC",
+    "cluster_id": "4",
+    "title": "Learn-and-Earn Crypto Education Rewards Program",
+    "description": "A majority of sampled reviews (at least 52%, 68/131, explicitly mention both 'learn' and 'earn', with many additional reviews referencing the same 'earn free crypto'/rewards feature using only one of those words) praise Coinbase's 'Learn and Earn' feature, which pays users in crypto for completing short educational modules and quizzes about individual coins. A small number of reviews note frustration that these rewards have become scarce, discontinued, or unavailable in their region.",
+    "quotes": [
+      {"review_id": "c032d843e9dc2db77331ba63", "quote": "LEARN AND EARN 🤩🤑 As a complete newbie to anything crypto , I highly would recommend anyone to try this app ."},
+      {"review_id": "d7a60149c46f7ee24ead146d", "quote": "Learn and earn makes all the difference in the world. For people out there who let the idea of digital currency intimidate this is the remedy."},
+      {"review_id": "a27c24fde2d45d6f6526962b", "quote": "i've had this app a few years and have made a good amount of crypto through learning rewards but unfortunately they stopped doing that now. so I lowered my rating to four"}
+    ]
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "0",
+    "title": "Coinbase Praised as an Easy, Educational On-Ramp for Crypto Beginners",
+    "description": "A strong majority of sampled reviews (81%, 121/150) — almost all about Coinbase (138/150) — describe the app positively as simple and welcoming for people with no prior crypto experience, frequently crediting its built-in tutorials and 'Learn and Earn' rewards for building their confidence and knowledge. A small minority raise complaints, such as app freezing or loading issues.",
+    "quotes": [
+      {"review_id": "c1cd6a5b3b7c2673d1dfc5bf", "quote": "Coinbase is wonderful for first timers in crypto, they really educate well."},
+      {"review_id": "b419d7bdd98cccdb50f37a6b", "quote": "Coinbase is a solid platform for beginners looking to buy, sell, and store cryptocurrencies. The user interface is simple and easy to navigate, making it a great entry point for those new to crypto."},
+      {"review_id": "3f4f13948319e2f31c6134bb", "quote": "Easy to use and learn with, and provides incentives to learn! I thought learning crypto on my own was overwhelming at first but not with coinbase!"}
+    ]
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "1",
+    "title": "Robinhood Praised as an Accessible, Beginner-Friendly Introduction to Investing",
+    "description": "A majority of sampled reviews (69%, 104/150), almost entirely about Robinhood (148/150), describe the app positively as easy to navigate and educational for first-time investors with no prior stock-market experience, helping them learn as they go. A small minority push back, citing account closures, a lack of formal tutorials, or fee complaints.",
+    "quotes": [
+      {"review_id": "d3a5ead40de7f68ad8276b1e", "quote": "I absolutely love Robinhood. This has been the easiest app to use, learn from, and grow my investments. It's user-friendly, great for beginners, intermediate and/or advanced users."},
+      {"review_id": "82380e35ee28ec079ea76fb6", "quote": "Robinhood makes trading easy with an easy interface, fractional shares, and no trading commissions."},
+      {"review_id": "cd6b7b9eccf222aad4ea87fa", "quote": "I would not suggest Robin- Hood for anybody that is a beginner trader, there are no tutorials to learn from it's all reading, it's also very difficult to close your account."}
+    ]
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "2",
+    "title": "Cross-Platform Praise for Ease of Onboarding New Investors",
+    "description": "A majority of sampled reviews (69%, 104/150), spanning Robinhood (97), Trading 212 (36), and Coinbase (17), describe the respective app as easy and welcoming for first-time or novice investors, often mentioning built-in tutorials or educational content. This spans multiple apps rather than being specific to one platform.",
+    "quotes": [
+      {"review_id": "b1241df4322e8c033b831b25", "quote": "Great platform, super easy to setup-&-use app even for non-trading professionals like me and the Pies are a blessing to make decent amount of money over a short period of time."},
+      {"review_id": "474ebf15391d9a2044e09ffd", "quote": "Excellent app for trading stocks, options, futures, and crypto. It's super-easy to get started, and it walks you through everything."},
+      {"review_id": "a0b0a9efa3f428496b36faa9", "quote": "I was honestly always skeptical about using an investing application, but this has been absolutely fantastic and is really easy to use."}
+    ]
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "3",
+    "title": "Learn-and-Earn Educational Rewards Praised as Standout Onboarding Feature",
+    "description": "An overwhelming majority of sampled reviews (85%, 119/140), across both Coinbase and Robinhood, praise a 'Learn and Earn' style feature that pays new users in crypto or cash for completing short educational lessons and quizzes, describing it as fun, motivating, and a low-risk way to build confidence. A small minority report the feature paying out incorrectly, being discontinued, or requiring a paid membership.",
+    "quotes": [
+      {"review_id": "b13fc40fb4977c21111357c7", "quote": "This app is actually very simple to use, I love it. (That's what she said) this app also let's you earn as you learn. Awesome app!"},
+      {"review_id": "ee809d833ac15558eaad94ef", "quote": "The learn feature with it's lessons and rewards is excellent!!!"},
+      {"review_id": "62bba7193e66c0877d771d6c", "quote": "They have learn and earn rewards and almost every quest I completed I had to contact support to get paid part of the rewards and half the time they didn't even pay me for them"}
+    ]
+  },
+  {
+    "category": "ONBOARDING_BEGINNER",
+    "cluster_id": "4",
+    "title": "Broad, Terse Praise for Beginner-Friendliness Across All Three Apps",
+    "description": "A strong majority of sampled reviews (81%, 122/150) are short positive statements calling the app easy, simple, or beginner-friendly, spread fairly evenly across Coinbase (65), Robinhood (68), and Trading 212 (17); about half of the sample (72/150) uses the explicit word 'beginner', 'novice', or 'newbie'. A small number of reviews (4/150) push back, saying the app lacks sufficient explanation or educational help for newcomers.",
+    "quotes": [
+      {"review_id": "f28f836eb240a28a7176519b", "quote": "This is a great app for beginners and novices alike. This app has been a godsend for me. I recomend it to everyone!"},
+      {"review_id": "c405f6778979212221a1ebaf", "quote": "Easy to use and understand especially for beginners"},
+      {"review_id": "44dc1673938f3faa69d949c5", "quote": "When you need help, Noone will help you. Very difficult for beginners with no help."}
+    ]
+  }
+]

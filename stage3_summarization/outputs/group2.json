@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ADVERTISING_NOTIFICATIONS",
+    "cluster_id": "0",
+    "title": "Relentless upsell pop-ups and misleading sign-up bonuses",
+    "description": "The large majority of sampled reviews (this is the dominant pattern in the cluster, not a minority signal) describe being bombarded with in-app pop-ups pushing Robinhood Gold, prediction markets/gambling features, or credit-card offers every time the app is opened, and a recurring secondary complaint within that majority is that advertised referral or sign-up bonuses (e.g. \"up to $200\") turn out to be far smaller than advertised.",
+    "quotes": [
+      {"review_id": "e7bdf9a41f7498e977664004", "quote": "Now it's just an AD for gambling and their premium product. It constantly asks multiple times a day to try gambling and/or upgrade."},
+      {"review_id": "1475ab5b154498452b796524", "quote": "I signed up after clicking what I believed was a $200 promotion. After opening my account, I learned the reward was randomized, and Robinhood support confirmed 98% of users receive only $5 to $10."},
+      {"review_id": "0fade73defb4751c08f65ac3", "quote": "Ridiculously repetitive popups about unwanted offers from Robinhood within the app. No optout, no way to disable the repetitive annoying robinhood popups."}
+    ]
+  },
+  {
+    "category": "ADVERTISING_NOTIFICATIONS",
+    "cluster_id": "1",
+    "title": "Ads and pop-ups frustrate most users, though a minority likes the promos",
+    "description": "Most of the short, terse reviews sampled in this cluster complain about intrusive, hard-to-close ads and pop-ups (some referencing third-party ads shown outside the app itself), and this negative reaction outnumbers positive mentions; however, a real minority of sampled reviews instead praise the app's giveaways, referral rewards, or specifically note it as ad-free, so the ad complaints, while the majority, are not the only voice in this cluster.",
+    "quotes": [
+      {"review_id": "ff2f8b6c7da095680ca1f87d", "quote": "I've gotten stuck inside their as countless times bc of how tiny the x is to end it!"},
+      {"review_id": "8e17bb4cdc7521973967c964", "quote": "if i have to see one more offer pop-up add, I think i will move my money somewhere else and delete the app."},
+      {"review_id": "34bba28cae61b61fe53d1a27", "quote": "Extremely User friendly, plus I won a huge Amount in USDC prize in the opt in promotion"}
+    ]
+  },
+  {
+    "category": "ADVERTISING_NOTIFICATIONS",
+    "cluster_id": "2",
+    "title": "Notification overload with no reliable way to opt out",
+    "description": "A clear majority of the (unsampled, fully-read) reviews in this cluster report being bombarded with excessive push notifications, marketing emails, spam calls, or in-app review prompts, and many explicitly say that disabling notifications in settings does not actually stop them.",
+    "quotes": [
+      {"review_id": "4d35ec258e07f1a299d1424f", "quote": "Push notifications and in-app banner messages are both heavily flawed. Risky or otherwise unappealing offers appear again and again after dismissal."},
+      {"review_id": "c0b50d7bc3efa67b216beaa0", "quote": "They sell your data. Had no spam calls daily until I gave them my phone number and now I get at least 3 a day. Wouldn't recommend."},
+      {"review_id": "3b1d5bdbb75cbef9e3cfde24", "quote": "Too many push notifications that can't be disabled."}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "0",
+    "title": "Terse one-word \"great\" reviews",
+    "description": "This is a generic-sentiment residual cluster: essentially all sampled reviews consist of nothing more than the single word \"great\" (or a trivial variant such as \"great advices\"), with no elaboration on any specific feature, so no substantive theme can honestly be attributed beyond bare positive sentiment.",
+    "quotes": [
+      {"review_id": "f8e3cdf5ef376775d77bb067", "quote": "Great great great ."},
+      {"review_id": "616eed7daff56b1a4b21061d", "quote": "great advices"},
+      {"review_id": "875221d50796e11148c3af9a", "quote": "Great new tech"}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "1",
+    "title": "Terse one-word \"good/great/excellent\" reviews",
+    "description": "Like the adjacent generic-sentiment cluster, virtually all sampled reviews here are single words such as \"good,\" \"great,\" or \"Excellent\" with no supporting detail; it is a duplicate-wording variant of the same catch-all positive-sentiment pattern rather than a distinct thematic complaint or request.",
+    "quotes": [
+      {"review_id": "08860a9e59a14e061027d1e7", "quote": "Good boy"},
+      {"review_id": "01d065de177999b464f5a681", "quote": "good progress"},
+      {"review_id": "0f660964e3c7533447c6cd3e", "quote": "Excellent"}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "2",
+    "title": "Emoji-only positive reactions",
+    "description": "Nearly all sampled reviews in this cluster consist solely of one or more emoji (thumbs-up, hearts, fire, etc.) with no accompanying words, and the rare reviews that do contain text are themselves minimal generic praise such as \"nice app\"; this cluster carries essentially no specific product feedback.",
+    "quotes": [
+      {"review_id": "5fc30f87fb653f1fb34f6428", "quote": "nice app"},
+      {"review_id": "7123eb0f6b1fb71fddf5b38f", "quote": "nice app"},
+      {"review_id": "9d717eb012c4c17d0ea7a052", "quote": "nice Apps"}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "3",
+    "title": "Mixed short generic reviews, majority mildly positive",
+    "description": "This is a large, heterogeneous catch-all cluster of brief, generic one-line reviews; a majority lean mildly positive (\"great experience,\" \"so far so good\"), while a smaller but clearly present minority are brief negative or lukewarm remarks (\"Very bad app,\" \"Worst app... garbage app\"), without any specific recurring feature or complaint tying the cluster together.",
+    "quotes": [
+      {"review_id": "9e726eb447755020660e10ad", "quote": "been a great experience"},
+      {"review_id": "a1653c84a49bb03505cc14b2", "quote": "Very bad app, i dont recommend this"},
+      {"review_id": "74e5d2c5fb0a2e8216b81f31", "quote": "So far, so good!"}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "4",
+    "title": "Generic loyalty praise naming Coinbase specifically",
+    "description": "The large majority of sampled reviews are brief, generic statements of loyalty that name Coinbase specifically as the reviewer's preferred or most-trusted crypto platform, frequently citing multi-year tenure without issues; a small minority of reviews in the sample are negative about crypto investing generally rather than about Coinbase's app itself.",
+    "quotes": [
+      {"review_id": "2c1e9a93e07ad3235de03e3c", "quote": "Sound and secure. My go-to for all things crypto."},
+      {"review_id": "d07be243776ecafc9913b8a7", "quote": "Have been a client on coinbase since 2017. Have always had great experiences and would definitely recommend to friends."},
+      {"review_id": "8a36d6a78f2fd2f08f9675c4", "quote": "After using coinbase for over 2 years, it is still the best exchange I've ever used for crypto trading."}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "5",
+    "title": "Generic loyalty praise naming Robinhood specifically",
+    "description": "The large majority of sampled reviews are broad, generic statements of satisfaction and loyalty that name Robinhood by name, often citing years of use or explicitly recommending it as the best platform; this mirrors the Coinbase-loyalty cluster's pattern but for Robinhood, and a small minority of reviews express sharp negative sentiment instead (e.g. \"Robinhood is BS!\").",
+    "quotes": [
+      {"review_id": "3b5a90abeefcb4ff898c9394", "quote": "I've been on Robinhood since 2019 and It's been a great way for me to invest."},
+      {"review_id": "c757a41caa97e504b645dc88", "quote": "robinhood by far the best and have since transferred all assets into robinhood from other brokerages."},
+      {"review_id": "f2b93b812cb6f8ee861389b8", "quote": "Robinhood is BS!"}
+    ]
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "6",
+    "title": "Generic praise for making money/investing success",
+    "description": "The majority of sampled reviews across Robinhood, Trading 212, and Coinbase express generic positive sentiment specifically framed around making money or building wealth through the app (e.g. \"great way to invest,\" \"starting to see real returns\"), rather than about any particular feature; a clear minority instead report losses or disappointing returns.",
+    "quotes": [
+      {"review_id": "6384d1694c692b810158acf8", "quote": "great way to invest"},
+      {"review_id": "70c4e033d0ef2c938e921ee0", "quote": "Really good I am starting to see real returns."},
+      {"review_id": "c44459d92c87cd13e0a6f627", "quote": "So far all my investments tanked or failed. It's just better to invest in crypto than stocks now."}
+    ]
+  },
+  {
+    "category": "TRADE_EXECUTION",
+    "cluster_id": "0",
+    "title": "Generally positive trade execution, with requests for more order types",
+    "description": "A majority of sampled reviews describe placing trades (stocks, options, crypto) as fast, easy, and reliable overall, but a substantial minority raise specific execution gaps as recurring pain points, most often requests for trailing stop-loss or additional limit-order controls, wide spreads, or instances of trades being blocked/restricted.",
+    "quotes": [
+      {"review_id": "373bf6c43f2aa49151e7bfe6", "quote": "Easy to navigate. Fast trades. Trustworthy platform."},
+      {"review_id": "8643d8555ad1018ed7356782", "quote": "I want to do a trailing stop loss on shares which you only do in cfds. this would be amazing if it was implemented"},
+      {"review_id": "40dedf59f6dd7112a4e3f0d1", "quote": "Gave it 4 at first.. but once they started Blocking trades. Had to edit"}
+    ]
+  },
+  {
+    "category": "TRADE_EXECUTION",
+    "cluster_id": "1",
+    "title": "Blocked trades, price slippage, and unreliable stop-loss execution",
+    "description": "The large majority of sampled reviews in this cluster describe serious trade-execution failures: orders filling at a worse price than shown or set, stop-loss/limit orders not triggering correctly, or accounts being restricted from buying or selling at critical moments, frequently described as directly costing the reviewer money. This is a much more uniformly negative cluster than the companion trade-execution cluster, which was execution complaints mixed with substantial positive sentiment.",
+    "quotes": [
+      {"review_id": "111be61eba5c54f58d885208", "quote": "When you buy or sell shares they do not execute at the price it shows or that you set a limit on."},
+      {"review_id": "c29b2c7821d61c54a374645c", "quote": "Stop loss doesn't always work. You don't get out of option plays on time."},
+      {"review_id": "67de44b41e97aed1fe10419d", "quote": "Logged in today to find out robinhood didn't want me holding soundhound ai and they sold all my shares at a loss with no warning, no good reason, and without my approval."}
+    ]
+  }
+]

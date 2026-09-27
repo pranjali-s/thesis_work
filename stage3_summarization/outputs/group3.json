@@ -1,0 +1,342 @@
+[
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "0",
+    "title": "Requests for broader asset and account-type coverage",
+    "description": "Most reviewers in this cluster (spanning Coinbase, Robinhood, and Trading 212) are not complaining about bugs but asking the platform to list more assets or account types than it currently supports -- additional cryptocurrencies, missing stocks/ETFs, or account types like ISA/SIPP -- rather than reporting something broken.",
+    "quotes": [
+      {
+        "review_id": "761c252b537473d24e97ed4b",
+        "quote": "Get with the program, and add XRP to your crypto lineup, Robinhood! When you do that, I will change my rating. You have Shiba, but you do not have XRP??? Makes no sense!"
+      },
+      {
+        "review_id": "1368877f416da9c01bebb7e2",
+        "quote": "only limited options in ISA, no SIPP. No options to buy UK, EU or international stocks"
+      },
+      {
+        "review_id": "8ef1977460ef884247b05e18",
+        "quote": "Wish there was more options for crypto"
+      }
+    ]
+  },
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "1",
+    "title": "Coinbase geo-blocking existing users out of their accounts",
+    "description": "The large majority of this cluster (almost entirely Coinbase, with a handful of Trading 212/Robinhood) reports being unable to access, fund, or withdraw from an already-used account because the service is unavailable or has been withdrawn in their country (frequently named: Nigeria, India, Pakistan, South Africa, Bangladesh, Kenya, Uganda, UK, Canada), rather than requesting a specific missing asset.",
+    "quotes": [
+      {
+        "review_id": "00007602ae17b7ab87ee51c9",
+        "quote": "Coinbase app don't work anymore in Nigeria"
+      },
+      {
+        "review_id": "422b37296f20be62a0164ee6",
+        "quote": "The only thing is that Coinbase is not supported in my country (South Africa) which is big inconvenience since I was looking forward to investing in Crypto coins and tokens"
+      },
+      {
+        "review_id": "b57f551bda6a7aad5b3c4d1e",
+        "quote": "Am new to using Coinbase but the issue is that it has no payment methods supported in my country(Uganda). Could you please add it."
+      }
+    ]
+  },
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "2",
+    "title": "Prospective users asking for country expansion",
+    "description": "Nearly every review in this cluster is a short, prospective request -- from users who have not yet been able to use the app -- asking Trading 212 or Coinbase to launch or add support for their country (Nigeria, Pakistan, Bangladesh, South Africa, Indonesia, Malaysia, and others), distinct from the frustration of already-onboarded users being cut off.",
+    "quotes": [
+      {
+        "review_id": "cbf14485fda2ffe78efd208e",
+        "quote": "Please make this app available in south africa"
+      },
+      {
+        "review_id": "4ecd5bd7a50b74e1595650e5",
+        "quote": "good morning please why is the app not working in Nigeria I really want this app I love it but it not working in Nigeria why"
+      },
+      {
+        "review_id": "997863bfaaab8ec2ca9295bd",
+        "quote": "Genuinely I haven't tried it out yet cause it doesn't support Malaysia yet but I've head great reviews from Mark Tilbury, hopefully it just to support in Malaysia."
+      }
+    ]
+  },
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "3",
+    "title": "Sign-up blocked by country-of-residence selection",
+    "description": "Almost all reviews here describe the account-creation flow itself failing on the country-of-residence step -- most often Trading 212 explicitly not supporting the United States, but also Canada, UK, and other countries missing from residency dropdowns or rejected during identity verification -- a narrower, sign-up-specific version of the broader geo-restriction complaints in this category's other clusters.",
+    "quotes": [
+      {
+        "review_id": "fc5a759ec501d120d5659116",
+        "quote": "How the hell do you not support the US? come on. 1 star!"
+      },
+      {
+        "review_id": "b22ed8e8ee4677b0698c7dca",
+        "quote": "I've heard great things about this app, but when I go to select my country of residence, United States of America is not listed on there, so therefore, I cannot use the app like I wanted to."
+      },
+      {
+        "review_id": "a35b7f3f623d3540dc9c2597",
+        "quote": "Does not allow me to sign up, as a glitch is forcing Canada to not appear in the list of countries. I have spent hours trying to resolve this."
+      }
+    ]
+  },
+  {
+    "category": "PREDICTION_MARKETS",
+    "cluster_id": "0",
+    "title": "Prediction markets split opinion between fun feature and gambling worry",
+    "description": "Reviews mentioning the new prediction/event-contract markets (mostly on Robinhood) are genuinely divided: a large share explicitly call it gambling or a casino and express discomfort mixing it with investing, while a comparable or larger share describe it positively as a fun, profitable addition -- this is a mixed cluster, not a one-sided complaint.",
+    "quotes": [
+      {
+        "review_id": "8acf40be9aef3198e8966330",
+        "quote": "Be careful with \"predictions\"... this is pure gambling."
+      },
+      {
+        "review_id": "896e038244ad43abb84e947f",
+        "quote": "I do wish that you could disable the prediction market. I don't really like having gambling next to investments."
+      },
+      {
+        "review_id": "ae284e141ef71e64a730af29",
+        "quote": "I've had this app for 9 years. Great investing app with no stock fees and prediction markets. Easy to use and works great on mobile"
+      }
+    ]
+  },
+  {
+    "category": "PREDICTION_MARKETS",
+    "cluster_id": "1",
+    "title": "Accusations that prediction-market payouts are rigged or withheld",
+    "description": "The dominant pattern in this cluster (nearly all reviews, split between Robinhood and Coinbase) is an allegation that the prediction market itself is manipulated -- that winning positions are not paid out, prices are altered at the last moment, or contracts are closed late to favor the house -- rather than a general gambling complaint.",
+    "quotes": [
+      {
+        "review_id": "4aac751dcab9d14bb3cdbf92",
+        "quote": "rigged and manipulated prediction market. buyer beware. they will close a prediction late to recover their own losses."
+      },
+      {
+        "review_id": "a2e300a046118d0855bc85bc",
+        "quote": "prediction markets are a scam. Users beware. They take your money and don't pay the contract when you are correct."
+      },
+      {
+        "review_id": "8507a02c4a25d0541056bc67",
+        "quote": "Used the prediction market and was deceived by CoinBase's graphs. The app was running awful with lag time of predictions causing my order to fall."
+      }
+    ]
+  },
+  {
+    "category": "PREDICTION_MARKETS",
+    "cluster_id": "2",
+    "title": "Prediction markets forced to the top of the home screen with no way to hide them",
+    "description": "The large majority of this cluster (almost all Robinhood) complains specifically about interface placement -- prediction/event markets and sports betting pushed above stock holdings on the home screen with no toggle to disable or reorder them -- rather than about payout fairness or gambling per se.",
+    "quotes": [
+      {
+        "review_id": "53da5fc52bf234f3c97566ff",
+        "quote": "I don't want to see \"prediction markets\" (a.k.a. gambling) and there's no way to hide them (only sports can be hidden)"
+      },
+      {
+        "review_id": "cc4ad84532651569f4d63cf4",
+        "quote": "while the app is amazing and simple for investment they've added prediction market in the app. This is sports betting and I don't want this to show up every time I open the app. I tried disabling it but there is no setting to disable it."
+      },
+      {
+        "review_id": "c49f85a1da4a86ace1bed429",
+        "quote": "Garbage junk sports prediction markets ruined Robinhood. It literally clogs up the screen. They placed that junk above my investments trying to jam force it on me against my will."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "0",
+    "title": "General praise for platform security",
+    "description": "This cluster is overwhelmingly (the large majority) short, positive reassurance that the app -- mostly Coinbase -- feels 'safe' and 'secure', citing 2FA, identity checks on suspicious activity, and general trust, with almost no negative reports.",
+    "quotes": [
+      {
+        "review_id": "e19deec96ed3354e968268f2",
+        "quote": "User-friendly for sending/receiving crypto. Good security on app with 2FA. Looking forward to more currency on this platform"
+      },
+      {
+        "review_id": "8663078fa3862c2dc0984278",
+        "quote": "coin base has my back. I'm a novice user. I'm pleased that they check my identity when they see suspicious activity."
+      },
+      {
+        "review_id": "61dd54ec4e2570fb4822dc54",
+        "quote": "ease of use is key and on a personal note coinbase one account security system alerted me in the nick of time as I was almost hacked and the hacker was targeting my xrp, now I use a security key"
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "1",
+    "title": "Positive security sentiment alongside specific lock-screen and auth gaps",
+    "description": "Like the previous cluster, most reviews here are brief positive praise of security ('secure', 'safe'), but this cluster also contains a distinct recurring minority pattern (roughly a tenth of reviews) of specific, concrete complaints: the account balance briefly flashing on screen before the PIN/biometric lock appears, and requests for missing options such as auto-logout or authenticator-app/passkey support.",
+    "quotes": [
+      {
+        "review_id": "5f955d55a17a833219e681c0",
+        "quote": "Best Crypto app available. Easy&Secure!"
+      },
+      {
+        "review_id": "b37d0fda3f0bde159fa64898",
+        "quote": "My one concern is when I open the app which is secured with biometricsc my account homepage is briefly shown before the biometrics screen appears,this then reveals my savings amount."
+      },
+      {
+        "review_id": "838ca31d2b9779384c7f5ccd",
+        "quote": "the app should auto logout when you close it. this is a poor security feature and I can't see a way to enable it. every other banking app auto logs out either immediately or after about 5 minutes but this can stay logged in indefinitely."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "2",
+    "title": "Robinhood accounts hacked with unresponsive support",
+    "description": "The large majority of this cluster (almost exclusively Robinhood) describes an account being hacked or funds stolen, followed by an inability to reach effective customer support to recover the money or the account, often over many weeks.",
+    "quotes": [
+      {
+        "review_id": "c16f70c3cef77397d5e48f33",
+        "quote": "I had roughly 15k stolen from my account. Robinhood chat PERSONALLY gave the hacker the money on a Sunday morning!. Robinhood will lock your account, you will have ZERO options of contacting Robinhood."
+      },
+      {
+        "review_id": "e6dd1e9ca319ed9549f544dd",
+        "quote": "Robinhood is not a safe place for your money. Use at your own risk. There's no legitimate customer service support. if you have an issue with your account being hacked they will not transfer you to someone who can help."
+      },
+      {
+        "review_id": "00f05c71c86934ef39b10d91",
+        "quote": "2 factor authentication with authenticator apps has been quietly removed without warning causing me to lose trust in the company. I've been getting authentication requests via text message and device approvals which I never selected."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "3",
+    "title": "Refusal to hand over SSN, ID, or bank login during onboarding",
+    "description": "Nearly all reviews in this cluster are onboarding/KYC privacy objections -- reviewers refusing or balking at requests for a Social Security number, government ID, or bank-login access via Plaid, and often uninstalling as a result -- distinct from clusters about accounts actually being compromised.",
+    "quotes": [
+      {
+        "review_id": "ffd45a19824349c138138fc5",
+        "quote": "Weird, you want me to send my Government ID to a stranger to be verified? A stranger is getting my information to be verified? Not like a bank with face to face interaction, but a real stranger I can't see? Yeah that's a HARD NO for me."
+      },
+      {
+        "review_id": "02c859770cbf3e93a5ef062a",
+        "quote": "I'm not about to trust some random third party called Plaid with my BANK ACCOUNT LOGIN DETAILS. This is insane"
+      },
+      {
+        "review_id": "c4aa242fc2cb1df3d16ac227",
+        "quote": "Requires SSN, it's against federal law to force someone to give their social security number"
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "4",
+    "title": "Mandatory face/video selfie verification locking users out",
+    "description": "Almost every review in this cluster (Trading 212, Robinhood, and Coinbase) objects specifically to forced facial-recognition or video-selfie verification -- often required just to withdraw funds or re-trust a device -- describing it as invasive and, in many cases, as something that locked them out of their own money.",
+    "quotes": [
+      {
+        "review_id": "d8400e334fadc28d6af1d31b",
+        "quote": "Why is it asking for my face? I have given you my PIN and my two-factor authentication. Can't access my account without a privacy violation."
+      },
+      {
+        "review_id": "eb104640f6378bcdb7326d9b",
+        "quote": "I need to scan my face to use the app, what!? So sending you bank statements to prove I'm real is not enough, now you also want my face?"
+      },
+      {
+        "review_id": "068c97a2540febd8845f2dce",
+        "quote": "This app has only gotten worse over the years. Now, you have to take a live photo of yourself every single time you make a withdraw. F these guys."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "5",
+    "title": "Coinbase accounts drained with no reimbursement",
+    "description": "Nearly all reviews here (almost exclusively Coinbase) describe funds or crypto being stolen from the account -- via hacking, SIM-swap, or unauthorized transfers -- followed by Coinbase declining to reimburse or resolve the case, the Coinbase counterpart to the Robinhood-hacking cluster elsewhere in this category.",
+    "quotes": [
+      {
+        "review_id": "fe596efe05c6317468b96626",
+        "quote": "Big warning to everyone! I had funds in my account, and despite ALL the So-called security and Two factors authentication, all my funds were still stolen!"
+      },
+      {
+        "review_id": "46378c6e01feaebf14addda2",
+        "quote": "Horrible security. If you want to risk losing all your crypto then get this app. Someone hacked into my email, reset my password, changed my my email address, and coinbase did nothing to stop them."
+      },
+      {
+        "review_id": "2a80432bd40383b95abb628a",
+        "quote": "if you value your security please do not use this app. July 31st , 2025 an unauthorized withdrawal of over 4000 dollars was taken. coinbase has no intentions of reeimbursing me."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "6",
+    "title": "No way to reach support once locked out or hacked",
+    "description": "The dominant pattern in this cluster (split across Robinhood and Coinbase) is a specific catch-22: reviewers who suspect fraud or are locked out find there is no phone line or live agent, and any support channel that exists requires logging into the very account they cannot access.",
+    "quotes": [
+      {
+        "review_id": "29f5618b3f1a6192142e00a1",
+        "quote": "there is no customer support, if you forget your password if you change device and you need assistance, they tell you to log in to get assistance. it is absolutely impossible"
+      },
+      {
+        "review_id": "1e049aa0d77d46a840d39293",
+        "quote": "If you have issues with app you get absolutely no help! I believe I was hacked and now locked out of app and you have to have access to app to get help. How does that work?"
+      },
+      {
+        "review_id": "1bb261777a0bd957f096af52",
+        "quote": "Impossible to report on the options listed given that you have to 1) Login to the account to report issues, 2) Be on the same phone associated with the account to lock it, or 3) Have very specific non-scam related options they can deal with instead."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "7",
+    "title": "Account recovery blocked because attackers changed the phone/email on file",
+    "description": "Almost every review in this cluster describes an account takeover in which the attacker changed the phone number or email of record, leaving the legitimate owner unable to complete recovery because verification is tied to that now-compromised contact info -- a narrow, specific mechanism distinct from the broader 'can't reach support' cluster nearby.",
+    "quotes": [
+      {
+        "review_id": "632a097905b8ff7c908e746d",
+        "quote": "Can't login because I changed my phone number. The only way to recover your account is with a phone number, so if that changes, you can't access your account unless you upload your ID"
+      },
+      {
+        "review_id": "d43477d1986a802e0049889a",
+        "quote": "The number on my account isnt the one i got texted on, its an old number i dont have access anymore. I cant lock the account because the tect verifications dont come through. I cant change the information because I need to have my old number that I dont use to verify. Im completely stuck. My account is hacked."
+      },
+      {
+        "review_id": "67b030661eff7d93bc6b65fe",
+        "quote": "my account was hacked and I've tried getting in touch with someone but I've had no luck. But the guy stole $2800 from me and now I'm locked out of my account. He's changed the password and phone number so I don't know what to do to regain my account or my money"
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "8",
+    "title": "Terse hacked/scam complaints and a minority of phantom app installs",
+    "description": "Most reviews in this cluster are brief, low-detail one-liners alleging hacking, scams, or data breaches without much narrative; a smaller but recurring minority (a handful of reviews) specifically report the Trading 212 app mysteriously appearing or installing itself on a device without the reviewer ever creating an account.",
+    "quotes": [
+      {
+        "review_id": "15d02b114365cd7d9c1898d9",
+        "quote": "APP INSTALLED BY ITSELF ON MY DEVICE. Google Pixel 9a lol. just had notification that app installed itself. I don't have 212 account, never went to its website and so on."
+      },
+      {
+        "review_id": "9c2516fbc00d5b7e4d33a879",
+        "quote": "you let someone else hack my account and change All my passwords and email and phone number"
+      },
+      {
+        "review_id": "81acfda44f1aa91bfe4acecb",
+        "quote": "continuous data breaches! last one in Feb of 2025. This isn't the first time this has happened."
+      }
+    ]
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "9",
+    "title": "Unauthorized fund withdrawals with no refund, mostly on Coinbase",
+    "description": "Most reviews in this small cluster (predominantly Coinbase) report a specific dollar amount taken from their account or linked bank/card without authorization, with the company declining to refund or investigate -- thematically close to other hacking-and-no-reimbursement clusters in this category but centered on named, unauthorized withdrawals.",
+    "quotes": [
+      {
+        "review_id": "cb480a18c65c0d865908d296",
+        "quote": "Very disapointed. someone hacked in my account and they didn't do anything to get my money back"
+      },
+      {
+        "review_id": "fa09c6dcbaeb759b8ccc6172",
+        "quote": "Terrible security. I had 2 factor login security and they still allowed an out of state hacker to steal my savings."
+      },
+      {
+        "review_id": "49dfd76f20ff7bee32b1c7f3",
+        "quote": "stolen from me $3187.00 and wells fargo bank is in on it. transaction was to Romania. unreal!!!"
+      }
+    ]
+  }
+]

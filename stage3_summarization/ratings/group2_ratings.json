@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ADVERTISING_NOTIFICATIONS",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "A keyword sweep of all 150 sampled reviews shows ~63% touch some ad/popup/promo/bonus theme (only ~16% narrowly combine 'popup' wording with an explicit Gold/gambling/credit-card mention), so 'large majority... dominant pattern' is defensible but slightly generous, and the 'every time the app is opened' framing overstates what most individual reviewers actually say; the secondary referral/bonus-smaller-than-advertised claim (~26/150, 17%) is accurate and well-supported. Spot-checked quotes (e7bdf9a4, 1475ab5b, 0fade73d) are verbatim and contextually non-misleading.",
+    "clarity": 4,
+    "clarity_note": "Title and description clearly convey two linked complaints (upsell popups; misleading bonuses); a PM would know what this is at a glance.",
+    "usefulness": 4,
+    "usefulness_note": "Concrete, actionable: reduce popup frequency/add an opt-out, and audit referral-bonus marketing copy against actual payout distribution (98%-get-$5-$10 claim), a genuine legal/trust exposure."
+  },
+  {
+    "category": "ADVERTISING_NOTIFICATIONS",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Proportions check out well: negative-only ad/popup complaints are ~53% of the sample, pure positive (praise, giveaways, rewards, or explicit 'no ads') are ~20-24%, matching the description's careful framing of 'majority... but not the only voice.' It also correctly flags the notable sub-pattern of third-party/outside-app ads (reviews left by people who saw a Robinhood/Coinbase/Trading212 ad while playing an unrelated mobile game, e.g. ea960bc5, 4173c19a, 58262d73). Quotes (ff2f8b6c, 8e17bb4c, 34bba28c) verified verbatim, in context, non-misleading.",
+    "clarity": 4,
+    "clarity_note": "Title captures the split well ('frustrate most users, though a minority likes the promos'), but doesn't surface that a meaningful chunk of the 'ad complaints' are actually about third-party ad-network placements outside the app (a marketing/media-buy issue, not a product/UX issue) rather than in-app popups -- a PM reading only the title/description could misattribute this to the product team.",
+    "usefulness": 4,
+    "usefulness_note": "Useful on two fronts: reduce in-app upsell frequency, and separately the third-party-ad-driven review-bombing pattern is an actionable, non-obvious signal worth routing to marketing/ad-ops, though the write-up doesn't call this out as its own distinct action item."
+  },
+  {
+    "category": "ADVERTISING_NOTIFICATIONS",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 107 (fully sampled, not subsampled) reviews; ~68% clearly touch notifications/emails/spam-calls/review-nagging, matching 'clear majority' well, and roughly 8-10 reviews explicitly say disabling notifications doesn't work, matching the 'many explicitly say' qualifier (a modest, not majority, claim). Quotes (4d35ec25, c0b50d7b, 3b1d5bdb) verified verbatim and accurately representative, not cherry-picked outliers.",
+    "clarity": 5,
+    "clarity_note": "Title 'Notification overload with no reliable way to opt out' is precise and immediately understandable; description names the specific channels (push, email, calls, review prompts).",
+    "usefulness": 5,
+    "usefulness_note": "Highly actionable: notification-settings not being honored is a concrete bug; the review-nag pattern is a known App Store/Play Store anti-pattern (one reviewer explicitly cites Apple's guidelines); unsubscribe-less marketing email is a possible compliance issue."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews; the overwhelming majority (well over 90%) are literally just the word 'great' or a trivial variant, exactly as described. All three quotes (f8e3cdf5, 616eed7d, 875221d5) are verbatim exact matches to short one-line reviews with no hidden context.",
+    "clarity": 5,
+    "clarity_note": "Title and description are unambiguous and self-aware about being a residual, no-signal cluster.",
+    "usefulness": 1,
+    "usefulness_note": "Correctly and honestly flagged as carrying no actionable content beyond bare positive sentiment -- appropriately low usefulness, not a faithfulness problem."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews; virtually all are single words ('good', 'great', 'Excellent' and capitalization variants) with no elaboration, matching the description precisely. Quotes (08860a9e 'Good boy', 01d065de 'good progress', 0f660964 'Excellent') are verbatim exact matches to the full review text.",
+    "clarity": 5,
+    "clarity_note": "Clear, and appropriately framed as a near-duplicate of the adjacent 'great'-only cluster rather than a distinct theme.",
+    "usefulness": 1,
+    "usefulness_note": "No actionable content, honestly described as such."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "2",
+    "faithfulness": 4,
+    "faithfulness_note": "Read all 150 sampled reviews; the vast majority are indeed emoji-only (thumbs up, hearts, fire) with a handful of 'nice app' text reviews, matching the description well. However the title 'Emoji-only positive reactions' slightly overstates uniformity -- a small number of sampled entries are negative-only emoji (e.g. 👎👎, 🫢🫢, ☠️) or mixed/ambiguous (😥😥😥😥❤️), about 3/150 (~2%). A minor, low-impact overclaim. Quotes (5fc30f87, 7123eb0f, 9d717eb0 'nice App(s)') verified verbatim.",
+    "clarity": 5,
+    "clarity_note": "Immediately clear what this cluster is and that it carries no specific feedback.",
+    "usefulness": 1,
+    "usefulness_note": "No actionable content; correctly flagged as such."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews; roughly 85% are brief mildly positive one-liners, ~10-15 are clearly negative or lukewarm ('Very bad app', 'Worst app...garbage app', 'it suck', 'useless app'), matching the 'majority mildly positive... smaller but clearly present minority negative/lukewarm' framing well, with no single recurring feature theme tying them together, as stated. Quotes (9e726eb4, a1653c84, 74e5d2c5) verified verbatim.",
+    "clarity": 4,
+    "clarity_note": "Title/description clearly communicate this is a heterogeneous catch-all with no unifying theme, which is itself useful clarity for a PM deciding whether to act on it.",
+    "usefulness": 2,
+    "usefulness_note": "Low actionability given the acknowledged lack of a specific theme, but not zero -- the ~10% negative/lukewarm minority is a real, if diffuse, satisfaction signal worth tracking over time even without a specific fix to point to."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "4",
+    "faithfulness": 4,
+    "faithfulness_note": "Read all 150 sampled reviews (almost entirely Coinbase); the large-majority loyalty/tenure claim is very well supported. However the specific characterization of the small negative minority ('negative about crypto investing generally rather than about Coinbase's app itself') is only clearly true for one example in the sample (a674ddc6, about the crypto market); the other negative entries actually target Coinbase/the app itself (07838ea2 'I hate this app, I hate coinbase'; dbc7c8de 'Any Crypto exchange except coinbase!'), which contradicts the stated direction of that minority. A minor mischaracterization of a small (~4/150) slice.",
+    "clarity": 5,
+    "clarity_note": "Clear and specific about what this cluster is (brand loyalty, not feature feedback).",
+    "usefulness": 2,
+    "usefulness_note": "Not product-actionable, but a legitimate brand-health/trust signal that could inform marketing messaging or churn-risk framing."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "5",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews (almost entirely Robinhood); large-majority loyalty/tenure claim well supported, and the negative-minority claim is accurate and even quote-matched exactly to a real, representative sample entry (f2b93b81 'Robinhood is BS!', ~4% of sample is negative). Quotes (3b5a90ab, c757a41c, f2b93b81) all verified verbatim and non-misleading in context.",
+    "clarity": 5,
+    "clarity_note": "Clear parallel framing to the Coinbase-loyalty cluster, easy to understand.",
+    "usefulness": 2,
+    "usefulness_note": "Same as the Coinbase-loyalty cluster: a brand-health signal rather than a specific product fix, but not without value."
+  },
+  {
+    "category": "GENERAL_SENTIMENT",
+    "cluster_id": "6",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews; the majority are generic 'making money/great way to invest' statements not tied to any specific feature, and a small but real minority (~4-6/150) report losses/tanked investments, matching 'clear minority' without overstating its size. Quotes (6384d169, 70c4e033, c44459d9) verified verbatim; the loss-quote (c44459d9) is framed in the source as about market performance, not an app defect, consistent with how the description uses it.",
+    "clarity": 5,
+    "clarity_note": "Clear and appropriately scoped as a generic-sentiment cluster distinct from the loyalty clusters.",
+    "usefulness": 2,
+    "usefulness_note": "Not specifically actionable for engineering/product, though it is a useful signal that users frame value primarily around 'making money' rather than app features, which could inform onboarding/education messaging."
+  },
+  {
+    "category": "TRADE_EXECUTION",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews; a clear majority describe trading as fast/easy/reliable, while a substantial minority (~25-30/150, ~17-20%) raise specific execution gaps -- trailing stop-loss/limit-order requests, wide spreads, and blocked/restricted trades -- exactly the three sub-patterns named in the description, in roughly the proportions implied. Quotes (373bf6c4, 8643d855, 40dedf59) verified verbatim and representative, not outliers.",
+    "clarity": 5,
+    "clarity_note": "Title 'Generally positive trade execution, with requests for more order types' precisely sets expectations (mostly positive, with a specific named gap).",
+    "usefulness": 4,
+    "usefulness_note": "Concrete, prioritizable feature requests (trailing stop-loss, additional limit-order controls) plus a named trust issue (trade blocking); more actionable than most GENERAL_SENTIMENT clusters."
+  },
+  {
+    "category": "TRADE_EXECUTION",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Read all 150 sampled reviews; this cluster is overwhelmingly and specifically negative -- price slippage/worse-than-shown fills, stop-loss/limit orders failing to trigger correctly, and accounts being restricted/trades blocked at critical moments are the dominant, repeated patterns across the vast majority of the sample, with almost no positive reviews present, matching the description's 'large majority... much more uniformly negative than the companion cluster' claim exactly. Quotes (111be61e, c29b2c78, 67de44b4) verified verbatim, in context, and non-misleading.",
+    "clarity": 5,
+    "clarity_note": "Title names the three specific failure modes precisely; a PM would immediately understand the severity and nature of the issue.",
+    "usefulness": 5,
+    "usefulness_note": "High-severity, highly actionable signal: reviewers describe direct financial loss and use words like 'scam,' 'SEC,' and 'MiFID,' indicating real trust/regulatory exposure tied to order-execution integrity, not just a UX annoyance."
+  }
+]

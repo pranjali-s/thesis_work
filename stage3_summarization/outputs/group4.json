@@ -1,0 +1,145 @@
+[
+  {
+    "category": "CUSTOMER_SUPPORT",
+    "cluster_id": "0",
+    "title": "Long verification wait times and unreachable support (mostly Coinbase)",
+    "description": "The large majority of these reviews, mostly Coinbase with some Trading 212, describe being stuck for days or weeks on identity-verification waitlists with no way to reach a human, and describe the chatbot or the lack of any phone/email option as effectively useless.",
+    "quotes": [
+      {"review_id": "71d344ab6cdd635d32b66c65", "quote": "Seit 6 Wochen auf der Warteliste und kein Ende in Sicht! Support hilft nicht weiter, mein Geld kann ich mir abschreiben! Danke für nichts"},
+      {"review_id": "1ab6456f6c521b98706f2742", "quote": "Bei coinbase gibt es keinen Support! Keine Telefonnummer, keine Email-Adresse, kein Kontakt-Formular, nichts!"},
+      {"review_id": "97fbd8ae2bb18f30e78394c9", "quote": "Ich kann mich seit über einem Monat nicht einloggen. Support ist absolut unfähig. Nehmt lieber was anderes!"}
+    ]
+  },
+  {
+    "category": "CUSTOMER_SUPPORT",
+    "cluster_id": "1",
+    "title": "Support seen as slow, bot-gated, and unhelpful across platforms",
+    "description": "A clear majority of sampled reviews describe customer support, chatbots that block escalation, and multi-hour wait times as the platform's biggest weakness, spanning Coinbase, Robinhood, and Trading 212; a smaller minority of reviews in the sample instead praise the support they received.",
+    "quotes": [
+      {"review_id": "b0de7ff0c65b3ae87d3d0407", "quote": "The chatbot is the gatekeeper to any real help, and it’s impossible to get past it. It keeps asking me to choose from a list of options, none of which match my problem. My account is locked, and the bot wants to teach me about market trends. Absolutely useless."},
+      {"review_id": "6afffcba95902f0ef7a6a64c", "quote": "Chat bot is trash and the chat itself just randomly disconnects and makes you start the customer support session all over"},
+      {"review_id": "e2c0191067975400016a795e", "quote": "A waiting time of 4 hours to get assistance... This is ridiculous."}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "0",
+    "title": "Low or zero-commission trading praised as a core strength",
+    "description": "The large majority of sampled reviews, across Robinhood, Trading 212, and Coinbase, cite low or zero trading fees and commissions as one of the app's best features; only a small minority raise fee-transparency concerns, such as an unclear per-trade fee.",
+    "quotes": [
+      {"review_id": "f3452bf2e0b46be0ac654b21", "quote": "Best broker for low fees investing"},
+      {"review_id": "fa4041375112d452884a5ab7", "quote": "Great UX. Fee-free ISA investing, best app on the market for stocks and shares."},
+      {"review_id": "d490dd89aff479bc6d4e4c82", "quote": "Can't fault it. zero fees trading 🙌🏻"}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "1",
+    "title": "Coinbase's standard fees seen as high, offset by the Coinbase One subscription",
+    "description": "In this Coinbase-dominated cluster, a majority of reviewers describe standard transaction fees as high or a downside, and a large share of those reviews pair the complaint with a mention that the paid Coinbase One membership reduces or eliminates the fees.",
+    "quotes": [
+      {"review_id": "ab23867c9972ffa6feb7891d", "quote": "last time I used it they killed me with fees and fines. but now that I have coinbase 1, they do not"},
+      {"review_id": "2ccd16455888eb8eddbc74bf", "quote": "Coinbase and safe and legit. I have been on Coinbase One and it has never disappointed. Fees could be lower for tramsactions and withdrawals."},
+      {"review_id": "9ab000686559d0333ba9d10b", "quote": "Fees are high when using the free account but if you buy the subscription it's way better. Great way to get into crypto if you're new"}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "2",
+    "title": "High, hidden, or 'stacked' fees drive strong dissatisfaction (mostly Coinbase)",
+    "description": "A clear majority of sampled reviews, overwhelmingly about Coinbase, describe fees as excessively high, hidden, or charged at multiple points in a single transaction (buying, selling, transferring, withdrawing), with many reviewers calling the platform a scam or rip-off as a result.",
+    "quotes": [
+      {"review_id": "16f191b5561b967fa0272948", "quote": "Ridiculously high fees. Greedy exchange."},
+      {"review_id": "d33fb1956a1f3487c44ea339", "quote": "Fees are insane, especially if you do the market order which is default and misleading to new users. I will never use Coinbase again and tell everyone I know to avoid it."},
+      {"review_id": "2b9fa69d11b435eaaaf2ee4c", "quote": "deceptive company, will steal your money through hidden fees when acquiring crypto then hit you again when you try to do anything with the acquired crypto in their \"wallets\"."}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "3",
+    "title": "Unauthorized Robinhood Gold enrollment and steep account-transfer fees",
+    "description": "This Robinhood-only cluster is dominated by two recurring complaints, present in a majority of the sampled reviews: reviewers say they were auto-enrolled in the paid Gold membership and charged without consent, and that transferring an account out triggered an undisclosed fee of roughly $100.",
+    "quotes": [
+      {"review_id": "96147bc218da3b33d6dba43e", "quote": "I somehow got signed up and charged for a \"Gold\" accoubt that I never wanted. Robinhood refused to do anything to fix it."},
+      {"review_id": "1be6c9342557b5822ecfa44e", "quote": "I haven't been on this app for a bit, and I noticed they were pulling $5 dollars out of my account each month. Turns out, I got subcribed to robinhood gold, which I never subcribed myself to."},
+      {"review_id": "ed80f9e6945d9d1692758be1", "quote": "They charged me $100 for a digital stock transfer. No indication of the fee while going through the process."}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "4",
+    "title": "High or hidden fees and unauthorized subscription charges (Coinbase and Robinhood)",
+    "description": "A majority of sampled reviews, spanning both Coinbase and Robinhood, complain about high or hidden fees and, frequently, about being charged for a subscription (Coinbase's paid plan or Robinhood Gold) that they say they never authorized or could not easily cancel.",
+    "quotes": [
+      {"review_id": "a8c4b5e43bfe36216a5175e8", "quote": "I have tried to close my account and they are charging me for a membership that I never consented for. There is no easy way just to close the account either."},
+      {"review_id": "787a9f5a0eb441d4e2fb207a", "quote": "high fees and hidden fees stay away"},
+      {"review_id": "d08c757b1f8824d26ee7e461", "quote": "be careful. I was charged a fee buried somewhere in 20 disclosures. it is fraud in my book."}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "5",
+    "title": "Low fees widely praised as a satisfaction driver across all three apps",
+    "description": "A large majority of sampled reviews, across Robinhood, Trading 212, and Coinbase, describe fees as low, fair, or nonexistent and cite this as a reason they like the app; complaints about fees are only a small minority in this particular cluster.",
+    "quotes": [
+      {"review_id": "340ba642e0ca9cf46f775eb7", "quote": "great platform easy to navigate and 0% commission.. What's not to like"},
+      {"review_id": "e8e8373f1ffe21c52d526118", "quote": "Great platform, low fees"},
+      {"review_id": "ceda2c53d3d13d03455f9d05", "quote": "Excellent app all-round. T212 has an impressive UI, low fees and is the most advanced platform in the UK imo."}
+    ]
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "6",
+    "title": "Competitive Trading 212 cash ISA rates, with a minority reporting post-signup rate cuts",
+    "description": "Roughly a quarter of sampled reviews, all Trading 212, praise the cash ISA or uninvested-cash interest rate as a key draw, while a smaller but notable minority, on the order of one in five, complain that the advertised or initial rate is cut shortly after they sign up or deposit funds.",
+    "quotes": [
+      {"review_id": "61452e4a3b979bcb377e226a", "quote": "5.17% interest tax free - interest paid daily - withdrawals without penalty. ⭐⭐⭐⭐⭐"},
+      {"review_id": "6c6f45fce52d50d00dfa0d94", "quote": "trading 212 lure you in with promotions then pull the rug and change the interest rate. don't use them. Go for a well known actual bank or building society. it's worth the 0.5%"},
+      {"review_id": "198195e404ae33b250ec214c", "quote": "I was lured in by the 5.2% interest cash isa, which has been cut to 4.9% within 3 months of joining."}
+    ]
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "0",
+    "title": "Coinbase (and peers) widely described as trustworthy and well-regulated",
+    "description": "The large majority of sampled reviews, mostly about Coinbase, describe the platform as trustworthy, safe, or well-regulated, with many reviewers naming it as the only exchange they trust; in this particular cluster, trust-related complaints are a minority.",
+    "quotes": [
+      {"review_id": "eae351fc505eb8c1762e2f74", "quote": "Coinbase is trust worthy."},
+      {"review_id": "74ede4a03cc142318e9b98ff", "quote": "Safest centralized crypto exchange in the US. You can put your faith in Coinbase."},
+      {"review_id": "02e069abf35d45ac7a55a4f2", "quote": "Coinbase is highly secure and user friendly and is regulated in the USA."}
+    ]
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "1",
+    "title": "Lasting distrust from Robinhood's 2021 GameStop trading restriction",
+    "description": "This Robinhood-only cluster is almost entirely about the January 2021 GameStop/meme-stock trading halt: the large majority of sampled reviews say they still do not trust Robinhood because of it, years later.",
+    "quotes": [
+      {"review_id": "fd0e453c65d02af98f4deaa7", "quote": "I will never forget what you clowns pulled with GameStop."},
+      {"review_id": "4d49d1da917ec304353b5e5a", "quote": "I used to like Robinhood, but the GameStop stock freeze was a huge letdown. Limiting trades during the pump felt like market manipulation, and it hurt trust in the platform."},
+      {"review_id": "aa6a440fccf57919cd60cf79", "quote": "Never forget gamestop."}
+    ]
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "2",
+    "title": "Perceived market manipulation and unfair trade restrictions (mostly Robinhood)",
+    "description": "A majority of sampled reviews, almost all about Robinhood, accuse the platform of manipulating prices or order fills, restricting trading to protect large institutions or hedge funds, or freezing accounts and orders unfairly.",
+    "quotes": [
+      {"review_id": "29b7b7ba8a84fe26e96e5ff9", "quote": "Everything about the stock options is rigged ."},
+      {"review_id": "c410e791100353e88316a04c", "quote": "Price scalping their clients. Front running options so they always get .05 off your contracts."},
+      {"review_id": "612e8306007352e1f6a79e04", "quote": "Freezes trading to prevent customers from realizing gains."}
+    ]
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "3",
+    "title": "Widespread 'scam' and theft accusations, overwhelmingly about Coinbase",
+    "description": "A large majority of sampled reviews, overwhelmingly about Coinbase, explicitly call the platform a scam or accuse it of stealing, locking, or refusing to return customers' funds.",
+    "quotes": [
+      {"review_id": "c89f6bb4250379cc60a5dfb0", "quote": "AWFUL COINBASE STOLE 16000 DOLLARS FROM ME AND THERE TRYING TO NOT PAY ME MY MONEY BACK"},
+      {"review_id": "8cb3d3bb7f0c9749d49ab44f", "quote": "Coinbase is an internet fraud organization. They are theives. They stole my money."},
+      {"review_id": "853d10135c1b93e3fad0d9a7", "quote": "SCAM ALERT!! Never Deposit in this App! or your money is gone forever!"}
+    ]
+  }
+]

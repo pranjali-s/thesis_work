@@ -1,0 +1,132 @@
+[
+  {
+    "category": "CUSTOMER_SUPPORT",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "Reading all 95 reviews (83 Coinbase, 12 Trading 212) confirms both sub-themes are real and large, but only ~40% explicitly mention the identity-verification waitlist while ~64% mention unreachable/useless support generally (only ~25% mention both together); the description's 'large majority ... describe both X and Y' slightly overstates how often the two specific complaints co-occur in a single review, though each theme individually is well supported and no quote is misrepresented.",
+    "clarity": 5,
+    "clarity_note": "Title and description immediately tell a PM this is a Coinbase-heavy KYC-wait + no-human-support problem, distinct from other support clusters.",
+    "usefulness": 4,
+    "usefulness_note": "Points to a concrete, fixable bottleneck (verification queue + support channel access) that is clearly worth a roadmap discussion, though it overlaps somewhat with CUSTOMER_SUPPORT cluster 1."
+  },
+  {
+    "category": "CUSTOMER_SUPPORT",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews confirms a clear majority (well over 100/150) complain about chatbots, multi-hour waits, and unhelpful support across Coinbase, Robinhood, and Trading 212, with only a small minority (roughly 12-15) praising support; all three sampled quotes are verbatim and not misleading in context.",
+    "clarity": 5,
+    "clarity_note": "Clearly scoped as a cross-platform support-quality complaint distinct from the Coinbase-specific verification-wait cluster.",
+    "usefulness": 4,
+    "usefulness_note": "Broad, well-supported signal that support quality is a top complaint across all three apps; some overlap with cluster 0 but adds the cross-platform breadth that cluster 0 lacks."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (Robinhood, Trading 212, Coinbase) confirms the large majority praise low/zero fees and commissions, with only a small minority (roughly 10-15) raising fee-transparency or 'gas fee' concerns; all three quotes are verbatim, unedited praise reviews with no reversal risk.",
+    "clarity": 5,
+    "clarity_note": "Title/description clearly frame this as a positive strength signal, not a complaint.",
+    "usefulness": 3,
+    "usefulness_note": "Useful as a 'protect this strength' signal but is a positive-sentiment cluster rather than an actionable problem, and it substantially duplicates FEES_SUBSCRIPTION cluster 5's near-identical theme."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (overwhelmingly Coinbase) confirms a majority describe standard fees as high, and a large share of those explicitly credit Coinbase One with reducing/eliminating them; all three quotes are verbatim full reviews with no truncation or meaning distortion.",
+    "clarity": 5,
+    "clarity_note": "Clearly Coinbase-specific and clearly separates the fee complaint from the Coinbase One mitigation, so a PM knows exactly what's being described.",
+    "usefulness": 4,
+    "usefulness_note": "Actionable pricing/packaging signal (fee-vs-subscription tradeoff), though it partially overlaps with cluster 2's broader high-fee complaints."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (overwhelmingly Coinbase) confirms a clear majority describe fees as high, hidden, or stacked across buy/sell/transfer/withdraw, frequently calling the platform a scam or rip-off; all three quotes are verbatim and the surrounding context in each source review confirms the same meaning, no reversal.",
+    "clarity": 5,
+    "clarity_note": "Title and description precisely capture the dominant, specific complaint pattern (multi-point fee stacking) seen across the sample.",
+    "usefulness": 5,
+    "usefulness_note": "Large, severe, well-evidenced pain point directly tied to churn and 'scam' accusations; clearly worth prioritizing on a roadmap."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "3",
+    "faithfulness": 3,
+    "faithfulness_note": "The Gold auto-enrollment complaint is well supported (~48% of the 91 sampled reviews mention Gold, most describing unwanted/unauthorized charges), but the '~$100 undisclosed transfer fee' complaint the title/description present as a co-equal 'recurring complaint' appears in only about 5-6 of 91 reviews (~6%); framing it as one of 'two recurring complaints... present in a majority of the sampled reviews' overstates its prevalence relative to the Gold theme, even though the fee itself and the sampled quote are real and accurately quoted (not reversed).",
+    "clarity": 3,
+    "clarity_note": "A PM reading the title 'Unauthorized Gold enrollment AND steep account-transfer fees' would reasonably assume both issues are comparably common, when the transfer-fee complaint is actually a small minority within the sample.",
+    "usefulness": 4,
+    "usefulness_note": "The Gold auto-enrollment problem alone is a serious, actionable trust/consent issue worth flagging even if the transfer-fee sub-claim is overweighted in the framing."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "4",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (Coinbase and Robinhood) confirms the large majority are general high/hidden-fee complaints, with a meaningful and fairly described minority ('frequently', not 'majority') specifically calling out unauthorized subscription charges (Coinbase plan or Robinhood Gold) that were hard to cancel; all three quotes are verbatim whole reviews with no distortion.",
+    "clarity": 4,
+    "clarity_note": "Clear on its face, though it functionally overlaps with clusters 2 (Coinbase fee complaints) and 3 (Robinhood Gold complaints), so a PM may not immediately see how it differs from those.",
+    "usefulness": 3,
+    "usefulness_note": "The underlying signal (fees + unauthorized subscriptions) is real and actionable, but this cluster is largely a cross-platform recombination of the same complaints already captured more specifically in clusters 2 and 3, reducing its incremental value."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "5",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (Robinhood, Trading 212, Coinbase) confirms an overwhelming majority praise fees as low/fair/nonexistent with only a handful of complaints; all three quotes are verbatim short praise snippets accurately representing their source reviews.",
+    "clarity": 4,
+    "clarity_note": "Description is accurate on its own terms, but its title/theme is essentially indistinguishable from FEES_SUBSCRIPTION cluster 0, which could confuse a reader trying to understand why there are two separate 'low fees praised' items.",
+    "usefulness": 2,
+    "usefulness_note": "Near-duplicate of FEES_SUBSCRIPTION cluster 0 (same three apps, same 'low fees praised' theme, same rough proportions); as a distinct roadmap item it adds little beyond what cluster 0 already covers."
+  },
+  {
+    "category": "FEES_SUBSCRIPTION",
+    "cluster_id": "6",
+    "faithfulness": 4,
+    "faithfulness_note": "Keyword counts on all 86 reviews closely match the stated proportions (~28% praise the ISA/cash interest rate, ~20% complain about post-signup rate cuts, matching 'roughly a quarter' and 'one in five'); the one inaccuracy is the title's claim the cluster is 'all Trading 212' when it is actually ~91% Trading 212 with a handful of Robinhood/Coinbase interest-rate reviews mixed in. All three quotes are verbatim and contextually accurate.",
+    "clarity": 5,
+    "clarity_note": "Clearly scoped to the ISA/cash-interest-rate topic and honestly flags both the praise and the rate-cut complaint as distinct, proportionate sub-themes.",
+    "usefulness": 3,
+    "usefulness_note": "A real, well-calibrated signal about rate-cut transparency, but it is a narrower, more niche topic (one product feature at one platform) than most other items in this set."
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (overwhelmingly Coinbase) confirms the large majority describe the platform as trustworthy/safe/regulated, with trust complaints a clear minority; all three quotes are verbatim short praise statements accurately reflecting their source reviews.",
+    "clarity": 5,
+    "clarity_note": "Clearly framed as a positive trust-perception signal, not a complaint cluster.",
+    "usefulness": 3,
+    "usefulness_note": "Useful context (trust is currently a strength to protect) but not itself an actionable problem for a roadmap in the way the other trust clusters are."
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 65 reviews (Robinhood only) confirms the cluster is almost entirely GameStop/AMC 2021 trading-halt references, years later, exactly as described; all three quotes are verbatim and their surrounding context confirms the same 'still don't trust them' meaning with no reversal.",
+    "clarity": 5,
+    "clarity_note": "Extremely specific and unambiguous about what this cluster is (a single historical event) and is not (general trust complaints).",
+    "usefulness": 3,
+    "usefulness_note": "Confirms a persistent brand-trust legacy issue worth knowing about for messaging/trust-rebuilding, but the underlying event cannot be changed, limiting direct product actionability."
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (almost all Robinhood) confirms a majority accuse the platform of price/fill manipulation, trading restrictions favoring institutions/hedge funds, and unfair account freezes, exactly as described; all three quotes are verbatim and accurately represent their source reviews.",
+    "clarity": 5,
+    "clarity_note": "Title and description precisely name the specific fairness/manipulation concerns distinct from the GameStop-specific cluster 1.",
+    "usefulness": 5,
+    "usefulness_note": "A severe, recurring fairness and potential regulatory-risk theme (order execution, restrictions, freezes) that is clearly a high-priority topic for a product/compliance roadmap."
+  },
+  {
+    "category": "TRUST_FAIRNESS_REGULATORY",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "Reading all 150 reviews (overwhelmingly Coinbase) confirms a large majority explicitly use 'scam'/'theft'/'stole' language about locked or withheld funds, exactly as described; all three quotes are verbatim and accurately represent their source reviews with no distortion.",
+    "clarity": 5,
+    "clarity_note": "Clearly distinguishes this 'explicit scam/theft accusation' cluster from the related but distinct manipulation/fairness cluster 2.",
+    "usefulness": 5,
+    "usefulness_note": "Extremely severe trust signal (explicit fraud accusations tied to fund access) that is highly actionable and warrants urgent roadmap/trust-and-safety attention."
+  }
+]

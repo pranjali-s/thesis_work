@@ -1,0 +1,172 @@
+[
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "The bulk of the 150 sampled reviews are indeed requests for more crypto/stocks/account types (ISA, SIPP) as described, and all three quotes verify verbatim in the prep file; but a non-trivial minority are unrelated general gripes (fees, AGM voting rights, confusing UI, margin/withdrawal restrictions) swept in as noise that the description doesn't acknowledge.",
+    "clarity": 4,
+    "clarity_note": "Title and description clearly convey 'feature request, not a bug' framing, though it lumps three very different asks (crypto listings, stock listings, account types) into one bucket without distinguishing relative volume.",
+    "usefulness": 3,
+    "usefulness_note": "Directionally useful as a 'people want more assets/products' signal but too broad to act on directly; a PM would need to re-slice by asset type vs account type to prioritize."
+  },
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "1",
+    "faithfulness": 2,
+    "faithfulness_note": "The description's core distinguishing claim -- that this is about ALREADY-USED accounts being cut off, unlike cluster 2's prospective users -- is not well supported: a large share of the sample reads exactly like first-time sign-up failures, and one of the three supplied quotes ('Am new to using Coinbase but... no payment methods supported in my country') directly contradicts the 'existing user' framing it is meant to illustrate.",
+    "clarity": 3,
+    "clarity_note": "The title is clear on its face, but given the faithfulness issue a reader would be misled about what actually separates this cluster from clusters 2 and 3.",
+    "usefulness": 3,
+    "usefulness_note": "Real signal (country-based restrictions), but overlaps substantially with ASSET_COVERAGE clusters 2 and 3, which cover the same underlying geo-restriction problem from different angles -- three clusters on essentially one root cause dilutes the roadmap signal."
+  },
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "Nearly every one of the 40 reviews is a short, clearly prospective 'please launch in my country' request as described; all three quotes verify verbatim and are representative, not cherry-picked outliers.",
+    "clarity": 5,
+    "clarity_note": "Title and description are precise and a PM would immediately understand this is pre-launch geo-expansion demand, explicitly distinguished from existing-user cutoff.",
+    "usefulness": 4,
+    "usefulness_note": "Clean, actionable market-expansion signal (specific named countries), though it has some conceptual overlap with cluster 1 given how blurry that cluster's boundary actually is."
+  },
+  {
+    "category": "ASSET_COVERAGE",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "The overwhelming majority of the 123 reviews describe the country-of-residence dropdown/sign-up step itself failing (heavily Trading 212 + US), exactly as described; all three quotes verify verbatim and are representative.",
+    "clarity": 5,
+    "clarity_note": "Very specific and unambiguous -- clearly scoped to the sign-up flow UI, not general access restriction.",
+    "usefulness": 4,
+    "usefulness_note": "Concretely actionable (fix/communicate unsupported-country handling at sign-up) and reasonably well differentiated from clusters 1 and 2, though all three still describe facets of the same broader geo-restriction pain point."
+  },
+  {
+    "category": "PREDICTION_MARKETS",
+    "cluster_id": "0",
+    "faithfulness": 4,
+    "faithfulness_note": "The 'genuinely divided' framing holds up on inspection -- explicit gambling/casino complaints and explicit positive/fun mentions both appear in comparable volume -- though a large middle group of reviews just lists prediction markets neutrally among other features, which the description doesn't call out.",
+    "clarity": 4,
+    "clarity_note": "Conveys the split-opinion framing reasonably well, though the title is a bit wordy compared to the sharper PM clusters 1 and 2.",
+    "usefulness": 3,
+    "usefulness_note": "A 'sentiment is mixed' signal is less directly actionable for a roadmap than clusters 1 (payout trust) and 2 (UI placement), which point to specific fixes."
+  },
+  {
+    "category": "PREDICTION_MARKETS",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Virtually every one of the 44 reviews alleges manipulated pricing, withheld payouts, or unfair contract closes, matching the description precisely; all three quotes verify verbatim and are representative of the dominant pattern, not outliers.",
+    "clarity": 5,
+    "clarity_note": "Sharp, unambiguous title distinguishing this from general gambling-discomfort complaints and from UI-placement complaints.",
+    "usefulness": 5,
+    "usefulness_note": "Serious, specific, actionable signal (trust/integrity of the payout mechanism, possible regulatory exposure) that is clearly non-redundant with the other two prediction-market clusters."
+  },
+  {
+    "category": "PREDICTION_MARKETS",
+    "cluster_id": "2",
+    "faithfulness": 5,
+    "faithfulness_note": "The large majority of the 76 sampled reviews specifically complain about home-screen placement and the lack of a toggle/hide option, correctly distinguished from payout-fairness (cluster 1) and general pro/con sentiment (cluster 0); quotes verify verbatim and are representative.",
+    "clarity": 5,
+    "clarity_note": "Extremely clear and specific -- a PM reading only the title would know exactly what UI change is being requested.",
+    "usefulness": 5,
+    "usefulness_note": "Highly actionable, low-ambiguity fix (add a toggle/reorder option) and clearly non-redundant with the other two prediction-market clusters."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "0",
+    "faithfulness": 5,
+    "faithfulness_note": "Essentially all 150 sampled reviews are short positive 'feels secure/safe' statements, overwhelmingly Coinbase, with almost no negative reports, exactly as described; all three quotes verify verbatim.",
+    "clarity": 5,
+    "clarity_note": "Unambiguous -- a PM would immediately understand this is background positive sentiment, not a problem report.",
+    "usefulness": 2,
+    "usefulness_note": "Pure praise with no actionable defect; also near-duplicate of cluster 1, which covers the same 'general positive security sentiment' territory but additionally surfaces a concrete minority complaint -- this cluster adds little beyond what cluster 1 already contains."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "1",
+    "faithfulness": 5,
+    "faithfulness_note": "Most of the 150 sampled reviews are indeed generic positive security praise, and a distinct recurring minority (roughly the claimed ~10%) raises the specific balance-flash-before-lock and missing auto-logout/passkey issues; quotes verify verbatim and accurately represent both the majority praise and the minority complaint.",
+    "clarity": 4,
+    "clarity_note": "The two-part title (praise + specific gaps) is accurate but asks the reader to hold two different signals in one cluster, which is slightly less crisp than a single-focus cluster.",
+    "usefulness": 3,
+    "usefulness_note": "The genuinely actionable content (balance-flash privacy leak, auto-logout, passkey support) is real but buried under ~90% low-value praise identical to cluster 0; splitting the minority into its own cluster would have been more useful."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "2",
+    "faithfulness": 4,
+    "faithfulness_note": "The large majority of the 91 sampled reviews are Robinhood hacked-account-plus-unresponsive-support complaints as described, and two of three quotes verify this precisely; the third quote (about 2FA/authenticator-app removal) is a genuine but tangential auth-feature complaint, not really an example of 'hacked account, can't get help.'",
+    "clarity": 4,
+    "clarity_note": "Clear and specific about the Robinhood/support-unresponsiveness combination.",
+    "usefulness": 3,
+    "usefulness_note": "Real and severe issue, but this is one of five SECURITY_PRIVACY clusters (2, 5, 6, 7, 8, 9) all describing variations of 'account hacked/drained, support couldn't or wouldn't help' -- treated as six separate roadmap items this significantly overstates the number of distinct problems versus one root issue split by platform and detail level."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "3",
+    "faithfulness": 5,
+    "faithfulness_note": "Nearly all 90 sampled reviews are onboarding/KYC objections to providing SSN, government ID, or Plaid bank-login access, cleanly distinct from the account-compromise clusters; all three quotes verify verbatim and are representative.",
+    "clarity": 5,
+    "clarity_note": "Precise and unambiguous -- clearly scoped to pre-emptive privacy refusal during onboarding, not post-hoc compromise.",
+    "usefulness": 4,
+    "usefulness_note": "Actionable (better upfront explanation of why KYC data is required, or friction reduction) and well differentiated from the hacking-related clusters."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "4",
+    "faithfulness": 5,
+    "faithfulness_note": "Almost every one of the 81 sampled reviews objects specifically to forced facial/video selfie verification, often tied to withdrawals or device re-trust, exactly as described; all three quotes verify verbatim and are representative.",
+    "clarity": 5,
+    "clarity_note": "Very specific and easy to act on -- clearly distinguished from the broader KYC/SSN objection cluster (3).",
+    "usefulness": 5,
+    "usefulness_note": "High-severity, concrete, well-scoped issue (users locked out of their own funds by biometric verification failures) that is clearly non-redundant with neighboring clusters."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "5",
+    "faithfulness": 5,
+    "faithfulness_note": "The large majority of the 150 sampled reviews (almost entirely Coinbase) describe hacking/SIM-swap/unauthorized transfers followed by refusal to reimburse, exactly as described; all three quotes verify verbatim and are representative of the dominant pattern.",
+    "clarity": 5,
+    "clarity_note": "Clear and specific about platform (Coinbase) and outcome (no reimbursement).",
+    "usefulness": 4,
+    "usefulness_note": "This is the largest and best-supported of the hacking-related clusters and deserves a roadmap line, but note it substantially overlaps with cluster 9 ('unauthorized withdrawals, mostly Coinbase, no refund'), which reads like a smaller subset of this same phenomenon rather than a distinct issue."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "6",
+    "faithfulness": 5,
+    "faithfulness_note": "Virtually every one of the 30 sampled reviews describes the specific catch-22 of needing to log in to get support for a locked/hacked account, exactly as described; all three quotes verify verbatim and are representative, not outliers.",
+    "clarity": 5,
+    "clarity_note": "Precise and mechanism-specific -- clearly distinguishes the 'must log in to get help' catch-22 from general hacking complaints.",
+    "usefulness": 4,
+    "usefulness_note": "Concretely actionable (add an account-recovery path that doesn't require the compromised login), though it shares its root cause with clusters 2 and 7."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "7",
+    "faithfulness": 2,
+    "faithfulness_note": "The description claims 'almost every review' describes the specific mechanism of an attacker changing the phone/email on file to block recovery, but on inspection only roughly a third of the 34 sampled reviews actually state that mechanism; most are generic hacked/locked-out/unresponsive-support complaints indistinguishable from clusters 2 and 6. The three supplied quotes are drawn from the minority that does precisely fit the claimed mechanism, which overstates how distinctive/pure this cluster actually is.",
+    "clarity": 4,
+    "clarity_note": "As written the title/description is clear and specific, but that specificity is not actually representative of most of the underlying sample.",
+    "usefulness": 2,
+    "usefulness_note": "Given the overstated specificity and heavy content overlap with clusters 2, 6, and 8 (all 'hacked, no support' variants), this does not clearly stand on its own as a distinct product issue worth a separate roadmap line."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "8",
+    "faithfulness": 4,
+    "faithfulness_note": "Most of the 94 sampled reviews are indeed brief, low-detail 'hacked'/'scam' one-liners, and there is a real small recurring minority about apps appearing on a device without the user signing up (mostly Trading 212, one Coinbase example), matching the 'handful' framing; quotes largely verify, though one selected quote ('you let someone else hack my account and change All my passwords and email and phone number') is actually more detailed than the 'terse one-liner' framing implies.",
+    "clarity": 4,
+    "clarity_note": "Reasonably clear, though as a low-detail catch-all it is the least specific of the SECURITY_PRIVACY clusters.",
+    "usefulness": 2,
+    "usefulness_note": "As a bucket of terse, low-detail hacking complaints this adds little actionable information beyond what clusters 2, 5, 6, 7, and 9 already cover in more detail; the phantom-install sub-pattern is the only genuinely distinct nugget here and is a small minority."
+  },
+  {
+    "category": "SECURITY_PRIVACY",
+    "cluster_id": "9",
+    "faithfulness": 3,
+    "faithfulness_note": "The general theme (unauthorized withdrawal, no refund, predominantly Coinbase) holds for most of the 28 sampled reviews, but the description's emphasis on a 'specific dollar amount taken' is only true for roughly a third of the sample -- most reviews just say money/crypto was stolen without a figure -- so the description overstates how distinctively 'named-amount' this cluster is versus a generic theft complaint.",
+    "clarity": 4,
+    "clarity_note": "Title and description are understandable on their own, and the description does honestly flag its own closeness to cluster 5.",
+    "usefulness": 2,
+    "usefulness_note": "This 28-review cluster is thematically almost identical to the much larger, better-supported cluster 5 ('Coinbase accounts drained with no reimbursement'); as a separate roadmap line it mostly duplicates that signal at smaller scale rather than adding a new one."
+  }
+]
