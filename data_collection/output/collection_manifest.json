@@ -1,0 +1,36 @@
+{
+  "collection_timestamp": "2026-08-15T22:21:42+00:00",
+  "window_months": 24,
+  "cutoff_date": "2024-08-15T22:21:42+00:00",
+  "apps": [
+    {
+      "name": "Robinhood",
+      "google_play_package": "com.robinhood.android",
+      "apple_bundle_id": "com.robinhood.release.Robinhood",
+      "apple_id_resolved": 938003185,
+      "google_play_reviews": 18351,
+      "app_store_reviews": 91,
+      "total": 18442
+    },
+    {
+      "name": "Coinbase",
+      "google_play_package": "com.coinbase.android",
+      "apple_bundle_id": "com.vilcsak.bitcoin2",
+      "apple_id_resolved": 886427730,
+      "google_play_reviews": 25158,
+      "app_store_reviews": 1494,
+      "total": 26652
+    },
+    {
+      "name": "Trading 212",
+      "google_play_package": "com.avuscapital.trading212",
+      "apple_bundle_id": "com.avuscapital.trading212",
+      "apple_id_resolved": 566325832,
+      "google_play_reviews": 6572,
+      "app_store_reviews": 726,
+      "total": 7298
+    }
+  ],
+  "duplicate_ids_found": 0,
+  "total_reviews": 52392
+}
