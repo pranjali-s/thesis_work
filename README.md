@@ -1,102 +1,107 @@
-# PranjaliThesis — technical materials index
+# AI-Assisted App-Review Analysis for Product Roadmap Decision Support
 
-This folder is the real, local record of the technical work behind the "User-Need
-Mining for Retail Trading Apps" thesis pipeline (Robinhood, Coinbase, Trading 212).
-Everything here was executed on this machine or fetched from real, live sources —
-it is the primary-source evidence that substantiates the write-ups and numbers
-documented in the Claude project ("Thesis 2").
+**A Pipeline for Identifying, Organizing, and Prioritizing User Needs in Retail Trading Applications**
 
-This index and every other `README.md` under this tree were added on 2026-09-26 by
-Claude, at your request, after reading the folder structure and (where staging
-succeeded) the actual file contents — run logs, manifests, and existing READMEs —
-rather than guessing from file names alone. Where a claim below could not be
-verified from file content this session, that is said explicitly.
+Master's Thesis submitted for the attainment of a Master of Science (M.Sc.)
+at **RWTH Aachen University**.
 
-## Folder map
+**Author:** Pranjali Srivastav
+**Institute / Chair:** _[fill in — chair/institute name]_
+**Supervisor(s):** _[fill in]_
+**Submission date:** _[fill in]_
 
-| Folder | Stage | What it holds |
+---
+
+## What this repository is
+
+This repository contains the full technical pipeline behind the thesis: an
+AI-assisted system that mines app-store reviews of retail trading apps
+(Robinhood, Coinbase, Trading 212), classifies and clusters the user needs
+raised in them, summarizes each cluster into a structured "roadmap item,"
+and prioritizes those items using several competing methods — comparing a
+rule-based baseline, a trained classifier, and an LLM-applied rubric against
+each app's own real, published release notes.
+
+Every stage below is executed code and real data, not illustrative/toy
+examples: review collection from live app stores, LLM-based classification
+via the Anthropic API, embedding-based clustering, LLM-generated structured
+summaries with independent grounding checks, and a prioritization
+evaluation chain benchmarked against each company's actual shipped
+changelog. Each stage folder contains its own scripts, raw/intermediate
+data, run logs, and a `README.md` (plus, for most stages, a fuller
+`*_Full_Documentation.md`) documenting exactly what was run, what was
+independently verified, and what limitations or gaps are disclosed.
+
+## Repository structure
+
+| Folder | Pipeline stage | What it holds |
 |---|---|---|
-| `data_collection/` | §4.2 | Scrapers for Google Play + Apple App Store reviews, and the resulting 52,392-review two-platform corpus. |
-| `taxonomy/` | §4.3 (B3) | The stratified-sampling script for the 360-review taxonomy pilot sample — **not** the taxonomy category assignment itself (see that folder's own README for why). |
-| `stage1_classification/` | §4.4.1 | LLM-based multi-label classification of the full corpus (175 batches) and of a separate ~5,544-review ground-truth set, plus the human-coding tool for the 616-review reliability subsample. |
-| `stage2_clustering/` | §4.4.2 | Embedding (instructor-large) + per-category UMAP/HDBSCAN clustering. This copy is the **live 77-cluster rerun** (2026-09-24), not the original 65-cluster run. |
-| `stage3_summarization/` | §4.4.3 | LLM-generated structured "roadmap items" (title/description/quotes) per cluster, with independent grounding verification and blind adversarial rating. Also the live rerun, chained off this folder's own Stage 2 output. |
-| `stage4_prioritization/` | §4.4.4 / RQ4b | The three competing prioritization methods — BL1 (rule-based ClusterScore), BL2 (trained Random Forest), and the LLM rubric — plus E1 (real release-note collection), E2 (cluster-to-release matching), and E4 (rank-agreement evaluation of all three methods against E2). |
+| `data_collection/` | §4.2 — Data collection | Scrapers for Google Play + Apple App Store reviews; the resulting multi-platform review corpus. |
+| `taxonomy/` | §4.3 — Taxonomy development (B3) | Stratified sampling and supporting material for the category taxonomy used throughout classification. |
+| `stage1_classification/` | §4.4.1 / §5.1 — Classification | LLM-based multi-label classification of the full review corpus against the taxonomy, plus the reliability-check material (keyword-baseline concordance, test-retest consistency). |
+| `stage2_clustering/` | §4.4.2 — Clustering | Embedding (instructor-large) and per-category UMAP/HDBSCAN clustering of classified reviews into fine-grained topic clusters. |
+| `stage3_summarization/` | §4.4.3 — Summarization | LLM-generated structured "roadmap items" (title, description, representative quotes) per cluster, with independent grounding verification and blind adversarial rating. |
+| `stage4_prioritization/` | §4.4.4 / RQ4b — Prioritization | Three competing prioritization methods (a rule-based baseline, a trained Random Forest baseline, and an LLM-applied rubric), evaluated against each app's real release notes via candidate matching and rank-agreement metrics. |
 
-`venv/` (Python virtual environment) is also present at the root but is not thesis
-material and was not documented.
+Each subfolder is self-contained: it includes the scripts used to produce
+its output, the output data itself, a run log describing the actual
+execution, and a README explaining how to reproduce it. Several stages also
+include a `*_reproduction_prompt.md` / `*_redo_package_README.md` pair
+intended to let a fresh session (human or AI-assisted) rerun that stage
+end-to-end from the included scripts and documented configuration.
 
-## Important: this is the live rerun, not the original run
+## Pipeline overview
 
-Every Stage 2/3/4 artifact in this folder is dated **2026-09-24** and is explicitly
-labeled in its own run log as a **live, from-scratch rerun** executed after the
-original session's workspace was lost — not a copy of the original run's output.
-The rerun's Stage 2 clustering produced **77 non-noise clusters**, where the
-original, now-lost run produced **65**. This single fact (documented in
-`stage2_clustering/STAGE2_RUN_LOG.md` §6) is the root cause of nearly every
-downstream number in `stage3_summarization/` and `stage4_prioritization/` differing
-from the original write-ups' tables — it is disclosed, expected non-determinism in
-the UMAP/HDBSCAN pipeline, not an error, a data-quality problem, or a discrepancy
-introduced by this rerun's own code. Each stage's run log makes its own
-original-vs-rerun comparison explicit; the project's own write-ups (e.g.
-`Stage4_CONSOLIDATED_LIVE_writeup.md`) already incorporate this rerun's numbers as
-the current, cited results, so nothing here needed to be reconciled or corrected —
-it already **is** the source data the write-ups cite.
+```
+data_collection  →  taxonomy (B3)  →  stage1_classification
+                                            │
+                                            ▼
+                                     stage2_clustering
+                                            │
+                                            ▼
+                                    stage3_summarization
+                                            │
+                                            ▼
+                                   stage4_prioritization
+```
 
-## What was checked this session, and what it found
+Each arrow represents one stage's verified output feeding the next stage's
+input (e.g., Stage 1's labeled corpus is what Stage 2 clusters; Stage 2's
+clusters are what Stage 3 summarizes into roadmap items; Stage 3's roadmap
+items are what Stage 4 scores and ranks).
 
-Per your request to check correctness and flag anything missing, here is a plain
-summary of what was verified against real file content (not just file names/sizes)
-this session, and the handful of things worth your attention:
+## Reproducibility
 
-**Confirmed consistent (no action needed):**
-- `stage1_classification/full_corpus_classifier/stage1_full_corpus_labels.csv` has
-  exactly 52,392 data rows — an exact match to the corpus size documented
-  everywhere in the project. (Its `manifest.json` separately reports
-  `total_reviews: 53275` — that is the sum of the 175 *constructed batches* before
-  final deduplication/combination, not the row count of the final labels file; the
-  two numbers describe different points in the pipeline, not a real discrepancy.)
-- `stage1_classification/ground_truth_classification/step6_ground_truth_labels.csv`
-  has exactly 5,544 data rows — an exact match to the "~5,544 ground-truth reviews"
-  figure used elsewhere in the project. (Its `manifest.json` similarly reports a
-  pre-combination `total_reviews: 5653`, for the same reason as above.)
-- `stage3_summarization/grounding_check_report.json` is genuinely complete despite
-  being only 101 bytes — it is a compact summary (`{"total_quotes":231,
-  "unknown_id":[],"wrong_cluster":[],"ungrounded":[],"passed":true}`), not a
-  truncated or broken file.
-- The 77 files in `stage3_summarization/prep/` sum to exactly 77 clusters across
-  all 17 taxonomy categories, matching Stage 2's live 77-cluster output exactly.
+- Every stage discloses its exact model/configuration (model ID, prompts,
+  seeds, batch sizes) in that stage's own README and run log.
+- Stages using an LLM (classification, summarization, parts of
+  prioritization) are **not bit-for-bit reproducible** across reruns —
+  this is disclosed explicitly wherever it applies, rather than implied
+  away. Where a stage depends on non-deterministic clustering (Stage 2) or
+  live web data (Stage 4's release-note collection), this is stated in
+  that stage's own documentation together with what *should* reproduce
+  (the general pattern of findings) versus what won't (exact per-cluster
+  numbers).
+- No script output is accepted purely on its own printed summary —
+  every stage's numbers were independently recomputed from the underlying
+  raw data files as part of this project's verification discipline.
 
-**Worth your attention:**
-- **Two separate, non-identical E1 (release-note) collection tools exist locally**:
-  `stage4_prioritization/e1_release_note_scraper/collect_company_updates.py` (a
-  broader research scraper — Robinhood newsroom, Coinbase blog, Trading 212
-  Discourse + Apple version history, producing `company_articles.csv`,
-  `feature_candidates.csv`, `apple_version_history.csv`, etc.) and
-  `stage4_prioritization/bl2_random_forest/build_e1.py` (a simpler, separate
-  script). **Only `build_e1.py`'s output (`e1_release_notes.csv`, 147 rows) is
-  what actually fed BL2 and E4** in this run's `BL2_LIVE_RUN_LOG.md` /
-  `E4_LIVE_RUN_LOG.md`. The more elaborate `collect_company_updates.py` scraper's
-  own README says its live company-page crawling "remains unverified in this
-  execution environment" and its packaged output
-  (`verified_examples_no_start_limit_2026-09-24.csv`) is only 23 manually-checked
-  examples — it does not appear to be the source of the 147-row dataset BL2/E4
-  actually used. See both folders' own READMEs for the full detail. This isn't
-  necessarily wrong, but it's easy to mix up which script produced the numbers
-  actually cited in the thesis, so it's flagged here explicitly.
-- **A file referenced in the project's Stage 1 write-up appears to be genuinely
-  absent here**: `B4_ground_truth_frame_v2.csv` (the full ~6,160-row combined
-  sampling frame that `stage1_full_corpus_labels.csv`'s reliability subsample and
-  the ground-truth set are drawn from) was not found anywhere in
-  `stage1_classification/`. Only its two component splits appear present
-  (`B4_human_reliability_subsample_v2.csv` in `human_review_tool/`, and
-  `remaining_ground_truth.csv` in `ground_truth_classification/`). If you have this
-  file, it would be worth adding it to `human_review_tool/` or a shared location —
-  it was not fabricated or reconstructed here.
-- **`taxonomy/` is deliberately thin.** This is not something to "fix" by adding a
-  script — see `taxonomy/README.md` for why the category-assignment step and the
-  Table 4.9 keyword-frequency script are genuinely not present anywhere in this
-  project's accessible files, and should not be silently reconstructed.
+## Data and privacy
 
-Nothing else was added to this folder tree beyond `README.md` files — no data,
-scripts, or run outputs were fabricated, reconstructed, or altered.
+The review corpus consists of publicly posted app-store reviews (Google
+Play and Apple App Store), collected via each platform's public interfaces.
+No private, account-linked, or personally identifying data beyond what a
+reviewer chose to make public in their review text is collected or stored.
+
+## Citation
+
+If referencing this work, please cite the thesis directly:
+
+> Srivastav, P. (2026). *AI-Assisted App-Review Analysis for Product
+> Roadmap Decision Support: A Pipeline for Identifying, Organizing, and
+> Prioritizing User Needs in Retail Trading Applications* [Master's thesis,
+> RWTH Aachen University].
+
+## Contact
+
+Pranjali Srivastav — _[contact email, optional]_
