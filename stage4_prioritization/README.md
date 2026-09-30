@@ -45,14 +45,13 @@ without either one's README saying which one is authoritative.
 
 ## The headline finding of this run (all disclosed in `e4_rubric/E4_LIVE_RUN_LOG.md`)
 
-This run's E2 found **0 real matches out of 77 clusters** (vs. the original run's
-2/65) — a more severe version of the same finding. With zero positives: BL2 cannot
-be trained meaningfully (its Random Forest degenerates to always predicting
-"negative"), and every ground-truth-based metric in E4 (Precision@k, MRR, Spearman
-vs. E2) is mathematically undefined for all three methods, not just weak. The one
-comparison that remains meaningful this run is rubric-vs-BL1 pairwise agreement
-(Spearman rho = 0.408, p < 0.001) — weaker than the original run's 0.675, but still
-real and significant. None of this is an error in this run's code; it is the
-disclosed, expected consequence of how few real, content-verified cluster-to-
-release matches exist in this project's actual data, confirmed for a second time
-on an independently-collected E1 dataset.
+This run's E2 found **0 real matches out of 77 clusters**. With zero positives:
+BL2 cannot be trained meaningfully (its Random Forest degenerates to always
+predicting "negative"), and every ground-truth-based metric in E4 (Precision@k,
+MRR, Spearman vs. E2) is mathematically undefined for all three methods, not just
+weak. The one comparison that remains meaningful this run is rubric-vs-BL1
+pairwise agreement (Spearman rho = 0.408, p < 0.001) — a real, statistically
+significant relationship between two differently-built methods. None of this is
+an error in this run's code; it is the disclosed, expected consequence of how few
+real, content-verified cluster-to-release matches exist in this project's actual
+data.
