@@ -1,5 +1,4 @@
-"""Post-collection data-quality verification, mirroring 4.2.3's original
-checks so the new two-platform corpus gets the same scrutiny: duplicate
+"""Post-collection data-quality verification, so the new two-platform corpus gets the same scrutiny: duplicate
 IDs, missing-value patterns, residual non-English content, and per-app /
 per-platform composition. Run this before treating collect_reviews.py's
 output as the new corpus.
