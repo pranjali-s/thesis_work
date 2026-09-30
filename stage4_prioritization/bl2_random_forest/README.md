@@ -26,7 +26,7 @@ into.
 | `BL2_LIVE_RUN_LOG.md` | The full run log — read this first. |
 | `e1_release_notes.csv` | **147 real, dated release notes** (94 Trading 212 / 16 Robinhood / 37 Coinbase) — see `build_e1.py`. This is the E1 dataset that actually feeds everything below and `../e4_rubric/`. |
 | `candidate_matching.py` → `e2_candidates.json` | TF-IDF + cosine-similarity top-3 release-note candidates per cluster (77 × 3). |
-| `review_e2_matches.py` → `e2_human_labels.csv`, `e2_final.csv`/`.json` | Content-grounded match/no-match verdict per cluster, with disclosed reasoning per row. **Result this run: 0/77 matched (0.0%)** — stricter than the original run's 2/65. |
+| `review_e2_matches.py` → `e2_human_labels.csv`, `e2_final.csv`/`.json` | Content-grounded match/no-match verdict per cluster, with disclosed reasoning per row. **Result this run: 0/77 matched (0.0%).** |
 | `compute_bl2_features.py` → `cluster_features_bl2.json` | The 4 BL2 features per cluster. `delta_rating_app`'s exact formula (not given byte-for-byte in the original write-up) is disclosed here as reconstructed directly from the original's prose description. |
 | `train_bl2.py` → `bl2_metadata.json`, `bl2_predictions.csv` | Random Forest training via Leave-One-Out CV. |
 | `build_e1.py`, `*_stdout.log` | The exact scripts and full console output for every step above. |
@@ -41,11 +41,9 @@ positive class are **undefined**, not zero. The reported LOOCV "accuracy: 1.0000
 is degenerate and must not be read as a good result — it is what you get, trivially,
 when a model can only ever predict "negative" and every held-out example is
 negative by construction. SMOTE cannot run at all (needs ≥1 positive to
-interpolate from). This is a strictly more severe version of the original run's
-already-poor finding (2/65 positives, below-chance AUROC) — both runs converge on
-the same underlying conclusion: this project's E1/E2 pipeline does not produce
-enough genuine, content-verified cluster-to-release matches to train or validate a
-classifier baseline, regardless of the exact count in a given run.
+interpolate from). This project's E1/E2 pipeline does not produce enough genuine,
+content-verified cluster-to-release matches, in this run's data, to train or
+validate a classifier baseline.
 
 ## Cross-reference: a second, separate E1 scraper exists elsewhere
 

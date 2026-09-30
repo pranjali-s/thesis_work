@@ -4,11 +4,10 @@ E2 step 1 -- candidate matching (live rerun).
 TF-IDF + cosine similarity between each of Stage 3's 77 roadmap items
 (title + description) and every in-window E1 release note (title +
 description), restricted to the SAME app as the cluster's dominant app
-(the cluster's quotes' review app majority) where determinable -- matching
-the original methodology's intent (a cluster about Coinbase should not be
-matched to a Trading 212 release). Top-3 candidates per cluster are kept
-for the review step, regardless of score (low scores are expected and
-disclosed, exactly as the original run found: median ~0.06, max ~0.17).
+(the cluster's quotes' review app majority) where determinable (a cluster
+about Coinbase should not be matched to a Trading 212 release). Top-3
+candidates per cluster are kept for the review step, regardless of score
+(low scores are expected and disclosed below).
 """
 import csv
 import json

@@ -30,8 +30,7 @@ with open(os.path.join(HERE, "e2_candidates.json"), encoding="utf-8") as f:
 
 AI_ONLY_NOTE = ("Match/no-match call made directly by Claude, grounded in the candidate's "
                  "real fetched content, conservatively -- NOT an independent blind human review. "
-                 "Disclosed as a deviation from Scalabrino et al.'s independent-human-review standard, "
-                 "same as the original E2 run.")
+                 "Disclosed as a deviation from Scalabrino et al.'s independent-human-review standard.")
 
 # Detailed, individually-investigated verdicts (each backed by a real content
 # fetch in this session -- see E2_LIVE_RUN_LOG.md for the fetch results).

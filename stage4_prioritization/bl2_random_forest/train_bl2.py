@@ -9,8 +9,7 @@ n_distinct_app_versions) to predict e2_matched, evaluated with
 Leave-One-Out cross-validation across all 77 live-rerun clusters.
 
 This run's E2 target label (e2_matched) is 0/77 positive (see
-E2_LIVE_RUN_LOG.md) -- an even more extreme class imbalance than the
-original run's 2/65. This is disclosed explicitly and handled without
+BL2_LIVE_RUN_LOG.md). This is disclosed explicitly and handled without
 pretending SMOTE or a meaningful positive-class metric can be computed:
 with zero positive examples there is no minority class to resample and no
 positive-class precision/recall/F1 to report (undefined, not zero).
@@ -101,8 +100,8 @@ def main():
         results["feature_importances_full_fit"] = importances
         results["headline_finding"] = (
             "BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no "
-            "positive class whatsoever (0/77), a more severe degeneration of the same problem the "
-            "original run already found at 2/65."
+            "positive class whatsoever (0/77). A classifier cannot learn a positive-class decision "
+            "boundary with zero positive examples to learn from."
         )
 
     else:

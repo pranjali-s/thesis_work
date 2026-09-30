@@ -23,13 +23,11 @@ description is taken directly from the fetched page, not invented. This
 collection is NOT claimed to be exhaustive -- see the disclosed coverage
 notes at the bottom of this file and in E1_LIVE_RUN_LOG.md. In particular:
   - Trading 212's "What's new" category was paginated to exhaustion (page 4
-    returned zero topics), so this IS the complete category: 94 topics,
-    matching the original run's count exactly.
+    returned zero topics), so this IS the complete category: 94 topics.
   - Robinhood and Coinbase are NOT exhaustive: only articles that surfaced
     via the newsroom/blog listing pages and a handful of targeted searches
     were collected, not a full historical crawl. This is a real, disclosed
-    gap, in the same spirit as the original run's own disclosed Coinbase
-    gaps (E1_status.md).
+    gap.
 """
 import csv
 import json

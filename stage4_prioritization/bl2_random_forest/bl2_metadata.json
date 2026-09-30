@@ -37,5 +37,5 @@
   "delta_rating_app": 0.0,
   "n_distinct_app_versions": 0.0
  },
- "headline_finding": "BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no positive class whatsoever (0/77), a more severe degeneration of the same problem the original run already found at 2/65."
+ "headline_finding": "BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no positive class whatsoever (0/77). A classifier cannot learn a positive-class decision boundary with zero positive examples to learn from."
 }
