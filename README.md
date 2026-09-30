@@ -6,9 +6,12 @@ Master's Thesis submitted for the attainment of a Master of Science (M.Sc.)
 at **RWTH Aachen University**.
 
 **Author:** Pranjali Srivastav
-**Institute / Chair:** _[fill in — chair/institute name]_
-**Supervisor(s):** _[fill in]_
-**Submission date:** _[fill in]_
+
+**Institute / Chair:** Rheinisch-Westfälischen Technischen Hochschule Aachen , 
+Chair of the TIME Research Area
+
+**Supervisor(s):** Prof. Dr. Stefanie Paluch
+**Submission date:** 30.09.2026
 
 ---
 
@@ -104,4 +107,4 @@ If referencing this work, please cite the thesis directly:
 
 ## Contact
 
-Pranjali Srivastav — _[contact email, optional]_
+Pranjali Srivastav — pranjalisrivastav1@gmail.com
