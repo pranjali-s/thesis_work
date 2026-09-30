@@ -19,16 +19,16 @@ tree's 77-cluster Stage 2/3 output.
 
 ## Disclosed methodological adaptation (rubric)
 
-The original run scored all 6 dimensions by pure LLM holistic judgment. This run
-computes 5 of them deterministically instead — **reach** (decile rank of
-n_reviews), **severity** (linear inverse mapping of avg_rating), **engagement**
-(decile rank of mean_thumbsup), **recency** (fraction of reviews in the corpus's
-most recent third), and **cross-platform generality** (count of distinct apps) —
-while **actionability** and **overall_priority** remain genuine, individually-read
-holistic judgment for all 77 clusters. This trades some of the original's
-"everything is judgment" purity for reproducibility, while preserving genuine
-judgment exactly where it matters most (deciding whether a complaint is
-specific/fixable, and weighing severity against reach together).
+This run computes 5 of the 6 rubric dimensions deterministically — **reach**
+(decile rank of n_reviews), **severity** (linear inverse mapping of avg_rating),
+**engagement** (decile rank of mean_thumbsup), **recency** (fraction of reviews
+in the corpus's most recent third), and **cross-platform generality** (count of
+distinct apps) — while **actionability** and **overall_priority** remain genuine,
+individually-read holistic judgment for all 77 clusters. This is a disclosed
+hybrid rather than "every dimension is LLM judgment," trading some judgment
+purity for reproducibility while preserving genuine judgment exactly where it
+matters most (deciding whether a complaint is specific/fixable, and weighing
+severity against reach together).
 
 ## The central E4 finding — read before citing any metric here
 
@@ -39,6 +39,6 @@ methods, reported as `null` with an explanatory note rather than a misleading
 `0.0`. **BL2 is further excluded from the pairwise comparisons too**: trained on an
 all-negative target, its output has zero variance, so any correlation against it is
 also undefined. The one comparison this run's data still supports is **rubric vs.
-BL1**: Spearman rho = 0.408 (p = 0.0002) — weaker than the original run's 0.675,
-but still real and statistically significant. Read `E4_LIVE_RUN_LOG.md` §2 and §6
-before using any number from this folder in the thesis text.
+BL1**: Spearman rho = 0.408 (p = 0.0002) — a real, statistically significant
+relationship. Read `E4_LIVE_RUN_LOG.md` §2 and §6 before using any number from
+this folder in the thesis text.

@@ -4,10 +4,9 @@ rankings of this run's 77 Stage 3 clusters against E2's real-release-match
 ground truth (e2_final.json).
 
 CENTRAL FINDING, disclosed before any number: this run's E2 found 0/77
-matches (vs. the original run's 2/65). With zero positive examples,
-Precision@k, MRR, and Spearman correlation vs. ground truth are not just
-weak -- they are mathematically undefined for ALL THREE methods, not only
-for BL2 as in the original run. This script computes what IS computable
+matches. With zero positive examples, Precision@k, MRR, and Spearman
+correlation vs. ground truth are not just weak -- they are mathematically
+undefined for ALL THREE methods. This script computes what IS computable
 (the rankings themselves, and pairwise agreement between methods) and
 explicitly reports "undefined" rather than a misleading zero for anything
 that depends on having at least one positive label.

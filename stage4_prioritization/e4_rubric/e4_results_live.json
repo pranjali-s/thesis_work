@@ -16,7 +16,7 @@
   },
   "bl2": {
    "excluded_from_ranking_analysis": true,
-   "reason": "BL2's Random Forest was trained on an all-negative target (0/77 positives) and has a single-class predict_proba output -- every cluster receives an identical score, so it carries no rank information to correlate against anything. This is a direct consequence of BL2's headline finding: BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no positive class whatsoever (0/77), a more severe degeneration of the same problem the original run already found at 2/65."
+   "reason": "BL2's Random Forest was trained on an all-negative target (0/77 positives) and has a single-class predict_proba output -- every cluster receives an identical score, so it carries no rank information to correlate against anything. This is a direct consequence of BL2's headline finding: BL2 cannot be trained meaningfully at all on this run's E2 ground truth -- there is no positive class whatsoever (0/77)."
   }
  },
  "pairwise_correlations": {

@@ -6,9 +6,8 @@ severity, engagement, recency, cross_platform) were computed programmatically
 via disclosed percentile/linear formulas in the prior step
 (stage4_input_items_live.json) -- this file supplies only the two dimensions
 that genuinely require reading the cluster content: actionability, and the
-holistic overall_priority judgment (consistent with the original run's
-disclosed methodology: overall_priority is a holistic judgment informed by,
-not mechanically derived from, the six dimension scores).
+holistic overall_priority judgment (overall_priority is a holistic judgment
+informed by, not mechanically derived from, the six dimension scores).
 """
 
 # key: (category, cluster_id) -> (actionability, overall_priority, justification)
