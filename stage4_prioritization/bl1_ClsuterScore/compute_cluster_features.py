@@ -5,9 +5,8 @@ LIVE RUN (this session): adapted from BL1_redo/compute_cluster_features.py
 (itself a disclosed reconstruction matching the spec in Stage4_BL1_writeup.md
 Section 4.4.4, since the original script no longer existed in any reachable
 workspace -- see that file's header). This copy points at this session's own
-live Stage 2 rerun output (Stage2_live/), not the original run's 65-cluster
-output, and is executed for real against real data rather than a synthetic
-smoke test.
+live Stage 2 rerun output (Stage2_live/), and is executed for real against
+real data rather than a synthetic smoke test.
 
 Reproduces the cluster-ranking formula (ClusterScore) from:
   Wei, Courbis, Lambolais, Xu, Bernard & Dray, "Zero-shot Bilingual App
