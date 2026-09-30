@@ -23,6 +23,15 @@ original session's local files were lost to a workspace reset in
 between). The content is verbatim identical to what was verified against
 Stage2_4.4.2_writeup.md earlier -- nothing was changed, including the
 CATEGORY_OVERRIDES values.
+
+HARDCODED PATH NOTICE: LABELS_CSV below is hardcoded to the execution
+environment this script was actually run in, not to a portable relative
+path. It will not exist on another machine. Before reusing this script,
+point LABELS_CSV at a review_id_hash/labels CSV (e.g.
+stage1_classification/full_corpus_classifier/stage1_full_corpus_labels.csv).
+This script also expects embed_reviews.py's embeddings/ output (IDS_PATH,
+EMB_PATH below) to already exist in this same folder -- run embed_reviews.py
+first if it doesn't.
 """
 
 import csv
@@ -32,6 +41,8 @@ import os
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# EDIT THIS before running on a different machine -- see HARDCODED PATH
+# NOTICE in the module docstring above.
 LABELS_CSV = "/home/claude/Stage2_live/labels.csv"
 EMB_DIR = os.path.join(HERE, "embeddings")
 IDS_PATH = os.path.join(EMB_DIR, "review_ids.json")

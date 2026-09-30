@@ -18,6 +18,15 @@ from the exact content read earlier in this same conversation (the
 original session's local files were lost to a workspace reset in
 between). The content is verbatim identical to what was verified against
 Stage2_4.4.2_writeup.md earlier -- nothing was changed.
+
+HARDCODED PATH NOTICE: BATCHES_DIR and LABELS_CSV below are hardcoded to
+the execution environment this script was actually run in, not to a
+portable relative path. They will not exist on another machine. Before
+reusing this script, point BATCHES_DIR at a folder of batch_*.csv files
+with columns review_id_hash/review_text (e.g.
+stage1_classification/full_corpus_classifier/batches/) and LABELS_CSV at
+a review_id_hash/labels CSV (e.g.
+stage1_classification/full_corpus_classifier/stage1_full_corpus_labels.csv).
 """
 
 import csv
@@ -30,6 +39,8 @@ import time
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# EDIT THESE before running on a different machine -- see HARDCODED PATH
+# NOTICE in the module docstring above.
 BATCHES_DIR = "/home/claude/Stage2_live/batches"
 LABELS_CSV = "/home/claude/Stage2_live/labels.csv"
 
