@@ -1,14 +1,14 @@
 # Stage 3 (Structured Summarization) — Live Run Log
 
-This is a genuine, real-time execution of Stage 3, run in this session on 2026-09-24, chained directly off this same session's live Stage 2 rerun (`/home/claude/Stage2_live/`, documented in `Stage2_LIVE_RUN_LOG.md`). Every timestamp, count, and file below comes from this run's actual outputs — nothing is copied from the original (now-lost) session's Stage 3 numbers, except where explicitly labeled "original write-up" for comparison. As with Stage 2, this follows the 8-step methodology documented in the original write-up's `Stage3_reproduction_prompt.md` / §4.4.3.13: prep → generate → merge+completeness-check → independent grounding verification → blind adversarial rating → investigate+correct flagged issues → build (not run) the human-rating upgrade path → write this log.
+This is a genuine, real-time execution of Stage 3, run in this session on 2026-09-24, chained directly off this same session's Stage 2 output (`/home/claude/Stage2_live/`, documented in `Stage2_LIVE_RUN_LOG.md`). Every timestamp, count, and file below comes from this run's actual outputs. This follows the 8-step methodology documented in `Stage3_reproduction_prompt.md` / §4.4.3.13: prep → generate → merge+completeness-check → independent grounding verification → blind adversarial rating → investigate+correct flagged issues → build (not run) the human-rating upgrade path → write this log.
 
 ## 1. Input used
 
-The sole input is this session's own live Stage 2 output — not the original session's:
+The sole input is this session's own Stage 2 output:
 
 | File | Rows | Notes |
 |---|---|---|
-| `/home/claude/Stage2_live/clusters/cluster_assignments.csv` | 67,300 data rows | This run's Stage 2 output, 77 non-noise clusters (vs. the original's 65 — see `Stage2_LIVE_RUN_LOG.md` §6 for the full divergence table; this is the documented, expected consequence of UMAP/HDBSCAN non-determinism, not an error). |
+| `/home/claude/Stage2_live/clusters/cluster_assignments.csv` | 67,300 data rows | This run's Stage 2 output: 77 non-noise clusters. (UMAP/HDBSCAN is stochastic by design — see `stage2_clustering/`'s documentation — so a rerun of Stage 2 is not guaranteed to reproduce this exact cluster count; this is expected behavior, not an error.) |
 | `/home/claude/Stage2_live/batches/batch_001.csv` | 52,392 rows | The same corpus copy used for Stage 2 (full review text, joined in by `review_id_hash`). |
 
 ## 2. Environment
@@ -33,7 +33,7 @@ Clusters requiring chunking (>50 in sample): 71
 
 **Output:** `prep/<CATEGORY>__<cluster_id>.json` × 77 (one per non-noise cluster), plus `prep_manifest.json` (the authoritative 77-entry manifest used by every downstream completeness check).
 
-Note the divergence from the original run at this very first step: 77 clusters here vs. 65 in the original, a direct, mechanical consequence of Stage 2's non-determinism (documented in `Stage2_LIVE_RUN_LOG.md`) rather than anything specific to Stage 3.
+All 77 non-noise clusters produced by this run's Stage 2 output were carried into Stage 3 with no exclusions.
 
 ## 4. Step 2 — Generation (6 parallel LLM subagents)
 
@@ -63,7 +63,7 @@ Wrote stage3_roadmap_items.json and .csv (77 rows).
 PASSED
 ```
 
-Clean pass on the first run — unlike the original build, which hit a documented type-mismatch bug (int vs. str `cluster_id` keys) at this exact step. This run's `merge_outputs.py` already normalizes `cluster_id` to `str` before the completeness check (line 21), so the bug did not recur.
+Clean pass, no discrepancies. `merge_outputs.py` normalizes `cluster_id` to `str` before the completeness check (line 21) to avoid a type-mismatch between int- and str-typed keys across the six group files.
 
 ## 6. Step 4 — Independent grounding verification (`verify_grounding.py`)
 
@@ -129,7 +129,7 @@ For every one of the 9, the corrected `stage3_roadmap_items.json` entry carries 
 
 ## 9. Step 7 — Human-rating tool: built, not run
 
-`human_rate_stage3.py` is included in the package. It is a terminal tool that walks a human rater through all 77 items (title/description/quotes, blind to the AI ratings) and records faithfulness/clarity/usefulness scores plus free-text notes to `human_ratings.json`, with resume support. **It was smoke-tested only** (confirmed it loads `stage3_roadmap_items.json` cleanly and its resume logic correctly reports 0 existing ratings) — no human has rated any item through it in this run. Every rating in this package is the AI-only blind adversarial pass from §7. This mirrors the original run's own disclosed limitation exactly: AI ratings are a documented stand-in for, not a substitute for, human validation.
+`human_rate_stage3.py` is included in the package. It is a terminal tool that walks a human rater through all 77 items (title/description/quotes, blind to the AI ratings) and records faithfulness/clarity/usefulness scores plus free-text notes to `human_ratings.json`, with resume support. **It was smoke-tested only** (confirmed it loads `stage3_roadmap_items.json` cleanly and its resume logic correctly reports 0 existing ratings) — no human has rated any item through it in this run. Every rating in this package is the AI-only blind adversarial pass from §7 — a documented stand-in for, not a substitute for, human validation.
 
 ## 10. Full timeline (this run)
 
@@ -163,7 +163,7 @@ For every one of the 9, the corrected `stage3_roadmap_items.json` entry carries 
 
 ## 12. Honest limitations of this run
 
-- This is one draw of a process with two independent sources of variance layered on top of each other: Stage 2's non-deterministic clustering (77 vs. 65 clusters going in) and Stage 3's own LLM generation/rating variance (a fresh, independent set of subagents doing the writing and the rating). Re-running Stage 3 again, even against this exact same `cluster_assignments.csv`, would very likely surface a different — not necessarily larger or smaller — set of faithfulness issues than the 9 found here, for the same reason a second Stage 2 run diverged from the first.
+- This is one draw of a process with two independent sources of variance layered on top of each other: Stage 2's clustering step, which is non-deterministic by design (UMAP's stochasticity — see `stage2_clustering/`'s documentation), and Stage 3's own LLM generation/rating variance (a fresh, independent set of subagents doing the writing and the rating). Re-running Stage 3 again, even against this exact same `cluster_assignments.csv`, would very likely surface a different — not necessarily larger or smaller — set of faithfulness issues than the 9 found here.
 - The rating pass is AI-only. §9's tool is the disclosed, not-yet-used path to real human validation.
 - The 9 corrections were made by direct human-style re-reading in this session, not by re-running generation — this avoids compounding LLM error with unaudited LLM "fixing," but it also means the corrections reflect this session's own judgment calls (e.g., exactly how to reword a description), which a human domain expert might phrase differently even while agreeing on the underlying facts.
 - Several rating-pass notes flagged *redundancy* across near-duplicate clusters (e.g., `SECURITY_PRIVACY` clusters 2/5/6/7/8/9 all describing variations on "hacked + no reimbursement") as a taxonomy-level concern. This run disclosed that redundancy in the affected items' descriptions but did not merge or restructure the clusters — that would be a Stage 2 parameter-tuning decision, out of scope for Stage 3.

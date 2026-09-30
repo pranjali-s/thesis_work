@@ -34,11 +34,12 @@ in `prep/` and, where a proportion was in question, recomputing it from scratch
 before/after table with each item's independent verification is in
 `STAGE3_RUN_LOG.md` §8.
 
-## Honest limitation carried forward
+## Honest limitation
 
 This run is one draw of a process with two independent layers of variance stacked
-on each other: Stage 2's non-deterministic clustering (77 vs. 65 clusters going in)
-and Stage 3's own LLM generation/rating variance. Re-running Stage 3 again — even
-against this exact same `cluster_assignments.csv` — would very likely surface a
-different set of faithfulness issues than the 9 found here, not necessarily a
-larger or smaller one.
+on each other: Stage 2's clustering step is itself non-deterministic (UMAP is a
+stochastic algorithm by design — see `stage2_clustering/`'s documentation), and
+Stage 3 adds its own LLM generation/rating variance on top. Re-running Stage 3
+again — even against this exact same `cluster_assignments.csv` — would very likely
+surface a different set of faithfulness issues than the 9 found here, not
+necessarily a larger or smaller one.

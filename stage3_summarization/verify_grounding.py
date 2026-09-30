@@ -7,6 +7,12 @@ against the FULL original review text corpus (not just the sampled subset
 an agent saw) -- checking both that the cited review_id actually belongs
 to that cluster in Stage 2's real output, and that the quote is an exact
 (whitespace-normalized) contiguous substring of that review's actual text.
+
+HARDCODED PATH NOTICE: BATCHES_DIR / ASSIGNMENTS_CSV below are absolute,
+session-specific paths from the container that actually ran this script.
+They will not exist on another machine -- edit them to point at your own
+local copy of Stage 1's batch_*.csv files (BATCHES_DIR) and Stage 2's
+cluster_assignments.csv (ASSIGNMENTS_CSV) before running this script.
 """
 import csv
 import glob
@@ -15,7 +21,9 @@ import os
 import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# Hardcoded, session-specific -- see HARDCODED PATH NOTICE above.
 BATCHES_DIR = "/home/claude/Stage2_live/batches"
+# Hardcoded, session-specific -- see HARDCODED PATH NOTICE above.
 ASSIGNMENTS_CSV = "/home/claude/Stage2_live/clusters/cluster_assignments.csv"
 
 

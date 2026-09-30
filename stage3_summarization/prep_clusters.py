@@ -16,7 +16,11 @@ CHUNK_SIZE for hierarchical (map-then-reduce) summarization when the set
 exceeds CHUNK_SIZE; smaller sets are summarized in one pass with no
 chunking.
 
-Paths updated to point at this session's live Stage 2 rerun output.
+HARDCODED PATH NOTICE: STAGE2_DIR / BATCHES_DIR / ASSIGNMENTS_CSV below are
+absolute, session-specific paths from the container that actually ran this
+script. They will not exist on another machine -- edit them to point at your
+own local copy of Stage 1's batch_*.csv files (BATCHES_DIR) and Stage 2's
+cluster_assignments.csv (ASSIGNMENTS_CSV) before running this script.
 """
 import csv
 import glob
@@ -26,6 +30,7 @@ import random
 from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# Hardcoded, session-specific -- see HARDCODED PATH NOTICE above.
 STAGE2_DIR = "/home/claude/Stage2_live"
 BATCHES_DIR = "/home/claude/Stage2_live/batches"
 ASSIGNMENTS_CSV = os.path.join(STAGE2_DIR, "clusters", "cluster_assignments.csv")
